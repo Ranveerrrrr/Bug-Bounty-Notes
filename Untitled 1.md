@@ -1,1 +1,2 @@
-yo this a
+yo this article about attacks bug bounty Plugin's 
+
