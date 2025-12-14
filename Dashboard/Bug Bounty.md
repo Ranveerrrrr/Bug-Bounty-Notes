@@ -9,7 +9,7 @@
 
 ### Learn Something New
 
->![[../Notion/Learning Roadmap]]
+>![[../../Notion/Learning Roadmap]]
 
 >![[Research]]
 
@@ -32,4 +32,4 @@
 
 | Name                         | URL                                                          | Tags             | Assets                         | ![](https://www.notion.so/icons/formula_gray.svg)Focus on |
 | ---------------------------- | ------------------------------------------------------------ | ---------------- | ------------------------------ | --------------------------------------------------------- |
-| [[../Notion/Hilton\|Hilton]] | [https://hackerone.com/airbnb](https://hackerone.com/airbnb) | Software, Travel | API, Android App, Web, iOS app | [ ]                                                       |
+| [[../../Notion/Hilton\|Hilton]] | [https://hackerone.com/airbnb](https://hackerone.com/airbnb) | Software, Travel | API, Android App, Web, iOS app | [ ]                                                       |
