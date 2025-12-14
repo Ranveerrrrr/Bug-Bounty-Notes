@@ -9,7 +9,7 @@
 
 ### Learn Something New
 
->![[Learning Roadmap]]
+>![[../Notion/Learning Roadmap]]
 
 >![[Research]]
 
