@@ -6,12 +6,12 @@ kanban-plugin: board
 
 ## ghfgh
 
+- [ ] bkjl
 - [ ] fdghdfh
 
 
 ## ghgh
 
-- bkjl
 
 
 
