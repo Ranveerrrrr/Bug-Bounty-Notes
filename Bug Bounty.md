@@ -4,14 +4,14 @@
 
 >![[Bugs]]
 
->[![[Notes]]
+>![[Notes]]
 
 
 ### Learn Something New
 
-[[Learning Roadmap]]
+>![[Learning Roadmap]]
 
-[[Research]]
+>![[Research]]
 
 [[CTFs]]
 
