@@ -2,9 +2,9 @@
 
 ### Let's Bug Hunt
 
->[!important] [[Bugs]]
+>![[Bugs]]
 
->[!important] [[Notes]]
+>[![[Notes]]
 
 
 ### Learn Something New
