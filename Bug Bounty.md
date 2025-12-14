@@ -30,6 +30,6 @@
 
 #### Targets
 
-| Name                         | URL                                                          | ![](https://www.notion.so/icons/list_gray.svg)Tags | ![](https://www.notion.so/icons/list_gray.svg)Assets | ![](https://www.notion.so/icons/formula_gray.svg)Focus on |
-| ---------------------------- | ------------------------------------------------------------ | -------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------- |
-| [[../Notion/Hilton\|Hilton]] | [https://hackerone.com/airbnb](https://hackerone.com/airbnb) | Software, Travel                                   | API, Android App, Web, iOS app                       | [ ]                                                       |
+| Name                         | URL                                                          | Tags             | Assets                         | ![](https://www.notion.so/icons/formula_gray.svg)Focus on |
+| ---------------------------- | ------------------------------------------------------------ | ---------------- | ------------------------------ | --------------------------------------------------------- |
+| [[../Notion/Hilton\|Hilton]] | [https://hackerone.com/airbnb](https://hackerone.com/airbnb) | Software, Travel | API, Android App, Web, iOS app | [ ]                                                       |
