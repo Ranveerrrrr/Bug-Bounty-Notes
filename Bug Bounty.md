@@ -2,13 +2,10 @@
 
 ### Let's Bug Hunt
 
-[[Bugs]]
+>[[Bugs]]
 
-[[Notes]]
+>[[Notes]]
 
-[[Obsidian]]
-
-  
 
 ### Learn Something New
 
