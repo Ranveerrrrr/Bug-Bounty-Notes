@@ -1,13 +1,13 @@
 > Go Fast and Break Other Peoples Things
 
-### Let's Bug Hunt
+# Let's Bug Hunt
 
 >![[Bugs]]
 
 >![[Notes]]
 
 
-### Learn Something New
+# Learn Something New
 
 >![[../../Notion/Learning Roadmap]]
 
@@ -26,7 +26,7 @@
 
   
 
-## Go Hack Something
+# Go Hack Something
 
 #### Targets
 
