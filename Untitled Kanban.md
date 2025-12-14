@@ -14,6 +14,23 @@ kanban-plugin: board
 
 ## jhjhcjhg
 
+- [ ] fg
+
+
+## Todo
+
+- [ ] Task three
+- [ ] Task two
+
+
+## Doing
+
+- [ ] Task one
+
+
+## Done
+
+- [ ] Task four
 
 
 
