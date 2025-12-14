@@ -13,7 +13,6 @@
 
 >![[Research]]
 
-[[CTFs]]
 
 # To-Do
 
@@ -31,6 +30,6 @@
 
 #### Targets
 
-| ![](https://www.notion.so/icons/font_gray.svg)Name | ![](https://www.notion.so/icons/link_gray.svg)URL            | ![](https://www.notion.so/icons/list_gray.svg)Tags | ![](https://www.notion.so/icons/list_gray.svg)Assets | ![](https://www.notion.so/icons/formula_gray.svg)Focus on |
-| -------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------- |
-| [[../Notion/Hilton\|Hilton]]                                 | [https://hackerone.com/airbnb](https://hackerone.com/airbnb) | Software, Travel                                   | API, Android App, Web, iOS app                       | [ ]                                                       |
+| Name                         | URL                                                          | ![](https://www.notion.so/icons/list_gray.svg)Tags | ![](https://www.notion.so/icons/list_gray.svg)Assets | ![](https://www.notion.so/icons/formula_gray.svg)Focus on |
+| ---------------------------- | ------------------------------------------------------------ | -------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------- |
+| [[../Notion/Hilton\|Hilton]] | [https://hackerone.com/airbnb](https://hackerone.com/airbnb) | Software, Travel                                   | API, Android App, Web, iOS app                       | [ ]                                                       |
