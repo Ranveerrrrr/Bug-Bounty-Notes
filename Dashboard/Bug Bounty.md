@@ -8,9 +8,9 @@ cssclasses:
 
 # Let's Bug Hunt
 
->[[Bugs]]
+>[[Notes]]
 
->[Bug](Bug.md)
+>[Bugs](Bugs.md)
 
 
 
