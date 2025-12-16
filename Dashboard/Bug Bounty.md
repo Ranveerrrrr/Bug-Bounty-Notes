@@ -1,5 +1,9 @@
 ---
 cssclasses:
+  - pen-purple
+  - center-titles
+  - daily
+  - sunday
 ---
 > Go Fast and Break Other Peoples Things
 
@@ -7,7 +11,6 @@ cssclasses:
 # Let's Bug Hunt
 
 >[[Bugs]]
-
 >[Notes](../../Notion/Notes.md)
 
 
