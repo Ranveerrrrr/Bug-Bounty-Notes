@@ -1,8 +1,5 @@
 ---
 cssclasses:
-  - daily
-  - sunday
-  - pen-red
 ---
 > Go Fast and Break Other Peoples Things
 
