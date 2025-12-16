@@ -1,1 +1,2 @@
-onthis
+Follow these steps:
+Right Click→Inspect→
