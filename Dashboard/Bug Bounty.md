@@ -20,7 +20,7 @@
 | Name                                | Created     | Due         | Finished | Tags             |
 | ----------------------------------- | ----------- | ----------- | -------- | ---------------- |
 | Publish Js article                  | 10 Dec 2025 | 15 Dec 2026 |          | Hacking, Writing |
-| Article on Hilton 2FA Bypass(weird) | 11 Dec 2025 | 16 Dec 2026 | [ ]      | #                |
+| Article on Hilton 2FA Bypass(weird) | 11 Dec 2025 | 16 Dec 2026 | [ ]      | #Hacking         |
 
   
   
