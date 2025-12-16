@@ -1,4 +1,4 @@
 
-| Name         | Created                   | Tags        | Target             |
-| ------------ | ------------------------- | ----------- | ------------------ |
-| [[Hilton 2]] | December 10, 2025 1:57 PM | @2FA Bypass | [[Hilton\|Hilton]] |
+| Name                                       | Created     | Tags        | Target             |
+| ------------------------------------------ | ----------- | ----------- | ------------------ |
+| [Hilton](../Bug%20Bounty/Hilton/Hilton.md) | 10 Dec 2025 | @2FA Bypass | [[Hilton\|Hilton]] |
