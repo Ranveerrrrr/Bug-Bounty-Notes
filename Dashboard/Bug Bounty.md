@@ -5,7 +5,7 @@
 
 >[[Bugs]]
 
->![[Notes]]
+>[[../../Notion/Notes]]
 
 
 # Learn Something New
