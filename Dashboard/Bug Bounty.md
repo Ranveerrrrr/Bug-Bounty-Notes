@@ -10,7 +10,7 @@ cssclasses:
 
 >[[Bugs]]
 
->[NotesHilton](NotesHilton.md)
+>[Notes](Notes.md)
 
 
 
