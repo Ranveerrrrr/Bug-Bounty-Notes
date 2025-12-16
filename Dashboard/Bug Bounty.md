@@ -1,5 +1,7 @@
 ---
 cssclasses:
+  - center-titles
+  - pen-purple
 ---
 > Go Fast and Break Other Peoples Things
 
