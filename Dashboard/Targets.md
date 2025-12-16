@@ -1,5 +1,5 @@
 
-|                       Target                        | Tags                     | Bug Reported |      Severity       |                Bug Type                | Intrest Type |  Started   |    Ended    |
+|                       Target                        | Tags                     | Bug Reported |      Severity       |               Bug Class                | Intrest Type |  Started   |    Ended    |
 |:---------------------------------------------------:| ------------------------ |:------------:|:-------------------:|:--------------------------------------:|:------------:|:----------:|:-----------:|
 |    [Porsche](../Bug%20Bounty/Porsche/Porsche.md)    | #Target/Type/Auto-mobile |      2       | Medium, Informative | #Bugs/graphql #Bugs/subdomain-takeover |   Serious    | 1 Oct 2025 | 20 Oct 2025 |
 |  [Playtika](../Bug%20Bounty/Playtika/Playtika.md)   | #Target/Type/Gaming      |      2       |  Medium, Critical   |  #Bugs/broken-link #Bugs/key-exposure  |     Mild     |            |             |
