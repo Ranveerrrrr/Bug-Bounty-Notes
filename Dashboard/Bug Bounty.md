@@ -17,10 +17,10 @@
 
 # To-Do
 
-| Name                                | Created            | Due         | Finished | Tags             |
-| ----------------------------------- | ------------------ | ----------- | -------- | ---------------- |
-| Publish Js article                  | December 10, 2025  | 16 DEC 2026 |          | Hacking, Writing |
-| Article on Hilton 2FA Bypass(weird) | December 11, 2025  |             | [ ]      |                  |
+| Name                                | Created     | Due         | Finished | Tags             |
+| ----------------------------------- | ----------- | ----------- | -------- | ---------------- |
+| Publish Js article                  | 10 Dec 2025 | 16 Dec 2026 |          | Hacking, Writing |
+| Article on Hilton 2FA Bypass(weird) | 11 Dec 2025 |             | [ ]      | Write-up, #      |
 
   
   
