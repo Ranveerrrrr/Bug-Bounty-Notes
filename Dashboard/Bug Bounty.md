@@ -1,6 +1,9 @@
 ---
 cssclasses:
   - daily
+  - sunday
+  - saturday
+  - wednesday
 ---
 > Go Fast and Break Other Peoples Things
 
