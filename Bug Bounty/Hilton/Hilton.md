@@ -14,7 +14,7 @@ tags:
   - Travel
 Thoughts: Thought I could look at some high priority assets
 Bugs:
-  - "[[My First @2fa bypass]]"
+  - "[[../../../Notion/POC]]"
 Notes:
 Finished: false
 ---
