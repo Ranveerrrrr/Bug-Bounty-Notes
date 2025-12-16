@@ -2,8 +2,7 @@
 cssclasses:
   - daily
   - sunday
-  - saturday
-  - wednesday
+  - pen-red
 ---
 > Go Fast and Break Other Peoples Things
 
@@ -16,6 +15,7 @@ cssclasses:
 
 
 # Learn Something New
+
 
 >[Learning Roadmap](Learning%20Roadmap.md)
 
@@ -39,6 +39,6 @@ cssclasses:
 
 #### Targets
 
-| Name                            | URL                                                          | Tags             | Assets                         | ![](https://www.notion.so/icons/formula_gray.svg)Focus on |
-| ------------------------------- | ------------------------------------------------------------ | ---------------- | ------------------------------ | --------------------------------------------------------- |
-| [[../../Notion/Hilton\|Hilton]] | [https://hackerone.com/hilton](https://hackerone.com/hilton) | Software, Travel | API, Android App, Web, iOS app | [ ]                                                       |
+| Name                            | URL                                                          | Tags             | Assets                         | Focus on |
+| ------------------------------- | ------------------------------------------------------------ | ---------------- | ------------------------------ | -------- |
+| [[../../Notion/Hilton\|Hilton]] | [https://hackerone.com/hilton](https://hackerone.com/hilton) | Software, Travel | API, Android App, Web, iOS app | [ ]      |
