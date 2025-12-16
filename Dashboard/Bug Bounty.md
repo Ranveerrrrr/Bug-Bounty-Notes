@@ -40,4 +40,4 @@ cssclasses:
 
 | Name                            | URL                                                          | Tags             | Assets                         | Focus on |
 | ------------------------------- | ------------------------------------------------------------ | ---------------- | ------------------------------ | -------- |
-| [[../../Notion/Hilton\|Hilton]] | [https://hackerone.com/hilton](https://hackerone.com/hilton) | Software, Travel | API, Android App, Web, iOS app | [ ]      |
+| [[../Bug Bounty/Hilton/Hilton\|Hilton]] | [https://hackerone.com/hilton](https://hackerone.com/hilton) | Software, Travel | API, Android App, Web, iOS app | [ ]      |
