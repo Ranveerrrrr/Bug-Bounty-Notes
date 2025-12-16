@@ -27,22 +27,7 @@ cssclasses:
 | Name                                | Created     | Due         | Finished | Tags              |
 | ----------------------------------- | ----------- | ----------- | -------- | ----------------- |
 | Publish Js article                  | 10 Dec 2025 | 15 Dec 2026 |          | #Hacking #Writing |
-| Article on Hilton 2FA Bypass(weird) | 11 Dec 2025 | 16 Dec 2026 | []       | #Write-up         |
-<input type="checkbox" unchecked id="f1fdeb"> Finish JS recon notes 📅 2025-12-16 🔁 every day
-<input type="checkbox" unchecked id="0772f8"> Revise XSS payloads ⏫ high
-<input type="checkbox" unchecked id="e02fbd"> Write Medium article 🕒 2h
-
-
-| ✅    | Task                  | Due        | Priority | Time | Recurring |
-| ---- | --------------------- | ---------- | -------- | ---- | --------- |
-| ⬜    | Finish JS recon notes | 2025-12-16 | —        | —    | Every day |
-| [ ]  | Revise XSS payloads   | —          | High     | —    | —         |
-| ⬜    | Write Medium article  | —          | —        | 2h   | —         |
-
-
-  
-
-  
+| Article on Hilton 2FA Bypass(weird) | 11 Dec 2025 | 16 Dec 2026 |          | #Write-up         |
 
 # Go Hack Something
 
