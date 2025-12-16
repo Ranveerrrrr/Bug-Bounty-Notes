@@ -10,7 +10,7 @@
 
 # Learn Something New
 
->![[../../Notion/Learning Roadmap]]
+>[Learning Roadmap](Learning%20Roadmap.md)
 
 >![[Research]]
 
