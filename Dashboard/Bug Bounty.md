@@ -10,7 +10,7 @@ cssclasses:
 # Let's Bug Hunt
 
 >[[Bugs]]
->[Notes](Notes.md)
+>[[]]
 
 
 # Learn Something New
