@@ -32,7 +32,14 @@ cssclasses:
 - [ ] Revise XSS payloads ⏫ high
 - [ ] Write Medium article 🕒 2h
 
-  
+
+| ✅    | Task                  | Due        | Priority | Time | Recurring |
+| ---- | --------------------- | ---------- | -------- | ---- | --------- |
+| ⬜    | Finish JS recon notes | 2025-12-16 | —        | —    | Every day |
+| [ ]  | Revise XSS payloads   | —          | High     | —    | —         |
+| ⬜    | Write Medium article  | —          | —        | 2h   | —         |
+
+
   
 
   
