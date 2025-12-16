@@ -10,7 +10,7 @@ cssclasses:
 
 >[[Bugs]]
 
->[Targets](Targets.md)
+>[Bug](Bug.md)
 
 
 
