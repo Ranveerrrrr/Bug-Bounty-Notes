@@ -1,3 +1,8 @@
+---
+cssclasses:
+  - center-titles
+  - pen-purple
+---
 > Go Fast and Break Other Peoples Things
 
 
@@ -5,7 +10,7 @@
 
 >[[Bugs]]
 
->[[n]]
+>[Notes](../../Notion/Notes.md)
 
 
 # Learn Something New
