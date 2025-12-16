@@ -8,7 +8,7 @@ cssclasses:
 
 # Let's Bug Hunt
 
->[[POC]]
+>[[Bugs]]
 
 >[Targets](Targets.md)
 
