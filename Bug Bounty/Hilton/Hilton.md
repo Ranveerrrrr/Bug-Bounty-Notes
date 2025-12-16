@@ -1,5 +1,5 @@
 ---
-URL: https://hackerone.com/airbnb
+URL: https://hackerone.com/hilton?type=team
 Type: Public
 VPN: No
 Assets:
@@ -8,7 +8,7 @@ Assets:
   - Web
   - iOS app
 Bounties: 3 High Bounties
-Interest Level: 0 None
+Interest Level: "2"
 tags:
   - Software
   - Travel
@@ -16,6 +16,5 @@ Thoughts: Thought I could look at some high priority assets
 Bugs:
   - "[[My First @2fa bypass]]"
 Notes:
-  - "[[Hilton 2]]"
 Finished: false
 ---
