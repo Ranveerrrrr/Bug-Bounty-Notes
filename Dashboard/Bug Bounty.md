@@ -1,7 +1,7 @@
 ---
 cssclasses:
-  - center-titles
   - pen-purple
+  - center-titles
 ---
 > **Go Fast and Break Other Peoples Things**
 
@@ -9,6 +9,7 @@ cssclasses:
 # Let's Bug Hunt
 
 >[[Bugs]]
+
 >[Notes](Notes.md)
 
 
@@ -17,6 +18,7 @@ cssclasses:
 
 
 >[Learning Roadmap](Learning%20Roadmap.md)
+
 >[[Research]]
 
 
