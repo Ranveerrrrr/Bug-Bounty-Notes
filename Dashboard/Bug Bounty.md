@@ -1,8 +1,8 @@
 ---
 cssclasses:
   - pen-purple
-  - center-titles
   - sunday
+  - center-titles
 ---
 > Go Fast and Break Other Peoples Things
 
