@@ -37,4 +37,4 @@ aws s3api put-bucket-acl --bucket bucket-name ——grant-full-control emailaddr
 ```
 aws s3api get-bucket-versioning --bucket bucket-name --no-sign-request
 ```
-	  - 
+	  - If versioning is disabled any upo
