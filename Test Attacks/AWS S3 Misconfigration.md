@@ -1,9 +1,9 @@
 ---
 date: 2025-12-17T14:19:00
-URL: https://youtu.be/_UlHLjIQeJM?si=lk7vaSXAHWbBf9tX
-Source: Video
-Type:
+Source: https://youtu.be/_UlHLjIQeJM?si=lk7vaSXAHWbBf9tX
+Type: Video
 tags:
+  - Bugs/aws-s3
 Creator:
 Key_Takeaway:
 Difficulty:
