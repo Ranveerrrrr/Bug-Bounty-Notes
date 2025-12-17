@@ -9,7 +9,12 @@ Key_Takeaway: Dorks for Github | Github Dorking to find secrets
 Difficulty: Beginner
 Bug Found: "0"
 ---
+---
 ```
 org:{organization name}
 ```
 	 -Shows all files/repos Containing org name.
+---
+```
+
+```
