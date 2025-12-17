@@ -24,3 +24,6 @@ org:{organization name}/all AND "org.com"
 org:all "org.com" path:*.json
 ```
 ---
+```
+org
+```
