@@ -48,5 +48,6 @@ org:att path:**/Dockerfile
 	-Sometime Dockerfile contain Hardcoded api-keys and creds.
 ---
 ```
-
+org:att {"jwt_secret" OR "JWT_SECRET"}
 ```
+	-To find jwt-se
