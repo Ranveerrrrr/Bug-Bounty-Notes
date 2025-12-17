@@ -1,3 +1,14 @@
+---
+date:
+URL:
+Source:
+Type:
+tags:
+Creator:
+Key_Takeaway:
+Difficulty:
+Bug Found:
+---
 ![[Pasted image 20251204185654.png]]
 https://youtu.be/_UlHLjIQeJM?si=lk7vaSXAHWbBf9tX
 
