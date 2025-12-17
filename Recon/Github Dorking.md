@@ -8,6 +8,7 @@ Creator: Medusa
 Key_Takeaway: Dorks for Github | Github Dorking to find secrets
 Difficulty: Beginner
 Bug Found: "0"
+cssclasses:
 ---
 ---
 ```
@@ -33,4 +34,4 @@ org:all "sk_live_"/"pk_live_"/AWS_ACCESS_SECRET_KEY
 org:all "sk-" "openai"
 ```
 	  -Same as above but to find openai api key.
-
+---
