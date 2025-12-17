@@ -33,3 +33,4 @@ org:all "sk_live_"/"pk_live_"/AWS_ACCESS_SECRET_KEY
 org:all "sk-" "openai"
 ```
 	  -Same as above but to find openai api key.
+
