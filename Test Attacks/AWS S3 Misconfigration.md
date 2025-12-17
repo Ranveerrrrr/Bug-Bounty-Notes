@@ -9,13 +9,13 @@ Key_Takeaway: Commands to find misconfig in aws s3 bucket
 Difficulty: Intermediate
 Bug Found: "0"
 ---
-![[Pasted image 20251204185654.png]]
+![[attachments/Pasted image 20251204185654.png]]
 # Public List Access
 ```
 aws s3 ls s3://bucket-name --no-sign-request
 ```
   - Will list obj available in s3 bucket
-      ![[Pasted image 20251204190038.png]]
+      ![[attachments/Pasted image 20251204190038.png]]
 
 # Public Read Access
 ```
