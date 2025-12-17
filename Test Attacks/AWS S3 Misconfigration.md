@@ -6,7 +6,7 @@ tags:
   - Bugs/aws-s3
 Creator: Medusa
 Key_Takeaway: Commands to find misconfig in aws s3 bucket
-Difficulty:
+Difficulty: Intermediate
 Bug Found: "0"
 ---
 ![[Pasted image 20251204185654.png]]
