@@ -25,6 +25,6 @@ org:all "org.com" path:*.json
 ```
 ---
 ```
-org:all "sk_live_"/"pk_live_"
+org:all "sk_live_"/"pk_live_"/AWS_ACCESS_SEC
 ```
 	  -To find a specific keyword like here searching for stripe api key.
