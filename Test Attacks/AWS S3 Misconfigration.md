@@ -9,9 +9,11 @@ https://youtu.be/_UlHLjIQeJM?si=lk7vaSXAHWbBf9tX
   1) If you can download it its [AWS S3 Misconfigration](AWS%20S3%20Misconfigration.md)
 
 # Public Write Access
-**aws s3 cp test.txt s3://bucket-name/ --no-sign-
-request**
+```
+```aws s3 cp test.txt s3://bucket-name/ --no-sign-
+request```
+```
 1)  If allows uploding file to the bucket
 
 # **Readable ACLS**
-**aws s3api get-bucket-acl --bucket bucket-name — —** **no-sign-request**
+**aws s3api get-bucket-acl --bucket bucket-name — — no-sign-request**
