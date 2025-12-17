@@ -38,5 +38,6 @@ org:att "sk-" "openai"
 	-Same as above but to find openai api key.
 ---
 ```
-org:att filename:.env
+org:att path:**/.env
 ```
+	-To find a 
