@@ -21,5 +21,5 @@ org:{organization name}/all AND "org.com"
 	  -Same as above but now only shows files/repos containing org and the name site.
 ---
 ```
-
+org:all "org.com" path:*.json
 ```
