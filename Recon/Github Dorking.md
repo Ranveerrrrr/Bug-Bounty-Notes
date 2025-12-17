@@ -30,5 +30,6 @@ org:all "sk_live_"/"pk_live_"/AWS_ACCESS_SECRET_KEY
 	  -To find a specific keyword like here searching for stripe/AWS api key.
 ---
 ```
-
+org:all "sk-" "openai"
 ```
+	  -Same as above but to find openai api key.
