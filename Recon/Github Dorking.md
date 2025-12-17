@@ -9,17 +9,19 @@ Key_Takeaway: Dorks for Github | Github Dorking to find secrets
 Difficulty: Beginner
 Bug Found: "0"
 cssclasses:
+  - daily
+  - friday
 ---
 ---
 ```
 org:{organization name}
 ```
-	 -Shows all files/repos Containing org name.
+	-Shows all files/repos Containing org name.
 ---
 ```
 org:{organization name}/all AND "org.com"
 ```
-	  -Same as above but now only shows files/repos containing org and the name site.
+	 -Same as above but now only shows files/repos containing org and the name site.
 ---
 ```
 org:all "org.com" path:*.json
@@ -28,10 +30,10 @@ org:all "org.com" path:*.json
 ```
 org:all "sk_live_"/"pk_live_"/AWS_ACCESS_SECRET_KEY
 ```
-	  -To find a specific keyword like here searching for stripe/AWS api key.
+	-To find a specific keyword like here searching for stripe/AWS api key.
 ---
 ```
 org:all "sk-" "openai"
 ```
-	  -Same as above but to find openai api key.
+-Same as above but to find openai api key.
 ---
