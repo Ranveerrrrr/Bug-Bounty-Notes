@@ -5,17 +5,18 @@ https://youtu.be/_UlHLjIQeJM?si=lk7vaSXAHWbBf9tX
 ```
 aws s3 ls s3://bucket-name --no-sign-request
 ```
-  1) Will list obj available in s3 bucket
-   -    ![[Pasted image 20251204190038.png]]
+  - Will list obj available in s3 bucket
+      ![[Pasted image 20251204190038.png]]
 
+# Public Read Access
 ```
 aws s3 cp s3://bucket-name/file.txt ./ --no-sign-request
 ```
-  1) If you can download it its [AWS S3 Misconfigration](AWS%20S3%20Misconfigration.md)
+  - If you can download it its [AWS S3 Misconfigration](AWS%20S3%20Misconfigration.md)
 
 # Public Write Access
 ```
-aws s3 cp test.txt s3://bucket-name/ --no-sign-request```
+aws s3 cp test.txt s3://bucket-name/ --no-sign-request
 ```
 1)  If allows uploding file to the bucket
 
