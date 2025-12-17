@@ -10,8 +10,7 @@ https://youtu.be/_UlHLjIQeJM?si=lk7vaSXAHWbBf9tX
 
 # Public Write Access
 ```
-```aws s3 cp test.txt s3://bucket-name/ --no-sign-
-request```
+aws s3 cp test.txt s3://bucket-name/ --no-sign-request```
 ```
 1)  If allows uploding file to the bucket
 
