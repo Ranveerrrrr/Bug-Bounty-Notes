@@ -38,7 +38,7 @@ org:att "sk-" "openai"
 	-Same as above but to find openai api key.
 ---
 ```
-org:att path:**/.env ,**/.local.env ,**/config, **/Dockerfile
+org:att path:**/.env ,**/.local.env ,**/config, **/Dockerfile, **/settings.py
 ```
 	-To find specific files/folders.(Use one file name at a time)
 ---
