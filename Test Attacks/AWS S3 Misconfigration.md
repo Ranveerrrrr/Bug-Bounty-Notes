@@ -18,7 +18,7 @@ aws s3 cp s3://bucket-name/file.txt ./ --no-sign-request
 ```
 aws s3 cp test.txt s3://bucket-name/ --no-sign-request
 ```
-	- If allows uploding file to the bucket
+	  - If allows uploding file to the bucket
 
 # **Readable ACLS**
 ```
