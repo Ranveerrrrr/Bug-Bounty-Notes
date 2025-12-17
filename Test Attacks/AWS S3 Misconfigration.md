@@ -26,3 +26,5 @@ aws s3api get-bucket-acl --bucket bucket-name  --no-sign-request
 ```
 	  - list of who has what permissions
 - ![](attachments/Pasted%20image%2020251217135937.png)
+
+# Write ACL Misconfig
