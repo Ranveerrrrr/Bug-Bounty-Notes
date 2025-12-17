@@ -13,9 +13,9 @@ Bug Found: "0"
 ```
 org:{organization name}
 ```
-	 - Shows all files/repos Containing org name.
+	 -Shows all files/repos Containing org name.
 ---
 ```
 org:{organization name} AND "org.com"
 ```
-	  - 
+	  -Same as above but now only shows files/repos from org and the name site containing file/repos
