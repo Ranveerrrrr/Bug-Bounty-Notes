@@ -13,8 +13,9 @@ Bug Found: "0"
 ```
 org:{organization name}
 ```
-	 -Shows all files/repos Containing org name.
+	 - Shows all files/repos Containing org name.
 ---
 ```
-
+org:{organization name} AND "org.com"
 ```
+	  - 
