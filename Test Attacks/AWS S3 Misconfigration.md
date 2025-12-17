@@ -4,10 +4,10 @@ Source: https://youtu.be/_UlHLjIQeJM?si=lk7vaSXAHWbBf9tX
 Type: Video
 tags:
   - Bugs/aws-s3
-Creator:
-Key_Takeaway:
-Difficulty:
-Bug Found:
+Creator: Medusa
+Key_Takeaway: Commands to find misconfig in aws s3 bucket
+Difficulty: intermidiate
+Bug Found: "0"
 ---
 ![[Pasted image 20251204185654.png]]
 # Public List Access
