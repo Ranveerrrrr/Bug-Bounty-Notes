@@ -10,4 +10,4 @@ https://youtu.be/_UlHLjIQeJM?si=lk7vaSXAHWbBf9tX
 
 **aws s3 cp s3://bucket-name/file.txt ./ --no-sign-request**
 - ***Vulnerable***
-  1) 
+  1) File 
