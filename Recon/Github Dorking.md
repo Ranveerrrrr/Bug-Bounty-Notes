@@ -24,16 +24,19 @@ org:{organization name}/all AND "org.com"
 	 -Same as above but now only shows files/repos containing org and the name site.
 ---
 ```
-org:all "org.com" path:*.json
+org:att "org.com" path:*.json
 ```
 ---
 ```
-org:all "sk_live_"/"pk_live_"/AWS_ACCESS_SECRET_KEY
+org:att "sk_live_"/"pk_live_"/AWS_ACCESS_SECRET_KEY
 ```
 	-To find a specific keyword like here searching for stripe/AWS api key.
 ---
 ```
-org:all "sk-" "openai"
+org:att "sk-" "openai"
 ```
-Same as above but to find openai api key.
+	-Same as above but to find openai api key.
 ---
+```
+org:att filename:.env
+```
