@@ -25,5 +25,5 @@ org:all "org.com" path:*.json
 ```
 ---
 ```
-org
+org:all "sk_live_"
 ```
