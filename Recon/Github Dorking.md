@@ -18,4 +18,5 @@ org:{organization name}
 ```
 org:{organization name} AND "org.com"
 ```
-	  -Same as above but now only shows files/repos from org and the name site containing file/repos
+	  -Same as above but now only shows files/repos containing org and the name site.
+---
