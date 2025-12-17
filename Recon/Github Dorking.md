@@ -45,4 +45,4 @@ org:att path:**/.env ,**/.local.env ,**/config, **/Dockerfile
 ```
 org:att path:**/Dockerfile
 ```
-	-Sometime 
+	-Sometime Dockerfile contain Hardcoded api-keys and creds.
