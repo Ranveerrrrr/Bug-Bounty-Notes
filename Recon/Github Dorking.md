@@ -50,4 +50,4 @@ org:att path:**/Dockerfile
 ```
 org:att {"jwt_secret" OR "JWT_SECRET"}
 ```
-	-To find jwt-se
+	-To find jwt-secret-keys.
