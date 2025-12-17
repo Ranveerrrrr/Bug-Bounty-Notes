@@ -5,7 +5,10 @@ Type: Video
 tags:
   - Recon/Git-dorking
 Creator: Medusa
-Key_Takeaway:
-Difficulty:
-Bug Found:
+Key_Takeaway: Dorks for Github | Github Dorking to find secrets
+Difficulty: Beginner
+Bug Found: "0"
 ---
+```
+org:{organization name}
+```
