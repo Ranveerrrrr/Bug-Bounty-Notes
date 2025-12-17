@@ -38,6 +38,7 @@ org:att "sk-" "openai"
 	-Same as above but to find openai api key.
 ---
 ```
-org:att path:**/.env
+org:att path:**/.env **/.
 ```
-	-To find a 
+	-To find specific files.
+---
