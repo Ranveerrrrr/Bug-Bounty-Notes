@@ -1,6 +1,6 @@
-[[Vulnerability's/Vulnerabilitys]] | [[Bug-Bounty-Notes/Bug Bounty/Bug bounty]] | [[Bug-Bounty-Notes/Recon/Recon]] | [[Attacks/Test Attacks]]
+[[Vulnerabilitys/Vulnerabilitys]] | [[Bug-Bounty-Notes/Bug Bounty/Bug bounty]] | [[Bug-Bounty-Notes/Recon/Recon]] | [[Attacks/Test Attacks]]
 
-htps://example.com/logo.php?reference=* - if see anything like this like *taking values* look for _[[Vulnerability's/LFI/LFI]], reflected [[Vulnerability's/XSS/XSS]], or [[Vulnerability's/SQL Injection/SQL injection]]_
+htps://example.com/logo.php?reference=* - if see anything like this like *taking values* look for _[[Vulnerabilitys/LFI/LFI]], reflected [[Vulnerabilitys/XSS/XSS]], or [[Vulnerabilitys/SQL Injection/SQL injection]]_
 
 If a payload does not work try diff browser "_server treats requests differently based on sessions._"
 

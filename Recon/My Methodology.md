@@ -100,7 +100,7 @@ cat subdomains.txt | httpx -ports 80,443,8080,8000,8888 -threads 200 | tee live_
 --------------------------------
 --------------------------------
 [[JS Recon]]
-[[../Vulnerability's/XSS/XSS - Methodology]]
+[[../Vulnerabilitys/XSS/XSS - Methodology]]
 [[../Attacks/Subdomain Takeover]]
 [[Google dork's]]
 [[Trash-Cash Git Digging]]
