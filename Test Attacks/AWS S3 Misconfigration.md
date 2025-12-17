@@ -1,7 +1,8 @@
 ![[Pasted image 20251204185654.png]]
 https://youtu.be/_UlHLjIQeJM?si=lk7vaSXAHWbBf9tX
 
-**aws s3 ls s3://bucket-name --no-sign-request**
+# Public List a
+aws s3 ls s3://bucket-name --no-sign-request
   1) Will list obj available in s3 bucket
    -    ![[Pasted image 20251204190038.png]]
 
