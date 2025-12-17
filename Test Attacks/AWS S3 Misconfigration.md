@@ -10,4 +10,5 @@ https://youtu.be/_UlHLjIQeJM?si=lk7vaSXAHWbBf9tX
 
 **aws s3 cp s3://bucket-name/file.txt ./ --no-sign-request**
 - ***Vulnerable***
-  1) File 
+  1) If you can download it its [AWS S3 Misconfigration](AWS%20S3%20Misconfigration.md)
+- 
