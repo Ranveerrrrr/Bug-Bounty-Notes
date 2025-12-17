@@ -28,3 +28,7 @@ aws s3api get-bucket-acl --bucket bucket-name  --no-sign-request
 - ![](attachments/Pasted%20image%2020251217135937.png)
 
 # Write ACL Misconfig
+```
+aws s3api put-bucket-acl --bucket bucket-name ——grant-full-control emailaddress=you@example.com
+```
+	- 
