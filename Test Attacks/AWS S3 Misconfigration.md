@@ -9,13 +9,13 @@ Key_Takeaway: Commands to find misconfig in aws s3 bucket
 Difficulty: Intermediate
 Bug Found: "0"
 ---
-![[attachments/Pasted image 20251204185654.png]]
+![[Attachments/Pasted image 20251204185654.png]]
 # Public List Access
 ```
 aws s3 ls s3://bucket-name --no-sign-request
 ```
   - Will list obj available in s3 bucket
-      ![[attachments/Pasted image 20251204190038.png]]
+      ![[Attachments/Pasted image 20251204190038.png]]
 
 # Public Read Access
 ```
@@ -34,7 +34,7 @@ aws s3 cp test.txt s3://bucket-name/ --no-sign-request
 aws s3api get-bucket-acl --bucket bucket-name  --no-sign-request
 ```
 	  - list of who has what permissions
-- ![](attachments/Pasted%20image%2020251217135937.png)
+- ![](Attachments/Pasted%20image%2020251217135937.png)
 
 # Write ACL Misconfig
 ```

@@ -6,3 +6,4 @@ api/protected -> the protected endpoint only for autherized
 
 when logged in server provides a session cookie 
 but that session cookie is not changed after 2fa code is entered same session cookie is being used se an attacker can jst log in and when redirected to 2fa page the server will provid session cookie and attack can copy it and use it to visit protected endpoint by just pasting session cookie he got after logging in.
+
