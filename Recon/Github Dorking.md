@@ -10,7 +10,7 @@ Difficulty: Beginner
 Bug Found: "0"
 cssclasses:
   - daily
-  - friday
+  - wednesday
 ---
 ---
 ```
@@ -46,3 +46,7 @@ org:att path:**/.env ,**/.local.env ,**/config, **/Dockerfile, **/settings.py
 org:att path:**/Dockerfile
 ```
 	-Sometime Dockerfile contain Hardcoded api-keys and creds.
+---
+```
+
+```

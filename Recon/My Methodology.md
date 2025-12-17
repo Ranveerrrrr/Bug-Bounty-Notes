@@ -105,7 +105,7 @@ cat subdomains.txt | httpx -ports 80,443,8080,8000,8888 -threads 200 | tee live_
 [[Google dork's]]
 [[Trash-Cash Git Digging]]
 [[Cloudflare origin IP]] -Discover IPs & Subdomains with these methods.
-git 
+[Github Dorking](Github%20Dorking.md)
 
 --------------------------------
 --------------------------------
