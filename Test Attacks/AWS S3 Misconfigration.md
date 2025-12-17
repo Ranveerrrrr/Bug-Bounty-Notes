@@ -31,6 +31,10 @@ aws s3api get-bucket-acl --bucket bucket-name  --no-sign-request
 ```
 aws s3api put-bucket-acl --bucket bucket-name ——grant-full-control emailaddress=you@example.com
 ```
-	- Will Write your email address to ACL
+	   - Will Write your email address to ACL
 
 # No S3 Versionig
+```
+aws s3api get-bucket-versioning --bucket bucket-name --no-sign-request
+```
+	  - 
