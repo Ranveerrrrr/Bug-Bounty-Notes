@@ -16,7 +16,10 @@ org:{organization name}
 	 -Shows all files/repos Containing org name.
 ---
 ```
-org:{organization name} AND "org.com"
+org:{organization name}/all AND "org.com"
 ```
 	  -Same as above but now only shows files/repos containing org and the name site.
 ---
+```
+
+```
