@@ -1,4 +1,4 @@
-Recon.exe: [[../Test Attacks/403 Bypass]]/404 Access, GoSpider, JS Hunting, Stored [[../Attacks/XSS/XSS]], Admin Panel & AWS S3 Finds
+Recon.exe: [[../Attacks/403 Bypass]]/404 Access, GoSpider, JS Hunting, Stored [[../Vulnerability's/XSS/XSS]], Admin Panel & AWS S3 Finds
 https://youtu.be/9Y8fuZagHfs?si=N_sENTNbBSFM5Vhc
 
 **404/403 Access**
