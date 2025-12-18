@@ -1,5 +1,5 @@
 [[Test Attacks]]
-[[Cloudfare]]
+[[Cloudflare]]
 [[Sources]]
 [[2FA Bypass]]
 [[PHP File Upload Payload]]
