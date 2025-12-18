@@ -1,3 +1,8 @@
+---
+tags:
+  - Attack
+  - Bugs
+---
 https://youtu.be/Rm8PwWsYKxo?si=okZbZymg-hNr9m3O
 
 **SESSION NOT EXPIRED AFTER PASSWORD CHANGE**
