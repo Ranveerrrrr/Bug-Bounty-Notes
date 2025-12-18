@@ -7,6 +7,6 @@
 [[403 Bypass]]
 [[Puny Code ATO]]
 [[Zone transfer misconfigration]]
-[P4 Bugs](P4%20Bugs.md)
-[2FA Bypass](2FA%20Bypass.md)
+[[P4 Bugs]]
+[[AWS S3 Misconfigration](AWS%20S3%20Misconfigration.md)]
 
