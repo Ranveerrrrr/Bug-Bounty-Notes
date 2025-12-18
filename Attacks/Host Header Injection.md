@@ -71,7 +71,7 @@ Host: test-bepractcal.tech
 ```
 X-Forwarded-Host: test-bepractcal.tech
 ```
-- **X-Forwarded-Host** - This header can also be used if strict restriction on Hot
+- **X-Forwarded-Host** - This header can also be used if strict restriction on Host header.
 # What was the impact?
 - Like above if the user clicks the link we can do account-takeover-attack #Bugs/ato 
 - if you use Burp collabrater for host header injection when user clicks the link the server will get the hashg of user to reset-password.
