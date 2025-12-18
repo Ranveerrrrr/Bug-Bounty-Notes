@@ -26,3 +26,12 @@ Site: "YouTube"
 \--------------------------------------------------------------------------------------------------------------------------------------------  
 Learn a different way for open redirect bypass that every researcher should know. Watch this quick demo and see how this payload works in real scenarios!  
 \--------------------------------------------------------------------------------------------------------------------------------------------  
+📱 Socials:  
+X: https://twitter.com/medusa\_0xf  
+Discord: https://discord.gg/2PUPD3RHHs  
+LinkedIn: https://www.linkedin.com/in/insha-j-38b822225/  
+Instagram: https://www.instagram.com/medusa\_0xf/  
+\--------------------------------------------------------------------------------------------------------------------------------------------  
+-----------------------------------------------------------------------------------------------------------  
+lukrembo - snow  
+lukrembo - bake a pie
