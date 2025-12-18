@@ -66,6 +66,11 @@ Host: test-bepractcal.tech
 ```
 - This will also considerd as a host header injection.
 - "test-bepractcal.tech" -> is not a subdomain but a completly new domain.
+
+##### Method 3:
+```
+Host: test-bepractcal.tech
+```
 # What was the impact?
 - Like above if the user clicks the link we can do account-takeover-attack #Bugs/ato 
 - if you use Burp collabrater for host header injection when user clicks the link the server will get the hashg of user to reset-password.
