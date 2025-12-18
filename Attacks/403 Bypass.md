@@ -1,3 +1,7 @@
+---
+tags:
+  - Attack
+---
 curl 'https://target.com/secret/admin' - 403
 curl 'https://target.com/secret/admin/' - 200
               **OR**                              
