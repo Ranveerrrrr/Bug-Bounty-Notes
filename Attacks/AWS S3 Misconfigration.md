@@ -10,6 +10,8 @@ Key_Takeaway: Commands to find misconfig in aws s3 bucket
 Difficulty: Intermediate
 Bug Found: "0"
 cssclasses:
+  - daily
+  - sunday
 ---
 ![[Attachments/Pasted image 20251204185654.png]]
 # Public List Access
