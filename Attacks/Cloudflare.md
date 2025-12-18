@@ -1,3 +1,9 @@
+---
+Source:
+tags:
+Skill:
+cssclasses:
+---
 https://youtu.be/AU8WuK3cxnw?si=E_9IjnDqPzftlSkP
 https://www.secrash.com/2023/07/xss-using-consolelog-for-bypass.html
 https://www.secrash.com/2023/07/reflected-xss-bypass-payloads-with-html.html
