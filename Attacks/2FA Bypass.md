@@ -1,3 +1,8 @@
+---
+tags:
+  - Attack
+  - Bugs/2fa-bypass
+---
 https://youtu.be/wd1yz21NhPw?si=9TGENpgXur2mt4W8
 2 endpoint:-
 api/2fa -> takes 2fa code and then lets you access the 2nd endpont that is only for autherized people
