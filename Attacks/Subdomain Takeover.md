@@ -1,6 +1,7 @@
 ---
 tags:
   - Attack
+  - Bugs/subdomain-takeover
 ---
 [[Sources]]
 

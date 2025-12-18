@@ -1,3 +1,8 @@
+---
+tags:
+  - Attack
+  - Bugs/zone-transfer-misconfig
+---
 https://youtu.be/6FKz0mDeUxc?si=CpCPuhwDWM7BIiJ1
 
 `dig playtika.com +short ns`
