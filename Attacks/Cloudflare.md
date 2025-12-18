@@ -2,7 +2,7 @@
 tags:
   - Attack
   - Bugs/cloudflare
-Skill:
+  - Bugs/xss
 ---
 https://youtu.be/AU8WuK3cxnw?si=E_9IjnDqPzftlSkP
 https://www.secrash.com/2023/07/xss-using-consolelog-for-bypass.html

@@ -4,6 +4,7 @@ Source: https://youtu.be/_UlHLjIQeJM?si=lk7vaSXAHWbBf9tX
 Type: Video
 tags:
   - Bugs/aws-s3
+  - Attack
 Creator: Medusa
 Key_Takeaway: Commands to find misconfig in aws s3 bucket
 Difficulty: Intermediate
