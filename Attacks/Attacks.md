@@ -8,5 +8,5 @@
 [[Puny Code ATO]]
 [[Zone transfer misconfigration]]
 [[P4 Bugs]]
-[[AWS S3 Misconfigration](AWS%20S3%20Misconfigration.md)]
-
+[[AWS S3 Misconfigration]]
+#Attack 
