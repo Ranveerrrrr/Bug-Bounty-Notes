@@ -10,12 +10,11 @@ tags:
   - Video
   - Bugs/api
   - Recon/api
-Finished: false
+  - Attack
+Finished: true
 Cover: https://i.ytimg.com/vi/3Z2STZGqvc4/maxresdefault.jpg
 Site: YouTube
 ---
-## Highlights
-
 
 ---
 ## Full Page Content
