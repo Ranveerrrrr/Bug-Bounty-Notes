@@ -8,7 +8,7 @@ Skill: Recon
 cssclasses:
   - daily
   - thursday
-date:
+date: 2025-12-25T13:54:00
 ---
 ```
 subfinder -d target.com -all | httpx -silent > live.txt  
