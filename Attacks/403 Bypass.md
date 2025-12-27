@@ -33,6 +33,10 @@ curl 'https://target.com///admiN/'
 -  Adding '///' will break the condition and won't trigger 403.
 -  In Windows directory's are not case sensetive. making random letters uppercase will not trigger 403.
 
+---
+https://youtu.be/GN_QbdNHq7E?si=3Z9ngMgRq_eTIVQd
 
+##### Method 1:
+Try changing Http method of the requ
 
 
