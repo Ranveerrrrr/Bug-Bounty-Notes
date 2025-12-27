@@ -46,3 +46,6 @@ try: https://github.com/daffainfo/AllAboutBugBounty/blob/master/Bypass/Bypass%20
 ##### Method 3:
 Url-encode the slash(/) -> %2f
 Or anyother things..
+
+##### Method 4: 
+Parameter pollution
