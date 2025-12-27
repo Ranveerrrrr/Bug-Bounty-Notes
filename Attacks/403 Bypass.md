@@ -49,3 +49,6 @@ Or anyother things..
 
 ##### Method 4: 
 Parameter pollution
+if 
+**GET /api/user?id=123**
+-> **GET /api/user?id=123&id=123**
