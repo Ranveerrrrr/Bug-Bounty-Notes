@@ -37,6 +37,7 @@ curl 'https://target.com///admiN/'
 https://youtu.be/GN_QbdNHq7E?si=3Z9ngMgRq_eTIVQd
 
 ##### Method 1:
-Try changing Http method of the requ
+Try changing Http method of the Request.
+use this wordlist: https://github.com/OWASP/AppSec-Browser-Bundle/blob/master/utilities/wfuzz/wordlist/fuzzdb/attack-payloads/http-protocol/http-protocol-methods.txt
 
 
