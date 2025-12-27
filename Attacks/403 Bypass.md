@@ -40,5 +40,9 @@ https://youtu.be/GN_QbdNHq7E?si=3Z9ngMgRq_eTIVQd
 Try changing Http method of the Request.
 use this wordlist: https://github.com/OWASP/AppSec-Browser-Bundle/blob/master/utilities/wfuzz/wordlist/fuzzdb/attack-payloads/http-protocol/http-protocol-methods.txt
 
-Method 2:
+##### Method 2:
 try: https://github.com/daffainfo/AllAboutBugBounty/blob/master/Bypass/Bypass%20403.md
+
+##### Method 3:
+Url-encode the slash(/) -> %2f
+Or anyother thing
