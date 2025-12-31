@@ -42,7 +42,7 @@ Host: ato.bepractical.tech
 Host: testing123.bepractical.tech
 ```
 - Below you can see the link is using the host we provided.
-![](../../Clippings/Video/attachments/Pasted%20image%2020251218124335.png)
+![](../Vulnerabilitys/Clippings/Video/attachments/Pasted%20image%2020251218124335.png)
 
 ```
 Host: attacker.com
@@ -57,7 +57,7 @@ Host: attacker.com:bepractical.tech
 ```
 - Here we used a Colon(:) and used the orignal website domain.
 - **Response: "Password reset email sent!"**
-![](../../Clippings/Video/attachments/Pasted%20image%2020251218125729.png)
+![](../Vulnerabilitys/Clippings/Video/attachments/Pasted%20image%2020251218125729.png)
 - Here we can see the domain now says **attacker.com**.
 
 ##### Method 2:
