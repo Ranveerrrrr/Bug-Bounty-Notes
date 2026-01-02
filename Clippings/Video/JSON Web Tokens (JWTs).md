@@ -30,7 +30,7 @@ payload = {
 "iat": 1634810800
 }
 encoded_header = jwt.encode(header, secret, algorithm="HS256")
-encoded_payload = jwt.encode (payload, secret, algorithm="HS256")
+encoded_payload = jwt.encode(payload, secret, algorithm="HS256")
 signature = hmac.new(secret.encode(), encoded_header + "." + encoded_payload, hashlib.sha256). hexdigest()
 jwt = encoded_header + "." + encoded_payload + "." + signature
 print(jwt)
