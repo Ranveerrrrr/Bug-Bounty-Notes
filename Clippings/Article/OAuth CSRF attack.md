@@ -26,10 +26,12 @@ if does not exist try doing the csrf attack.
 if it does exist try changing or removing it.
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
-the site does not validate or keep check of the request coming from basically csrf if a action is being performed and in middle of it attacker copies the request and send it to victim and action is performed on attacker profile but with info of victim is used or victi
+the site does not validate or keep check of the request coming from basically csrf if a action is being performed and in middle of it attacker copies the request and send it to victim and action is performed on attacker profile but with info of victim is used or victim profile is also affected.
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
-
+Autherization points
+connecting social account with profile
+OAuth
 ## Why it’s dangerous
 <!-- What attacker gains in practice -->
 
