@@ -22,10 +22,11 @@ Basically when the site does not validate from where it sent the request and fro
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 State parameter in request:
-if does not exist try doing the csrf attack 
+if does not exist try doing the csrf attack.
+if it does exist try changing or removing it.
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
-
+the site does not validate or keep check of the 
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 
