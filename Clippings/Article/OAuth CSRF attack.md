@@ -4,6 +4,8 @@ Source: https://youtu.be/EG9gU5-UBAE?si=jcH3WFQxgRxaN-V- & https://blog.doyensec
 Tags:
   - Attack
   - Bugs/ato
+  - Bugs/oauth
+  - Bugs/csrf
 Skill:
 Date:
 ---
