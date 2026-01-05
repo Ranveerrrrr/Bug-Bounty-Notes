@@ -9,7 +9,8 @@ Tags:
 Skill:
 Date:
 ---
-
+Defination:
+First read 
 ## One-line definition
 <!-- If you can’t define it in one line, stop -->
 
