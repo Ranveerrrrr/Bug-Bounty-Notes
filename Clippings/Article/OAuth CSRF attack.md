@@ -34,10 +34,10 @@ connecting social account with profile
 OAuth
 ## Why it’s dangerous
 <!-- What attacker gains in practice -->
-
+#Bugs/ato 
 ## Common failure points
 <!-- Why it usually fails -->
-
+When state parm is being validated by site
 ## Detection mindset
 <!-- What clues tell me to try this while hacking -->
 
