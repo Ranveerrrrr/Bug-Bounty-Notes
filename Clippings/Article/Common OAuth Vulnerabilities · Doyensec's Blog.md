@@ -64,6 +64,8 @@ The Authorization Code Flow is one of the most widely used OAuth flows in web ap
 
 This flow is suitable exclusively for confidential applications, such as Regular Web Applications, because the application Client Credentials are included in the code exchange request and they must be kept securely stored by the Client Application.
 
+(Authorization Code Flow)[https://blog.doyensec.com/public/images/oauth-authorization-code-flow.png]
+
 ### References
 
 - [https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.1](https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.1)
