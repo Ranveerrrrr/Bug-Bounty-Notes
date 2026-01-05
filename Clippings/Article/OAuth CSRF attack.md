@@ -28,7 +28,7 @@ the site does not validate or keep check of the request coming from basically cs
 #### Scenario 1:
 **Attacker:** trying to connect his vercel account with github enters his creds and when clicks to connect he drops that request and copy the link that was going to connect his vercel account with his account caould look like this `https://0a4f000a037a5bd682e80bc600e6003e.web-security-academy.net/oauth-linking?code=79xP_f37BIDtyt1CTJUwAqfZ0kq6lCX8RRb-8suPj0j` and send it to victim or creats an iframe and victim visits it.
 **Victim:** Opens the link and without him knowing attacker vercel account is connected with victims github account.
-**Attacker:** Log out of his own profile and logins with his vercel account and THEN BOOMM!!! he is logged in victims account. #Bugs/ato [Same Lab for this same Attack](https://portswigger.net/web-security/oauth/lab-oauth-forced-oauth-profile-linking)
+**Attacker:** Log out of his own profile and logins with his vercel account and THEN BOOMM!!! he is logged in victims account. #Bugs/ato [Lab For This Same Attack](https://portswigger.net/web-security/oauth/lab-oauth-forced-oauth-profile-linking)
 #### Scenario 2:
 **Attacker:** trying to connect his vercel account with github and when clicks to connect it drops that request and cop the link and send it to victim.
 **Victim:** Clicks the link.
