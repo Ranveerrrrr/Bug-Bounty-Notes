@@ -14,10 +14,10 @@ First read that of this attack from here [Common OAuth Vulnerabilities · Doyens
 ## One-line definition
 <!-- If you can’t define it in one line, stop -->
 Basically when the site does not validate from where it sent the request and from where the callback is coming happens when the site does not include a `State` Token can be called csrf token also:
-Scenario:
+##### Scenario:
 **Attacker:** trying to connect his vercel account with github and when clicks to connect it drops that request and cop the link and send it to victim.
 **Victim:** Clicks the link.
-Result: Victims github account is now linked with attacker vercel account and this an Bugs/ato
+**Result:** Victims github account is now linked with attacker vercel account and this an #Bugs/ato
 
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
