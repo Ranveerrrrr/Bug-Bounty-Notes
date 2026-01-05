@@ -10,7 +10,7 @@ Skill: CSRF, ATO
 Date: 2026-01-05T17:09:00
 ---
 ## Attack Explanation:
-First read that of this attack from here [Common OAuth Vulnerabilities · Doyensec's Blog](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
+Read about the attack here:- [Common OAuth Vulnerabilities · Doyensec's Blog](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
 ## Short definition
 <!-- If you can’t define it in one line, stop -->
 Basically when the site does not validate from where it sent the request and from where the callback is coming happens when the site does not include a `State` Token can be called csrf token also:
