@@ -91,7 +91,7 @@ Note that using the default Authorization Code flow with a custom `redirect_uri`
 With PKCE, the interception of the Authorization Response will not allow the previous attack scenario since attackers would only be able to access the `authorization_code` but it won’t be possible for them to get the `code_verifier` value required in the Access Token Request.
 
 The diagram below illustrates the Authorization Code flow with PKCE:
-![A]
+![Authorization Code Flow with PKCE](https://blog.doyensec.com/public/images/oauth-authorization-code-pkce-flow.png)
 ### References
 
 - [https://datatracker.ietf.org/doc/html/rfc7636](https://datatracker.ietf.org/doc/html/rfc7636)
