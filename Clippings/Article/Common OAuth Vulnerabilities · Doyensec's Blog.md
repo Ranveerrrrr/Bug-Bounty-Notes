@@ -118,7 +118,7 @@ This flow allows OAuth Clients on devices such as smart TVs, media consoles, dig
 In this flow, first the Client application retrieves a User Code and Verification URL from the Authorization Server. Then, it instructs the User Agent to Authenticate and Consent with a different device using the provided User Code and Verification URL.
 
 The following image illustrates the Device Authorization Code Flow:
-
+![]
 ### References
 
 - [https://datatracker.ietf.org/doc/html/rfc8628](https://datatracker.ietf.org/doc/html/rfc8628)
