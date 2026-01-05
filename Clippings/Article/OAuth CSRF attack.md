@@ -13,7 +13,8 @@ Defination:
 First read that of this attack from here [Common OAuth Vulnerabilities · Doyensec's Blog](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
 ## One-line definition
 <!-- If you can’t define it in one line, stop -->
-Basically when the site does not validate from where it sent the request and from where the callb
+Basically when the site does not validate from where it sent the request and from where the callback is coming happens when the site does not include a `State` Token can be called csrf token also:
+atta
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 
