@@ -10,10 +10,10 @@ Skill:
 Date:
 ---
 Defination:
-First read 
+First read that of this attack from here [Common OAuth Vulnerabilities · Doyensec's Blog](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
 ## One-line definition
 <!-- If you can’t define it in one line, stop -->
-
+Basically when the site does not validate from where it sent the request and from where the callb
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 
