@@ -14,7 +14,8 @@ First read that of this attack from here [Common OAuth Vulnerabilities · Doyens
 ## One-line definition
 <!-- If you can’t define it in one line, stop -->
 Basically when the site does not validate from where it sent the request and from where the callback is coming happens when the site does not include a `State` Token can be called csrf token also:
-atta
+Scenario:
+Attacker: trying to connect his hackerone account with gi
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 
