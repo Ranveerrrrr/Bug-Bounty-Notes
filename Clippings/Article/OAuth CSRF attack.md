@@ -6,8 +6,8 @@ Tags:
   - Bugs/ato
   - Bugs/oauth
   - Bugs/csrf
-Skill:
-Date:
+Skill: CSRF, ATO
+Date: 2026-01-05T17:09:00
 ---
 Defination:
 First read that of this attack from here [Common OAuth Vulnerabilities · Doyensec's Blog](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
