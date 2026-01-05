@@ -20,6 +20,7 @@ Basically when the site does not validate from where it sent the request and fro
 **Result:** Victims github account is now linked with attacker vercel account and this an #Bugs/ato
 
 #### Scenario 2:
+**Attacker:** trying to connect his vercel account with github and when clicks to connect it drops that request and cop the link and send it to victim.
 
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
