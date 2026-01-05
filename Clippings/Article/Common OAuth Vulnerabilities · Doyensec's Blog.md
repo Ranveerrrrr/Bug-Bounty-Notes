@@ -13,7 +13,7 @@ Cover:
 Site: "#oauth-2-0-terminology, https://auth0.com/docs/get-started/authentication-and-authorization-flow/implicit-flow-with-form-post, https://cloudentity.com/developers/basics/oauth-grant-types/authorization-code-flow/, https://auth0.com/docs/get-started/authentication-and-authorization-flow/device-authorization-flow"
 ---
 ## Highlights
-
+Oauth bypass and techniques
 
 ---
 ## Full Page Content
