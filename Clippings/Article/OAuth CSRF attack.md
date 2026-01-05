@@ -40,8 +40,8 @@ OAuth
 When state parm is being validated by site
 ## Detection mindset
 <!-- What clues tell me to try this while hacking -->
-
+as mentioned in the Preconditions.
 ## Variations / chains
 <!-- How this connects to other attacks -->
-
+Attacker can connect his o
 ## References
