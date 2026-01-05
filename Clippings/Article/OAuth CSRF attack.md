@@ -9,9 +9,9 @@ Tags:
 Skill: CSRF, ATO
 Date: 2026-01-05T17:09:00
 ---
-Defination:
+## Attack Explanation:
 First read that of this attack from here [Common OAuth Vulnerabilities · Doyensec's Blog](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
-## One-line definition
+## Short definition
 <!-- If you can’t define it in one line, stop -->
 Basically when the site does not validate from where it sent the request and from where the callback is coming happens when the site does not include a `State` Token can be called csrf token also:
 #### Scenario 1:
@@ -20,6 +20,7 @@ Basically when the site does not validate from where it sent the request and fro
 **Result:** Victims github account is now linked with attacker vercel account and this an #Bugs/ato
 
 #### Scenario 2:
+
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 State parameter in request:
