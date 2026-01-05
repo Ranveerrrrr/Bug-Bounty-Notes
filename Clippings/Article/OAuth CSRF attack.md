@@ -14,11 +14,12 @@ First read that of this attack from here [Common OAuth Vulnerabilities · Doyens
 ## One-line definition
 <!-- If you can’t define it in one line, stop -->
 Basically when the site does not validate from where it sent the request and from where the callback is coming happens when the site does not include a `State` Token can be called csrf token also:
-#### Scenario:
+#### Scenario 1:
 **Attacker:** trying to connect his vercel account with github and when clicks to connect it drops that request and cop the link and send it to victim.
 **Victim:** Clicks the link.
 **Result:** Victims github account is now linked with attacker vercel account and this an #Bugs/ato
 
+#### Scenario 2:
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 State parameter in request:
@@ -27,6 +28,10 @@ if it does exist try changing or removing it.
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
 the site does not validate or keep check of the request coming from basically csrf if a action is being performed and in middle of it attacker copies the request and send it to victim and action is performed on attacker profile but with info of victim is used or victim profile is also affected.
+
+## Steps To Reproduce:
+<!-- How to do this attack -->
+
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 Autherization points
