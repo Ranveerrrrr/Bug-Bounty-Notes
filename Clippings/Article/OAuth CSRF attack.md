@@ -21,7 +21,7 @@ Basically when the site does not validate from where it sent the request and fro
 
 #### Scenario 2:
 **Attacker:** trying to connect his vercel account with github enters his creds and when clicks to connect he drops that request and copy the link that was going to connect his vercel account with his account caould look like this `https://0a4f000a037a5bd682e80bc600e6003e.web-security-academy.net/oauth-linking?code=79xP_f37BIDtyt1CTJUwAqfZ0kq6lCX8RRb-8suPj0j` and send it to victim or creats an iframe and victim visits it.
-**Victim:** 
+**Victim:** Opens the link and without him knowing attacker vercel account is connected with victims github account.
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 State parameter in request:
