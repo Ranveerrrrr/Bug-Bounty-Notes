@@ -21,7 +21,8 @@ Basically when the site does not validate from where it sent the request and fro
 
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
-
+State parameter in request:
+if does not exist try doing the csrf attack 
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
 
