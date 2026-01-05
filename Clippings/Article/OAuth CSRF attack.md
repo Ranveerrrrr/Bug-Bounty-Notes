@@ -43,5 +43,7 @@ When state parm is being validated by site
 as mentioned in the Preconditions.
 ## Variations / chains
 <!-- How this connects to other attacks -->
-Attacker can connect his o
+Attacker can connect his own account with victim so when attacker login with his account he actully take over victims account.
 ## References
+https://youtu.be/EG9gU5-UBAE?si=cRJHA3nMqSCVlsuY
+https://portswigger.net/web-security/oauth/lab-oauth-forced-oauth-profile-linking
