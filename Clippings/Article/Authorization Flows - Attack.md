@@ -66,6 +66,7 @@ logic in all is just that changing of param and application nt validating it her
 - ==code== -> in contect of #OAuth/device-code-flow the code can be brute-forced #Attack/brute-force
 ## Steps To Reproduce:
 <!-- How to do this attack -->
+Implicit-flow-attack:
 ![](attachments/Pasted%20image%2020260106122849.png)
 Some times the `email` is in request/response with the `access token` you can change it to some else users email and you might get logged in asthat users{works during authozation/login}
 cause the token gets associated/linked with other user.
