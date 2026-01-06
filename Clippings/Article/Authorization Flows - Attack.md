@@ -33,9 +33,10 @@ should be using implicit authorization flow with no exchange of codes direct log
 should be same as above with one extra layer that is `authorization code`.
 
 **Authorization Code Flow with PKCE:**
-Should be usin
+Should be using `code_verifier` & `code_challenge` as documented
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
+**implicit Flow:**
 Using of the flow that is not recommended and was a part of oauth 1 and its use is discouraged
 ## Steps To Reproduce:
 <!-- How to do this attack -->
