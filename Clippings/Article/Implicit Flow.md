@@ -23,7 +23,8 @@ should be using implicit authorization flow with no exchange of codes direct log
 Using of the flow that is not recommended and was a part of oauth 1 and its use is discouraged
 ## Steps To Reproduce:
 <!-- How to do this attack -->
-
+![](attachments/Pasted%20image%2020260106122849.png)
+Some times the 
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 During login/Authorization processes
