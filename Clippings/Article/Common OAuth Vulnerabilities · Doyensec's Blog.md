@@ -47,7 +47,7 @@ Attacks against OAuth rely on challenging various assumptions the authorization 
 
 ## Implicit Flow
 
-The Implicit Flow was originally designed for native or single-page apps that cannot securely store Client Credentials. However, its use is now discouraged and is not included in the OAuth 2.1 specification. Despite this, it is still a viable authentication solution within Open ID Connect (OIDC) to retrieve `id_tokens`.
+The [[Implicit Flow]] was originally designed for native or single-page apps that cannot securely store Client Credentials. However, its use is now discouraged and is not included in the OAuth 2.1 specification. Despite this, it is still a viable authentication solution within Open ID Connect (OIDC) to retrieve `id_tokens`.
 
 In this flow, the User Agent is redirected to the Authorization Server. After performing authentication and consent, the Authorization Server directly returns the Access Token, making it accessible to the Resource Owner. This approach exposes the Access Token to the User Agent, which could be compromised through vulnerabilities like XSS or a flawed `redirect_uri` validation. The implicit flow transports the Access Token as part of the URL if the `response_mode` is not set to `form_post`.
 
