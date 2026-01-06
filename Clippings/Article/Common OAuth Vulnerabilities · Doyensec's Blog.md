@@ -60,7 +60,7 @@ In this flow, the User Agent is redirected to the Authorization Server. After pe
 
 ## Authorization Code Flow
 
-The [[Authorization Code Flow - Attack]] is one of the most widely used OAuth flows in web applications. Unlike the Implicit Flow, which requests the Access Token directly to the Authorization Server, the Authorization Code Flow introduces an intermediary step. In this process, the User Agent first retrieves an Authorization Code, which the application then exchanges, along with the Client Credentials, for an Access Token. This additional step ensures that only the Client Application has access to the Access Token, preventing the User Agent from ever seeing it.
+The Authorization Code Flow {[Implicit Flow & Authorization Code Flow - Attack](Implicit%20Flow%20&%20Authorization%20Code%20Flow%20-%20Attack.md) This is the attack methods} is one of the most widely used OAuth flows in web applications. Unlike the Implicit Flow, which requests the Access Token directly to the Authorization Server, the Authorization Code Flow introduces an intermediary step. In this process, the User Agent first retrieves an Authorization Code, which the application then exchanges, along with the Client Credentials, for an Access Token. This additional step ensures that only the Client Application has access to the Access Token, preventing the User Agent from ever seeing it.
 
 This flow is suitable exclusively for confidential applications, such as Regular Web Applications, because the application Client Credentials are included in the code exchange request and they must be kept securely stored by the Client Application.
 
