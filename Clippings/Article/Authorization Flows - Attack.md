@@ -27,61 +27,39 @@ Read about the attack here:- [Common OAuth Vulnerabilities · Doyensec's Blog](C
 ## Short definition
 <!-- If you can’t define it in one line, stop -->
 #### implicit Flow:
-
 This authorization flow does not include any authorization code there is no exchange of codes in this so changing `Redirect_uri` & `state` param like here [OAuth CSRF - Attack](OAuth%20CSRF%20-%20Attack.md)
-
 #### Authorization Code Flow
-
 This flow is same as before but this time it first gets a authorization code and then send it to server to get the `access_token`. the attacks of implicit flow will also work hackerone.com
-
 #### Authorization Code Flow with PKCE
-
 This flow is also 90% same as authorization code flow but this time with 1 extra layer added is that is uses;
-
 `code_verifier` & `code_challenge`
 
 Read about in the full documentation here [Common OAuth Vulnerabilities · Doyensec's Blog](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
 
 ## Preconditions
-
 <!-- Auth state, cache headers, victim behavior -->
-
 **implicit Flow:**
-
 should be using implicit authorization flow with no exchange of codes direct login. #OAuth/implicit-flow
 
 **Authorization Code Flow:**
-
 should be same as above with one extra layer that is `authorization code`. #OAuth/authorization-code-flow
 
 **Authorization Code Flow with PKCE:**
-
 Should be using `code_verifier` & `code_challenge` as documented. #OAuth/authorization-code-flow-pkce
 
 ## Core idea (logic, not steps)
-
 <!-- What breaks in trust or logic -->
-
 logic in all is just that changing of param and application nt validating it here are the param that are manipulated by hackers mostly:
-
 - `redirect_uri` - can be changed and t
-
 - `state`
-
 - `code`
-
 - `email` (if exist)
-
 - `code_verifier`
 
 ## Steps To Reproduce:
-
 <!-- How to do this attack -->
-
 ![](attachments/Pasted%20image%2020260106122849.png)
-
 Some times the `email` is in request/response with the `access token` you can change it to some else users email and you might get logged in asthat users{works during authozation/login}
-
 cause the token gets associated/linked with other user.
 
 &
