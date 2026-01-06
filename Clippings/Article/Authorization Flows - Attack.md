@@ -51,6 +51,7 @@ Should be using `code_verifier` & `code_challenge` as documented. #OAuth/authori
 **OpenID Connect(OIDC):** #OAuth/openid-connect
 Should be using `id_token` instead of `access_token` and `id_token` should be a #Bugs/jwt 
 
+**Device Authorization/code Flow:**
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
 logic in all is just that changing of param and application nt validating it here are the param that are manipulated by hackers mostly:
