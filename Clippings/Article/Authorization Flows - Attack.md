@@ -33,8 +33,10 @@ This flow is same as before but this time it first gets a authorization code and
 #### Authorization Code Flow with PKCE
 This flow is also 90% same as authorization code flow but this time with 1 extra layer added is that is uses;
 `code_verifier` & `code_challenge`
-
 Read about in the full documentation here [Common OAuth Vulnerabilities · Doyensec's Blog](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
+
+#### OpenID Connect(OIDC)
+
 
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
