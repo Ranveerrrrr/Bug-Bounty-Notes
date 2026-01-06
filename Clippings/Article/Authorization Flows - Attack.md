@@ -29,8 +29,11 @@ Read about in the full documentation here [Common OAuth Vulnerabilities · Doyen
 **implicit Flow:**
 should be using implicit authorization flow with no exchange of codes direct login.
 
-Authorization Code Flow:
+**Authorization Code Flow:**
+should be same as above with one extra layer that is `authorization code`.
 
+**Authorization Code Flow with PKCE:**
+Should be usin
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
 Using of the flow that is not recommended and was a part of oauth 1 and its use is discouraged
