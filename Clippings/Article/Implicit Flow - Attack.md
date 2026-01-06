@@ -31,7 +31,7 @@ cause the token gets associated/linked with other user.
 &
 
 [H1 Report - #1861974](https://hackerone.com/reports/1861974)
-- in this report attacker changed the
+- in this report attacker changed the `Redirect_uri` with using path traversal.
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 During login/Authorization processes
