@@ -20,7 +20,7 @@ should be using implicit authorization flow with no exchange of codes direct log
 
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
-
+Using of the flow that is not recommended and was a part of oauth 1 and its use is discouraged
 ## Steps To Reproduce:
 <!-- How to do this attack -->
 
@@ -40,3 +40,4 @@ should be using implicit authorization flow with no exchange of codes direct log
 <!-- How this connects to other attacks -->
 
 ## References
+https://youtu.be/roNUusZow48?si=5x_0XCGIcVQLiVPg
