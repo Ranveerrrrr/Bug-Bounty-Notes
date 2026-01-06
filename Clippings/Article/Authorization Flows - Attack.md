@@ -34,9 +34,11 @@ This flow is same as before but this time it first gets a authorization code and
 This flow is also 90% same as authorization code flow but this time with 1 extra layer added is that is uses;
 `code_verifier` & `code_challenge`
 Read about in the full documentation here [Common OAuth Vulnerabilities · Doyensec's Blog](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
-
 #### OpenID Connect(OIDC)
 OIDC is compatible with most likely all of the OAuth Flows it acts as a replacement of `access_token` here a `id_token` is given which is  a`jwt`.
+
+#### **Device Authorization/Code Flow:**
+
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 **implicit Flow:**
@@ -51,7 +53,8 @@ Should be using `code_verifier` & `code_challenge` as documented. #OAuth/authori
 **OpenID Connect(OIDC):** #OAuth/openid-connect
 Should be using `id_token` instead of `access_token` and `id_token` should be a #Bugs/jwt 
 
-**Device Authorization/code Flow:**
+**Device Authorization/Code Flow:**
+this is 
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
 logic in all is just that changing of param and application nt validating it here are the param that are manipulated by hackers mostly:
