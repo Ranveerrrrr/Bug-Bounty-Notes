@@ -29,15 +29,16 @@ Using of the flow that is not recommended and was a part of oauth 1 and its use 
 
 ## Why it’s dangerous
 <!-- What attacker gains in practice -->
-
+#Bugs/ato 
 ## Common failure points
 <!-- Why it usually fails -->
-
+When all things you change gets validated usually not.
 ## Detection mindset
 <!-- What clues tell me to try this while hacking -->
 
 ## Variations / chains
 <!-- How this connects to other attacks -->
-
+#Bugs/ato #Bugs/oauth 
 ## References
 https://youtu.be/roNUusZow48?si=5x_0XCGIcVQLiVPg
+https://portswigger.net/web-security/oauth/lab-oauth-authentication-bypass-via-oauth-implicit-flow
