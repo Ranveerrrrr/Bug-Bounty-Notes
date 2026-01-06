@@ -48,18 +48,18 @@ should be same as above with one extra layer that is `authorization code`. #OAut
 **Authorization Code Flow with PKCE:**
 Should be using `code_verifier` & `code_challenge` as documented. #OAuth/authorization-code-flow-pkce
 
-OpenID Connect(OIDC): #OAuth/openid-connect
-Should be using `id_token` instead of `access_token` and `id_token` should be a #j
+**OpenID Connect(OIDC):** #OAuth/openid-connect
+Should be using `id_token` instead of `access_token` and `id_token` should be a #Bugs/jwt 
 
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
 logic in all is just that changing of param and application nt validating it here are the param that are manipulated by hackers mostly:
-- ==redirect_uri== - can be changed and victim can be redirectedto attacker controled site. #Bugs/open-redirect 
+- ==redirect_uri== -> can be changed and victim can be redirectedto attacker controled site. #Bugs/open-redirect 
 - ==state== -> acts as a csrf token is not validated [OAuth CSRF - Attack](OAuth%20CSRF%20-%20Attack.md) can be done.
 - ==code== -> check is same code is being used and not one time use.
 - ==email== (if exist) -> changing it to other user email your `access_token` can be linked to his email.
 - ==code_verifier== -> check if can be used multiple times.
-
+- ==id_token== -> try all #Bugs/jwt 
 ## Steps To Reproduce:
 <!-- How to do this attack -->
 ![](attachments/Pasted%20image%2020260106122849.png)
