@@ -1,10 +1,12 @@
 ---
 Type: Attack
-Source: https://youtu.be/roNUusZow48?si=UZ0fsUYAVJ9ti4fn &
+Source: https://youtu.be/roNUusZow48?si=UZ0fsUYAVJ9ti4fn & https://portswigger.net/web-security/oauth/lab-oauth-authentication-bypass-via-oauth-implicit-flow
 Tags:
   - Attack
-Skill:
-Date:
+  - Bugs/ato
+  - Bugs/oauth
+Skill: ATO
+Date: 2026-01-06T12:19:00
 ---
 
 ## One-line definition
