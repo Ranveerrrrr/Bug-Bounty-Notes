@@ -57,7 +57,7 @@ this is obvies to know if the device is less interactive like tv it'll be using 
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
 logic in all is just that changing of param and application nt validating it here are the param that are manipulated by hackers mostly:
-- ==redirect_uri== -> can be changed and victim can be redirectedto attacker controled site. #Bugs/open-redirect 
+- ==redirect_uri== -> can be changed and victim can be redirectedto attacker controled site. #Bugs/open-redirect #Bugs/path-traversal 
 - ==state== -> acts as a csrf token is not validated [OAuth CSRF - Attack](OAuth%20CSRF%20-%20Attack.md) can be done.
 - ==code== -> check is same code is being used and not one time use.
 - ==email== (if exist) -> changing it to other user email your `access_token` can be linked to his email.
