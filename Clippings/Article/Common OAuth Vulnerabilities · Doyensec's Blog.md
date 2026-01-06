@@ -47,7 +47,7 @@ Attacks against OAuth rely on challenging various assumptions the authorization 
 
 ## Implicit Flow
 
-The [[Implicit Flow]] was originally designed for native or single-page apps that cannot securely store Client Credentials. However, its use is now discouraged and is not included in the OAuth 2.1 specification. Despite this, it is still a viable authentication solution within Open ID Connect (OIDC) to retrieve `id_tokens`.
+The [[Implicit Flow - Attack]] was originally designed for native or single-page apps that cannot securely store Client Credentials. However, its use is now discouraged and is not included in the OAuth 2.1 specification. Despite this, it is still a viable authentication solution within Open ID Connect (OIDC) to retrieve `id_tokens`.
 
 In this flow, the User Agent is redirected to the Authorization Server. After performing authentication and consent, the Authorization Server directly returns the Access Token, making it accessible to the Resource Owner. This approach exposes the Access Token to the User Agent, which could be compromised through vulnerabilities like XSS or a flawed `redirect_uri` validation. The implicit flow transports the Access Token as part of the URL if the `response_mode` is not set to `form_post`.
 
@@ -60,7 +60,7 @@ In this flow, the User Agent is redirected to the Authorization Server. After pe
 
 ## Authorization Code Flow
 
-The Authorization Code Flow is one of the most widely used OAuth flows in web applications. Unlike the Implicit Flow, which requests the Access Token directly to the Authorization Server, the Authorization Code Flow introduces an intermediary step. In this process, the User Agent first retrieves an Authorization Code, which the application then exchanges, along with the Client Credentials, for an Access Token. This additional step ensures that only the Client Application has access to the Access Token, preventing the User Agent from ever seeing it.
+The [[Authorization Code Flow - Attack]] is one of the most widely used OAuth flows in web applications. Unlike the Implicit Flow, which requests the Access Token directly to the Authorization Server, the Authorization Code Flow introduces an intermediary step. In this process, the User Agent first retrieves an Authorization Code, which the application then exchanges, along with the Client Credentials, for an Access Token. This additional step ensures that only the Client Application has access to the Access Token, preventing the User Agent from ever seeing it.
 
 This flow is suitable exclusively for confidential applications, such as Regular Web Applications, because the application Client Credentials are included in the code exchange request and they must be kept securely stored by the Client Application.
 
