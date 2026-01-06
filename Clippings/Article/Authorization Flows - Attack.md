@@ -37,7 +37,7 @@ Read about in the full documentation here [Common OAuth Vulnerabilities · Doyen
 #### OpenID Connect(OIDC)
 OIDC is compatible with most likely all of the OAuth Flows it acts as a replacement of `access_token` here a `id_token` is given which is  a`jwt`.
 #### **Device Authorization/Code Flow:**
-This flow is used when a device is less interactive like a smart tv or any devices that lacks inputs here a qr-code or code is shown on the display so the user can use his interactive devices like a 
+This flow is used when a device is less interactive like a smart tv or any devices that lacks inputs here a qr-code or code is shown on the display so the user can use his interactive devices like a phone to scan or enter a code displayed on the screen.
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 **implicit Flow:**
@@ -53,7 +53,7 @@ Should be using `code_verifier` & `code_challenge` as documented. #OAuth/authori
 Should be using `id_token` instead of `access_token` and `id_token` should be a #Bugs/jwt 
 
 **Device Authorization/Code Flow:**
-this is 
+this is obvies to know if the device 
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
 logic in all is just that changing of param and application nt validating it here are the param that are manipulated by hackers mostly:
