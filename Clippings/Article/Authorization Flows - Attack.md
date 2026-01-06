@@ -49,11 +49,11 @@ should be same as above with one extra layer that is `authorization code`. #OAut
 **Authorization Code Flow with PKCE:**
 Should be using `code_verifier` & `code_challenge` as documented. #OAuth/authorization-code-flow-pkce
 
-**OpenID Connect(OIDC):** #OAuth/openid-connect
-Should be using `id_token` instead of `access_token` and `id_token` should be a #Bugs/jwt 
+**OpenID Connect(OIDC):** 
+Should be using `id_token` instead of `access_token` and `id_token` should be a #Bugs/jwt. #OAuth/openid-connect
 
 **Device Authorization/Code Flow:**
-this is obvies to know if the device 
+this is obvies to know if the device is less interactive like tv it'll be using that and
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
 logic in all is just that changing of param and application nt validating it here are the param that are manipulated by hackers mostly:
