@@ -8,8 +8,10 @@ Tags:
 Skill: ATO
 Date: 2026-01-06T12:19:00
 ---
-
-## One-line definition
+## Attack Explanation:
+<!-- If explained in detail anywhere add it here -->
+Read about the attack here:- [Common OAuth Vulnerabilities · Doyensec's Blog](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
+## Short definition
 <!-- If you can’t define it in one line, stop -->
 This authorization flow does not include any authorization code there is no exchange of codes in this so changing `Redirect_uri` & `state` param like here [OAuth CSRF attack](OAuth%20CSRF%20attack.md)
 ## Preconditions
