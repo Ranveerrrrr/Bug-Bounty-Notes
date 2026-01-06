@@ -31,16 +31,16 @@ cause the token gets associated/linked with other user.
 During login/Authorization processes
 ## Why it’s dangerous
 <!-- What attacker gains in practice -->
-#Bugs/ato Attacker can login with anyones account by just changing few param like `email`
+#Bugs/ato Attacker can login with anyones account by just changing few param like `email` or `Redirect_uri` 
 ## Common failure points
 <!-- Why it usually fails -->
-When all things you change gets validated usually not.
+When all things you change gets validated. usually not.
 ## Detection mindset
 <!-- What clues tell me to try this while hacking -->
 
 ## Variations / chains
 <!-- How this connects to other attacks -->
-#Bugs/ato #Bugs/oauth #Bugs/path-traver
+#Bugs/ato #Bugs/oauth #Bugs/path-traversal
 ## References
 https://youtu.be/roNUusZow48?si=5x_0XCGIcVQLiVPg
 [Portswigger Lab](https://portswigger.net/web-security/oauth/lab-oauth-authentication-bypass-via-oauth-implicit-flow)
