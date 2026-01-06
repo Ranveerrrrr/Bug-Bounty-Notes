@@ -37,7 +37,7 @@ Read about in the full documentation here [Common OAuth Vulnerabilities · Doyen
 #### OpenID Connect(OIDC)
 OIDC is compatible with most likely all of the OAuth Flows it acts as a replacement of `access_token` here a `id_token` is given which is  a`jwt`.
 #### **Device Authorization/Code Flow:**
-This flow is used when a device is less interac
+This flow is used when a device is less interactive like a smart tv or any devices that lacks inputs here a qr-code or code is shown on the display so the user can use his interactive devices like a 
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 **implicit Flow:**
