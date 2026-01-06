@@ -44,3 +44,5 @@ When all things you change gets validated usually not.
 ## References
 https://youtu.be/roNUusZow48?si=5x_0XCGIcVQLiVPg
 https://portswigger.net/web-security/oauth/lab-oauth-authentication-bypass-via-oauth-implicit-flow
+https://hackerone.com/reports/1861974
+[H1 Report - #665651](https://hackerone.com/reports/665651)
