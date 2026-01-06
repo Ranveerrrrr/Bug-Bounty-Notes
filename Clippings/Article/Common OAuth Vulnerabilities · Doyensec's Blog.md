@@ -144,7 +144,7 @@ In this section we’ll present common attacks against OAuth with basic remediat
 
 ## CSRF
 
-[[OAuth CSRF attack]] is against OAuth flows, where the browser consuming the authorization code is different than the one that has initiated the flow. It can be used by an attacker to coerce the victim to consume their Authorization Code, causing the victim to connect with attacker’s authorization context.
+[[OAuth CSRF - Attack]] is against OAuth flows, where the browser consuming the authorization code is different than the one that has initiated the flow. It can be used by an attacker to coerce the victim to consume their Authorization Code, causing the victim to connect with attacker’s authorization context.
 
 Consider the following diagram:
 
