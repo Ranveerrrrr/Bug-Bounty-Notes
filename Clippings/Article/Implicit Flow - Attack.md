@@ -7,6 +7,7 @@ Tags:
   - Bugs/oauth
 Skill: ATO
 Date: 2026-01-06T12:19:00
+aliases:
 ---
 ## Attack Explanation:
 <!-- If explained in detail anywhere add it here -->
@@ -24,8 +25,13 @@ Using of the flow that is not recommended and was a part of oauth 1 and its use 
 ## Steps To Reproduce:
 <!-- How to do this attack -->
 ![](attachments/Pasted%20image%2020260106122849.png)
-Some times the `email` is in request with the `access token` you can change it to some else users email and you might get logged in asthat users{works during authozation/login} 
+Some times the `email` is in request/response with the `access token` you can change it to some else users email and you might get logged in asthat users{works during authozation/login} 
 cause the token gets associated/linked with other user.
+
+&
+
+[H1 Report - #1861974](https://hackerone.com/reports/1861974)
+- in this report attacker changed the
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 During login/Authorization processes
