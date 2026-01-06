@@ -36,11 +36,8 @@ should be same as above with one extra layer that is `authorization code`. #OAut
 Should be using `code_verifier` & `code_challenge` as documented. #OAuth/authorization-code-flow-pkce
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
-**implicit Flow:** 
-Using of the flow that is not recommended and was a part of oauth 1 and its use is discouraged
-
-**Authorization Code Flow:**
-
+logic in all is just that changing of param and application nt validating it here are the param that are manipulated by hackers mostly:
+``
 ## Steps To Reproduce:
 <!-- How to do this attack -->
 ![](attachments/Pasted%20image%2020260106122849.png)
