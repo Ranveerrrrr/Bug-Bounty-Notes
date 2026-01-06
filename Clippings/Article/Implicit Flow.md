@@ -24,7 +24,8 @@ Using of the flow that is not recommended and was a part of oauth 1 and its use 
 ## Steps To Reproduce:
 <!-- How to do this attack -->
 ![](attachments/Pasted%20image%2020260106122849.png)
-Some times the `email` is in request with the `access token` you can change it to some else users email and you might get logged in as hat users{works during }
+Some times the `email` is in request with the `access token` you can change it to some else users email and you might get logged in asthat users{works during authozation/login} 
+cause the token gets aussocieted 
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 During login/Authorization processes
