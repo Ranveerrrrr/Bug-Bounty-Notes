@@ -37,7 +37,12 @@ Should be using `code_verifier` & `code_challenge` as documented. #OAuth/authori
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
 logic in all is just that changing of param and application nt validating it here are the param that are manipulated by hackers mostly:
-``
+- `redirect_uri` - can be changed and t
+- `state`
+- `code`
+- `email` (if exist)
+- `code_verifier`
+
 ## Steps To Reproduce:
 <!-- How to do this attack -->
 ![](attachments/Pasted%20image%2020260106122849.png)
