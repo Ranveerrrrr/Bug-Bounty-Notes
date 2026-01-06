@@ -36,7 +36,7 @@ This flow is also 90% same as authorization code flow but this time with 1 extra
 Read about in the full documentation here [Common OAuth Vulnerabilities · Doyensec's Blog](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
 
 #### OpenID Connect(OIDC)
-OIDC is compatible with most likely all of the OAuth Flows 
+OIDC is compatible with most likely all of the OAuth Flows it acts as a replacement of `access_token` here a `id_token` is given 
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 **implicit Flow:**
