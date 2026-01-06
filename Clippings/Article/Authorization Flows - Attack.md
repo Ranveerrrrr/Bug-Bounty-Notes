@@ -27,16 +27,16 @@ Read about in the full documentation here [Common OAuth Vulnerabilities · Doyen
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 **implicit Flow:**
-should be using implicit authorization flow with no exchange of codes direct login.
+should be using implicit authorization flow with no exchange of codes direct login. #OAuth/implicit-flow
 
 **Authorization Code Flow:**
-should be same as above with one extra layer that is `authorization code`.
+should be same as above with one extra layer that is `authorization code`. #OAuth/authorization
 
 **Authorization Code Flow with PKCE:**
 Should be using `code_verifier` & `code_challenge` as documented
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
-**implicit Flow:**
+**implicit Flow:** 
 Using of the flow that is not recommended and was a part of oauth 1 and its use is discouraged
 ## Steps To Reproduce:
 <!-- How to do this attack -->
