@@ -50,7 +50,7 @@ Should be using `code_verifier` & `code_challenge` as documented. #OAuth/authori
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
 logic in all is just that changing of param and application nt validating it here are the param that are manipulated by hackers mostly:
-- `redirect_uri` - can be changed and t
+- `redirect_uri` - can be changed and victim can be redirectedto attacker controled site.
 - `state`
 - `code`
 - `email` (if exist)
@@ -65,43 +65,29 @@ cause the token gets associated/linked with other user.
 &
 
 [H1 Report - #1861974](https://hackerone.com/reports/1861974)
-
 - in this report attacker changed the `Redirect_uri` with using path traversal.
 
 ## Where it actually works
-
 <!-- APIs, static endpoints, edge caches -->
-
 During login/Authorization processes
 
 ## Why it’s dangerous
-
 <!-- What attacker gains in practice -->
-
 #Bugs/ato Attacker can login with anyones account by just changing few param like `email` or `Redirect_uri`
 
 ## Common failure points
-
 <!-- Why it usually fails -->
-
 When all things you change gets validated. usually not.
 
 ## Detection mindset
-
 <!-- What clues tell me to try this while hacking -->
 
 ## Variations / chains
-
 <!-- How this connects to other attacks -->
-
 #Bugs/ato #Bugs/oauth #Bugs/path-traversal
 
 ## References
-
 https://youtu.be/roNUusZow48?si=5x_0XCGIcVQLiVPg
-
 [Portswigger Lab](https://portswigger.net/web-security/oauth/lab-oauth-authentication-bypass-via-oauth-implicit-flow)
-
 [H1 Report - #1861974](https://hackerone.com/reports/1861974)
-
 [H1 Report - #665651](https://hackerone.com/reports/665651)
