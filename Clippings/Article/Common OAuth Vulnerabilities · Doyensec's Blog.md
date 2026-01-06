@@ -73,7 +73,7 @@ This flow is suitable exclusively for confidential applications, such as Regular
 
 ## Authorization Code Flow with PKCE
 
-OAuth 2.0 provides a version of the Authorization Code Flow which makes use of a Proof Key for Code Exchange (PKCE). This OAuth flow was originally designed for applications that cannot store a Client Secret, such as native or single-page apps but it has become the main recommendation in the [OAuth 2.1 specification](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-01).
+OAuth 2.0 provides a version of the Authorization Code Flow which makes []()use of a Proof Key for Code Exchange (PKCE). This OAuth flow was originally designed for applications that cannot store a Client Secret, such as native or single-page apps but it has become the main recommendation in the [OAuth 2.1 specification](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-01).
 
 Two new parameters are added to the default Authorization Code Flow, a random generated value called `code_verifier` and its transformed version, the `code_challenge`.
 
