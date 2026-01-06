@@ -11,7 +11,7 @@ Date: 2026-01-06T12:19:00
 
 ## One-line definition
 <!-- If you can’t define it in one line, stop -->
-
+This authorization flow does not include any authorization code there is no exchange of codes in this so changing `Redi`
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 
