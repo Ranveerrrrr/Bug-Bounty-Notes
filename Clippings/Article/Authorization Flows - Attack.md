@@ -14,7 +14,10 @@ aliases:
 Read about the attack here:- [Common OAuth Vulnerabilities · Doyensec's Blog](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
 ## Short definition
 <!-- If you can’t define it in one line, stop -->
+#### implicit Flow:
 This authorization flow does not include any authorization code there is no exchange of codes in this so changing `Redirect_uri` & `state` param like here [OAuth CSRF - Attack](OAuth%20CSRF%20-%20Attack.md)
+
+
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 should be using implicit authorization flow with no exchange of codes direct login.
