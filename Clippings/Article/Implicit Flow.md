@@ -26,10 +26,10 @@ Using of the flow that is not recommended and was a part of oauth 1 and its use 
 
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
-
+During login/Authorization processes
 ## Why it’s dangerous
 <!-- What attacker gains in practice -->
-#Bugs/ato 
+#Bugs/ato Attacker can login with anyones account by just changing few param like `email`
 ## Common failure points
 <!-- Why it usually fails -->
 When all things you change gets validated usually not.
