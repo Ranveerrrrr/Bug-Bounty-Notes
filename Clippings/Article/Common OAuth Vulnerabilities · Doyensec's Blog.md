@@ -324,7 +324,7 @@ Thanks to this design, rogue applications cannot register their own Intent Filte
 - [https://developer.apple.com/documentation/xcode/supporting-associated-domains](https://developer.apple.com/documentation/xcode/supporting-associated-domains)
 - [https://blog.ostorlab.co/one-scheme-to-rule-them-all.html](https://blog.ostorlab.co/one-scheme-to-rule-them-all.html)
 - [https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-01#section-9.8-8](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-01#section-9.8-8)
-
+- https://www.oauth.com/playground/
 ## Summary
 
 This article provides a comprehensive list of attacks and defenses for the OAuth protocol. Along with the post itself, we are releasing a comprehensive cheat-sheet for developers and testers.
