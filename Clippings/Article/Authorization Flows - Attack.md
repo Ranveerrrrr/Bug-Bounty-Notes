@@ -21,6 +21,7 @@ This authorization flow does not include any authorization code there is no exch
 This flow is same as before but this time it first gets a authorization code and then send it to server to get the `access_token`. the attacks of implicit flow will also work hackerone.com
 
 #### Authorization Code Flow with PKCE
+This flow is also 90% same as authorization code flow but this time with 1 extra layer added is that is uses;
 
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
