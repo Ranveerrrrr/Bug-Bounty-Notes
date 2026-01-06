@@ -14,7 +14,7 @@ Date: 2026-01-06T12:19:00
 This authorization flow does not include any authorization code there is no exchange of codes in this so changing `Redirect_uri` & `state` param like here [OAuth CSRF attack](OAuth%20CSRF%20attack.md)
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
-should vbe 
+should be using implicit authorization flow with no 
 
 ## Core idea (logic, not steps)
 <!-- What breaks in trust or logic -->
