@@ -18,7 +18,10 @@ Read about the attack here:- [Common OAuth Vulnerabilities · Doyensec's Blog](C
 This authorization flow does not include any authorization code there is no exchange of codes in this so changing `Redirect_uri` & `state` param like here [OAuth CSRF - Attack](OAuth%20CSRF%20-%20Attack.md)
 
 #### Authorization Code Flow
-This flow is same as before but this time it first gets a authorization code and then send it to server to get the auth
+This flow is same as before but this time it first gets a authorization code and then send it to server to get the `access_token`. the attacks of implicit flow will also work hackerone.com
+
+#### Authorization Code Flow with PKCE
+
 ## Preconditions
 <!-- Auth state, cache headers, victim behavior -->
 should be using implicit authorization flow with no exchange of codes direct login.
