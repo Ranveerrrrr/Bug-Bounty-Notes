@@ -87,7 +87,7 @@ GET /auth?client_id=[...]&redirect_uri=[...]
 
 &
 [Client Confusion Attack](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
-- in this attack when vulneerable site is using impll
+- in this attack when vulneerable site is using implit flow and not validating i
 
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
