@@ -78,7 +78,10 @@ cause the token gets associated/linked with other user.
 
 & 
 [ATO via redirect_uri](https://portswigger.net/web-security/oauth/lab-oauth-account-hijacking-via-redirect-uri)
-
+- when linking and account following request is generated:
+- ```
+  
+  ```
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 During login/Authorization processes
