@@ -86,6 +86,7 @@ GET /auth?client_id=[...]&redirect_uri=[...]
 - when attacker changes this to its own server through server logs he can see whats the code and do #Bugs/ato 
 
 &
+**Client Confusion Attack**
 
 
 ## Where it actually works
