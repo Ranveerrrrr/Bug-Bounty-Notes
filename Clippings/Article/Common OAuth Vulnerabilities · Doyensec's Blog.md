@@ -214,7 +214,7 @@ In the screenshot above, there’s an example user created, that could be used t
 - [https://www.descope.com/blog/post/noauth](https://www.descope.com/blog/post/noauth)
 
 ## Client Confusion Attack
-
+[Authorization Flows Client Confusion - Attack](Authorization%20Flows%20-%20Attack.md)
 When applications implement OAuth Implicit Flow for authentication they should verify that the final provided token was generated for that specific Client ID. If this check is not performed, it would be possible for an attacker to use an Access Token that had been generated for a different Client ID.
 
 Imagine the attacker creates a public website which allows users to log in with Google’s OAuth Implicit flow. Assuming thousands of people connect to the hosted website, the attacker would then have access to their Google’s OAuth Access Tokens generated for the attacker website.
