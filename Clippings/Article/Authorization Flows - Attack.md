@@ -86,8 +86,8 @@ GET /auth?client_id=[...]&redirect_uri=[...]
 - when attacker changes this to its own server through server logs he can see whats the code and do #Bugs/ato 
 
 &
-[](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
-
+[Client Confusion Attack](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
+- in this attack when vulneerable site is using impll
 
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
