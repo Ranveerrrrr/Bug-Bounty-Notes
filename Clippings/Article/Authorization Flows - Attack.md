@@ -82,7 +82,8 @@ cause the token gets associated/linked with other user.
 ```
 GET /auth?client_id=[...]&redirect_uri=[...]
 ```
-- If `redirect_uri` is changed to something else the authoorization server will redirect user
+- If `redirect_uri` is changed to something else the authoorization server will redirect user to that site with the `code`
+- when attacker changes this to its own server through server logs he can see whats the code and do #Bugs/ato 
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 During login/Authorization processes
