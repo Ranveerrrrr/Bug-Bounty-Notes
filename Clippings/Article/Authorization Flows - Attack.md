@@ -86,7 +86,7 @@ GET /auth?client_id=[...]&redirect_uri=[...]
 - when attacker changes this to its own server through server logs he can see whats the code and do #Bugs/ato 
 
 &
-**Client Confusion Attack**
+[](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
 
 
 ## Where it actually works
