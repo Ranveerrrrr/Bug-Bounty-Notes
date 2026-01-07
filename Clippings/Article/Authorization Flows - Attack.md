@@ -86,11 +86,12 @@ GET /auth?client_id=[...]&redirect_uri=[...]
 - when attacker changes this to its own server through server logs he can see whats the code and do #Bugs/ato 
 
 &
-[Client Confusion Attack](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
+c
 - in this attack when vulneerable site is using implit flow and not validating if the creds generated are for the site itself or not if attacker is running his own site and extractes the access token of commen users of a vulnerable site he can use them. this attack works both in implicit flow and [Facebook ATO](https://hackerone.com/reports/314808) both ways #Bugs/ato is possible.
 
 & 
 [Scope Upgrade Attack](https://chatgpt.com/share/695e608a-3a40-8013-b0a7-9ba6497a7f5b)
+[[Client Confusion Attack](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)]
 - this attack will work on servers that are independent and not servers like google.
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
