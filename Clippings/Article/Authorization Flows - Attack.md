@@ -91,7 +91,7 @@ GET /auth?client_id=[...]&redirect_uri=[...]
 
 & 
 [Scope Upgrade Attack](https://chatgpt.com/share/695e608a-3a40-8013-b0a7-9ba6497a7f5b)
-- this attack will work on servers that are inde
+- this attack will work on servers that are independent and not serverd
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 During login/Authorization processes
