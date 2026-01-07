@@ -91,7 +91,7 @@ c
 
 & 
 [Scope Upgrade Attack](https://chatgpt.com/share/695e608a-3a40-8013-b0a7-9ba6497a7f5b)
-[Scope Upgrade Explainaton Attack](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
+[Scope Upgrade Explainaton](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
 - this attack will work on servers that are independent and not servers like google.
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
