@@ -87,7 +87,7 @@ GET /auth?client_id=[...]&redirect_uri=[...]
 
 &
 [Client Confusion Attack](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
-- in this attack when vulneerable site is using implit flow and not validating if the creds generated are for the site itself or not if attacker is running his own site and extractes the access token of commen users of a vulnerable site he can use them. thid
+- in this attack when vulneerable site is using implit flow and not validating if the creds generated are for the site itself or not if attacker is running his own site and extractes the access token of commen users of a vulnerable site he can use them. this attack works both in implicit flow and 
 
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
