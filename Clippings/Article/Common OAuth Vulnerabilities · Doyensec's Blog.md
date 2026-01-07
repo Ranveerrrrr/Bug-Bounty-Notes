@@ -238,7 +238,7 @@ It is worth noting, that even if the Client uses a more secure flow (e.g. Explic
 - [https://salt.security/blog/oh-auth-abusing-oauth-to-take-over-millions-of-accounts](https://salt.security/blog/oh-auth-abusing-oauth-to-take-over-millions-of-accounts)
 
 ## Scope Upgrade Attack
-[[]]
+[Authorization Flows - Attack on independent servers](Authorization%20Flows%20-%20Attack.md)
 With the Authorization Code Grant type, the user’s data is requested and sent via secure server-to-server communication.
 
 If the Authorization Server accepts and implicitly trusts a `scope` parameter sent in the Access Token Request (Note this parameter is not specified in the RFC for the Access Token Request in the Authorization Code Flow), a malicious application could try to upgrade the scope of Authorization Codes retrieved from user callbacks by sending a higher privileged scope in the Access Token Request.
