@@ -82,7 +82,7 @@ cause the token gets associated/linked with other user.
 ```
 GET /auth?client_id=[...]&redirect_uri=[...]
 ```
-- If `redirect_uri` is changed to something else the authoorization server will 
+- If `redirect_uri` is changed to something else the authoorization server will redirect user
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 During login/Authorization processes
