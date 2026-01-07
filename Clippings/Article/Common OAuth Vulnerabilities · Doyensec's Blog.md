@@ -169,7 +169,7 @@ The following scheme illustrates how the `state` parameter can prevents the atta
 - [Justin Richer, Antonio Sanso, (2017), *OAuth 2 In Action*](https://www.amazon.com/OAuth-2-Action-Justin-Richer/dp/161729327X)
 
 ## Redirect Attacks
-
+[Authorization Flows Redirect - Attack](Authorization%20Flows%20-%20Attack.md)
 Well implemented Authorization Servers validate the `redirect_uri` parameter before redirecting the User Agent back to the Client. The allowlist of `redirect_uri` values should be configured per-client. Such design ensures that the User Agent can only be redirected to the Client and the Authorization Code will be only disclosed to the given Client. Conversely, if the Authorization Server neglects or misimplements this verification, a malicious actor can manipulate a victim to complete a flow that will disclose their Authorization Code to an untrusted party.
 
 In the simplest form, when `redirect_uri` validation is missing altogether, exploitation can be illustrated with the following flow:
