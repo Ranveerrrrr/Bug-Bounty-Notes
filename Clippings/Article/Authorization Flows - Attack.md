@@ -96,12 +96,14 @@ GET /auth?client_id=[...]&redirect_uri=[...]
 &
 [Redirect Scheme Hijacking](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
 - this attack is not just about web hacking its more about appsec 
-- when app uses a sceme like 
+- when app uses a scheme like 
 ```
 myapp://callback?code=XXXX
 myapp://oauth
 com.company.app://callback
 ```
+- these scheme are not unique to one app any app can use any.
+- so if 
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 During login/Authorization processes
