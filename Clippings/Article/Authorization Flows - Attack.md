@@ -103,7 +103,8 @@ myapp://oauth
 com.company.app://callback
 ```
 - these scheme are not unique to one app any app can use any.
-- so if an attacker creates his own app with same scheme an attacker can redirect the callbacks for the orignal app and doe
+- so if an attacker creates his own app with same scheme an attacker can redirect the callbacks for the orignal app and does can steal `access_token`
+- processes to d
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 During login/Authorization processes
