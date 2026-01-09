@@ -7,12 +7,25 @@ tags:
   - Clippings
   - Research
   - OAuth
-Finished: false
+Finished: true
 Cover: https://cdn.openai.com/chatgpt/share-og.png
 Site: ChatGPT
 ---
 ## Highlights
 Access token vs Refresh Token
+> **Access token = house key (temporary)**  
+> **Refresh token = key-making machine**
+#### 🐞 Bug Bounty Angles (Important for You)
+You should **report** if you find:
+
+🚩 Refresh token in:
+- `localStorage`
+- `sessionStorage`
+- JavaScript-accessible cookies
+🚩 Long-lived access tokens (hours/days)
+🚩 Same refresh token reused after rotation
+🚩 Refresh token usable from **any IP/device**
+🚩 Access token accepted at token endpoint (scope upgrade risk)
 
 ---
 ## Full Page Content
