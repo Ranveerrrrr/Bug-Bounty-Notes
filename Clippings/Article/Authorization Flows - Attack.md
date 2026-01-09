@@ -105,7 +105,7 @@ com.company.app://callback
 - these scheme are not unique to one app any app can use any.
 - so if an attacker creates his own app with same scheme an attacker can redirect the callbacks for the orignal app and does can steal `access_token`
 - processes to do so:
-- sappose an app called my app with scheme `myapp` send authorization re
+- suppose an app called my app with scheme `myapp` send authorization request to authorization serve
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 During login/Authorization processes
