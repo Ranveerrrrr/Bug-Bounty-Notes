@@ -16,6 +16,7 @@ kanban-plugin: board
 - [ ] Web LLM attacks
 - [ ] Authentication vulnerabilities
 - [ ] Smugggler -Tool
+- [ ] SSTI
 
 
 ## Up Skilling
