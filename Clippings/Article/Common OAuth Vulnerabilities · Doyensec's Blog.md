@@ -1,14 +1,14 @@
 ---
-title: "Common OAuth Vulnerabilities · Doyensec's Blog"
-Type: "Article"
+title: Common OAuth Vulnerabilities · Doyensec's Blog
+Type: Article
 published:
-Source: "https://blog.doyensec.com/2025/01/30/oauth-common-vulnerabilities.html"
+Source: https://blog.doyensec.com/2025/01/30/oauth-common-vulnerabilities.html
 Creator:
 date: 2026-01-03
 tags:
-  - "Clippings"
-  - "Article"
-Finished: false
+  - Clippings
+  - Article
+Finished: true
 Cover:
 Site: "#oauth-2-0-terminology, https://auth0.com/docs/get-started/authentication-and-authorization-flow/implicit-flow-with-form-post, https://cloudentity.com/developers/basics/oauth-grant-types/authorization-code-flow/, https://auth0.com/docs/get-started/authentication-and-authorization-flow/device-authorization-flow"
 ---
