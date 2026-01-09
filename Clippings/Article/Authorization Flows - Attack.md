@@ -98,7 +98,9 @@ GET /auth?client_id=[...]&redirect_uri=[...]
 - this attack is not just about web hacking its more about appsec 
 - when app uses a sceme like 
 ```
-
+myapp://callback?code=XXXX
+myapp://oauth
+com.company.app://callback
 ```
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
