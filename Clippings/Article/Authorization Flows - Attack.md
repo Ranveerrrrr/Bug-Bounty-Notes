@@ -95,6 +95,7 @@ GET /auth?client_id=[...]&redirect_uri=[...]
 
 &
 [Redirect Scheme Hijacking](Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
+- this attack is not just about web hacking its more about appsec 
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 During login/Authorization processes
