@@ -107,6 +107,7 @@ com.company.app://callback
 - processes to do so:
 - suppose an app called my app with scheme `myapp` send authorization request to authorization server 
 - callback comes android and the system searchs for who asked for the token and it sees the `redirect_uri=myapp` it searchs the system for app `myapp` and instead of your app it forwards the request to the melicious app which has same scheme as `myapp` so now authorization token is stolen.
+- Refrence: [Chatgpt convo](https://chatgpt.com/share/6960c6ac-b4a0-8013-a8ae-66da78032b00)
 ## Where it actually works
 <!-- APIs, static endpoints, edge caches -->
 During login/Authorization processes
