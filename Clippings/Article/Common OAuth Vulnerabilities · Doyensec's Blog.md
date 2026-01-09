@@ -261,7 +261,7 @@ The Authorization Server should either ignore the `scope` parameter or verify it
 - [https://datatracker.ietf.org/doc/html/rfc6749#section-3.3](https://datatracker.ietf.org/doc/html/rfc6749#section-3.3)
 
 ## Redirect Scheme Hijacking
-
+[Authorization Flows - Attack](Authorization%20Flows%20-%20Attack.md)
 When the need to use OAuth on mobile arises, the mobile application takes the role of OAuth User Agents. In order for them to be able to receive the redirect with Authorization Code developers often rely on the mechanism of custom schemes. However, multiple applications can register given scheme on a given device. This breaks OAuth’s assumption that the Client is the only one to control the configured `redirect_uri` and may lead to Authorization Code takeover in case a malicious app is installed in victim’s devices.
 
 Android Intent URIs have the following structure:
