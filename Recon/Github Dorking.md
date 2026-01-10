@@ -4,6 +4,7 @@ Source: https://youtu.be/xz_jeBxTJ58?si=JEp4l4UNw2pO7ttO
 Type: Video
 tags:
   - Recon/Git-dorking
+  - Recon
 Creator: Medusa
 Key_Takeaway: Dorks for Github | Github Dorking to find secrets
 Difficulty: Beginner
