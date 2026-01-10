@@ -1,3 +1,9 @@
+---
+tags:
+  - Recon
+  - Recon/ip
+---
+
 [[Recon]][[My Methodology]]
 https://youtu.be/R3hmZpkvCmc?si=khB07RUtHHwZ8Hsm
 [[My Methodology]]

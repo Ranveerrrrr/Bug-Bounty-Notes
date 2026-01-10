@@ -1,3 +1,9 @@
+---
+tags:
+  - Recon
+  - R
+---
+
 https://youtu.be/7hf-WQ0Idhg?si=CWGYbBKhPDzA9abq
 
 
