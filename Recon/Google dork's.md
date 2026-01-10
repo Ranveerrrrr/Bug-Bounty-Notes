@@ -1,6 +1,7 @@
 ---
 tags:
   - Recon
+  - Recon/Dorks
 ---
 
 ### Finding Login Panels

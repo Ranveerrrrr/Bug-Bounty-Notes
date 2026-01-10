@@ -1,3 +1,9 @@
+---
+tags:
+  - Recon
+  - Recon/js-recon
+---
+
 katana -u dev.checkin.experience.porsche.com -d 5 -jc | grep '\.js$' | tee alljs.txt
 or 
 stdbuf -oL katana -u hilton.com -d 5 -jc | grep --line-buffered '\.js$' | tee alljs.txt
