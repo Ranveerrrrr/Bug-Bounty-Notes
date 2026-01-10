@@ -1,3 +1,8 @@
+---
+tags:
+  - Recon
+  - Recon/methodology
+---
 
 subfinder -d eg.com > subdomain.txt
 

@@ -1,6 +1,8 @@
 ---
 tags:
   - Recon
+  - Recon/Dorks
+  - Recon/shodan
 ---
 
 **http.component:"Next.js' 200** 
