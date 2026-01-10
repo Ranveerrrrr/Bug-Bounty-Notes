@@ -1,6 +1,5 @@
 ---
 tags:
-  - Recon
   - Recon/fuzzing
 ---
 
