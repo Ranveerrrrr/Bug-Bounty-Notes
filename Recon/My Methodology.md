@@ -1,3 +1,8 @@
+---
+tags:
+  - Recon/methodology
+  - Recon
+---
 
 [[Lostsec Methodology]],[[Ultimate Recon]],[[Nahamsec Methodology]],[[Recon.exe - Lostsec]]
 

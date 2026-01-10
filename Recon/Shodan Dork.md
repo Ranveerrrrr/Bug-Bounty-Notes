@@ -1,3 +1,8 @@
+---
+tags:
+  - Recon
+---
+
 **http.component:"Next.js' 200** 
 - to find a website using particular component like "next.js"
 - Click 'More' below country's in left side bar - replace 'country' -> 'ip'
