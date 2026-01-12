@@ -14,7 +14,7 @@ tags:
   - Travel
 Thoughts: Thought I could look at some high priority assets
 Bugs:
-  - "[[../../../Template/POC]]"
+  - "[[../../Template/POC]]"
 Notes:
 Finished: false
 ---
