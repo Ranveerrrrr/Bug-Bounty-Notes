@@ -45,5 +45,4 @@ tags: #weekly-review
 ---
 
 ## 🎯 Next Week’s Focus (ONLY 1–2)
-- 
-- 
+- [ ] 
