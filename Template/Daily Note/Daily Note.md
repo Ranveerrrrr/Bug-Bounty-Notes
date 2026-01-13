@@ -61,4 +61,4 @@ tags: #daily #learning #bugbounty
 ---
 
 ## ➡️ Tomorrow
-- 
+- [ ] 
