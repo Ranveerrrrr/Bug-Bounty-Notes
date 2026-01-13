@@ -68,11 +68,11 @@ tags: #monthly-review #audit
 
 ## 🎯 Next Month — NON-NEGOTIABLE
 **Primary focus (ONLY 1):**
-- 
+- [ ] 
 
 **Secondary (optional):**
-- 
+- [ ] 
 
 **Rules for next month:**
-- 
-- 
+- [ ] 
+- [ ] 
