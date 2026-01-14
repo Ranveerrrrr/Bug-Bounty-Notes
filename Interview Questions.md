@@ -17,4 +17,7 @@ What's phishing?
 It's a social engineering technique where an attacker tricks a user to provide confidential data
 
 What the diff b/w symmetric and asymmetric encryption?
-Symmetric uses one key for encryption and decryption both 
+Symmetric uses one key for encryption and decryption both and asymmetric uses 2 keys one public key and one private key for decryption 
+
+What is malware?
+Malware is a software which can have work trajon 
