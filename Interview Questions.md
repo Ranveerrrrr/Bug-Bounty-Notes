@@ -24,3 +24,9 @@ Malware is a software which can have work trajon viruses designed to disrupt dam
 
 What penetration testing?
 A simulation of an cyber attack on company system performed to test system defence to find vulnerabilitys before attackers do
+
+Confused about questions?
+What ssl certificate 
+What cyber kill chain what CIA triad
+Dif b/w symmetric and asymmetric encryption 
+Osi model explain 
