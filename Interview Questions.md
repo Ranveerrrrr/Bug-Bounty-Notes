@@ -3,3 +3,6 @@ Cybersecurity is the practice of protecting systems, network and data from digit
 
 Diff b/w threat, vulnerability and risk?
 A threat is a potential danger a vulnerability is weakness and risk is likelihood a threat will exploit vulnerability 
+
+What is the CIA triad?
+Confidentiality, integrity, availability - confidentiality is 
