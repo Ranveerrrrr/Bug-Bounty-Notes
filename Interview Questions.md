@@ -32,4 +32,6 @@ Dif b/w symmetric and asymmetric encryption
 Osi model explain 
 Dif b/w threat, risk and vulnerabiliy 
 What's csrf
-What's 
+What's cors
+What's owasp top 10
+Yr fav vuln 
