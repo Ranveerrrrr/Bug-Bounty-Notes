@@ -14,4 +14,7 @@ What's 2fa?
 2fa requires more proofs that you are what you say you are often a otp cauld be a biometric.
 
 What's phishing?
-It's a social engineering technique where an attacker tricks a user to provide confid
+It's a social engineering technique where an attacker tricks a user to provide confidential data
+
+What the diff b/w symmetric and asymmetric encryption?
+Symmetric uses one key for encryption and decryption both 
