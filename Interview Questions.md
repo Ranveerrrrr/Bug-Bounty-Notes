@@ -35,3 +35,5 @@ What's csrf
 What's cors
 What's owasp top 10
 Yr fav vuln 
+How does trace route work
+What the incident response process
