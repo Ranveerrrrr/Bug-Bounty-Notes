@@ -23,4 +23,4 @@ What is malware?
 Malware is a software which can have work trajon viruses designed to disrupt damage of system or stealing of data
 
 What penetration testing?
-A simulation of an cyber attack on company system perfor
+A simulation of an cyber attack on company system performed to test system defence to find vulnerabilitys before attackers do
