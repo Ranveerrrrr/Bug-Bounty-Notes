@@ -5,4 +5,6 @@ Diff b/w threat, vulnerability and risk?
 A threat is a potential danger a vulnerability is weakness and risk is likelihood a threat will exploit vulnerability 
 
 What is the CIA triad?
-Confidentiality, integrity, availability - confidentiality is how secret the user data stored and integrity is that the 
+Confidentiality, integrity, availability - confidentiality is how secret the user data stored and integrity is that the data is not tempered and availableilty is if user can have his data back when wants
+
+What's a firewall?
