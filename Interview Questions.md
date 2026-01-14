@@ -11,4 +11,5 @@ What's a firewall?
 A firewall is a software or hardware which monitors and controls incoming and outgoing traffic of a network based on the rules
 
 What's 2fa
-2fa requires more proofs 
+2fa requires more proofs that you are what you say you are often a otp cauld be a biometric.
+
