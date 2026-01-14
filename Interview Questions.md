@@ -30,3 +30,6 @@ What ssl certificate
 What cyber kill chain what CIA triad
 Dif b/w symmetric and asymmetric encryption 
 Osi model explain 
+Dif b/w threat, risk and vulnerabiliy 
+What's csrf
+What's 
