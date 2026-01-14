@@ -20,4 +20,7 @@ What the diff b/w symmetric and asymmetric encryption?
 Symmetric uses one key for encryption and decryption both and asymmetric uses 2 keys one public key and one private key for decryption 
 
 What is malware?
-Malware is a software which can have work trajon viruses designed to disrupt 
+Malware is a software which can have work trajon viruses designed to disrupt damage of system or stealing of data
+
+What penetration testing?
+A simulation of an cyber attack on company system perfor
