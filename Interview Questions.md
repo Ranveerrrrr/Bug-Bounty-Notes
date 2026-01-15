@@ -66,8 +66,6 @@ Confused about questions?
 What ssl certificate 
 What cyber kill chain what CIA triad
 Dif b/w symmetric and asymmetric encryption 
-Osi model explain 
-Dif b/w threat, risk and vulnerabiliy 
 What's csrf
 What's cors
 What's owasp top 10
@@ -81,6 +79,5 @@ What's miter attack framework
 0 trust framework 
 What's DHCP
 What's Arp
-What's aaa
 Firewall and it's diff kind 
 Diff b/w statefull and stateless firewall
