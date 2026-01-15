@@ -26,8 +26,8 @@ P - Prentation layer (SSL ,FTP , JPEG, SSH)
 S - Session layer (APIs, Socket, WinSock)
 T - Transport layer (TCP, UDP)
 N - Network layer (Packets, IP, ICMP)
-D - Data link layer (Frames, Ethernet)
-P - Physical layer
+D - Data link layer (Frames, Ethernet, PPP , Switch, Bridge)
+P - Physical layer (Coax, Fiber, Hubs, Wireless, Repeaters, Physical Structure)
 
 What's a firewall?
 A firewall is a software or hardware which monitors and controls incoming and outgoing traffic of a network based on the rules
