@@ -34,7 +34,8 @@ D - Data link layer (Frames, Ethernet, PPP , Switch, Bridge)
 P - Physical layer (Coax, Fiber, Hubs, Wireless, Repeaters, Physical Structure)
 
 ---
-What 
+What are HIDS and NIDS?
+HIDS - Host 
 What's a firewall?
 A firewall is a software or hardware which monitors and controls incoming and outgoing traffic of a network based on the rules
 
