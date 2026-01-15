@@ -19,7 +19,10 @@ Autharization - What are your privilages? (are you admin or part of internal tea
 Accounting - logging what happens
 
 ---
-
+Whats OSI Model?
+"A Priest saw two nuns doing pushup"
+A - Application layer
+P - 
 
 What's a firewall?
 A firewall is a software or hardware which monitors and controls incoming and outgoing traffic of a network based on the rules
