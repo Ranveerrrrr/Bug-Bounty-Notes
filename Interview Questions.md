@@ -21,9 +21,9 @@ Accounting - logging what happens
 ---
 Whats OSI Model?
 "A Priest saw two nuns doing pushup"
-A - Application layer (Web browser or any software)
-P - Prentation layer ()
-S - Session layer
+A - Application layer (HTTP , FTP , SSH)
+P - Prentation layer (SSL ,FTP , JPEG, SSH)
+S - Session layer (AP)
 T - Transport layer
 N - Network layer
 D - Data link layer
