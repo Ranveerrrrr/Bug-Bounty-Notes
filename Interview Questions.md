@@ -1,11 +1,12 @@
 What is Cybersecurity?
 Cybersecurity is the practice of protecting systems, network and data from digital attacks, unauthorised access or damage
 
+---
 Diff b/w threat, vulnerability and risk?
 A threat is a potential danger a vulnerability is weakness and risk is likelihood a threat will exploit vulnerability 
 Vulnerability - Flaw in system
-Threat- DDos malware 
-Risk - 
+Threat- DDos malware etc
+Risk - likelyhood vulnerability will get exploit
 
 ---
 **What is the CIA triad?**
@@ -33,8 +34,7 @@ D - Data link layer (Frames, Ethernet, PPP , Switch, Bridge)
 P - Physical layer (Coax, Fiber, Hubs, Wireless, Repeaters, Physical Structure)
 
 ---
-Whats TCP 3 Way Handshake?
-
+What 
 What's a firewall?
 A firewall is a software or hardware which monitors and controls incoming and outgoing traffic of a network based on the rules
 
