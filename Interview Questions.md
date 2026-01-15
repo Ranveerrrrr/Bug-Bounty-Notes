@@ -21,11 +21,13 @@ Accounting - logging what happens
 ---
 Whats OSI Model?
 "A Priest saw two nuns doing pushup"
-A - Application layer
-P - Prentation layer
+A - Application layer (Web browser or any software)
+P - Prentation layer ()
 S - Session layer
 T - Transport layer
-N - 
+N - Network layer
+D - Data link layer
+P - Physical layer
 
 What's a firewall?
 A firewall is a software or hardware which monitors and controls incoming and outgoing traffic of a network based on the rules
