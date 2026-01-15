@@ -15,8 +15,9 @@ Confidentiality, integrity, availability - confidentiality is how secret the use
 ---
 **Whats AAA?**
 Authentication - who they are?
-Autharization - 
-Accounting - 
+Autharization - What are your privilages? (are you admin or part of internal team?)
+Accounting - logging what happens
+
 What's a firewall?
 A firewall is a software or hardware which monitors and controls incoming and outgoing traffic of a network based on the rules
 
