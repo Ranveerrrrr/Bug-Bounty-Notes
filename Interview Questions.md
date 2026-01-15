@@ -35,8 +35,8 @@ P - Physical layer (Coax, Fiber, Hubs, Wireless, Repeaters, Physical Structure)
 
 ---
 What are HIDS and NIDS?
-HIDS - Host intrusion detection system(analys internal hosts)
-NIDS - Network Intrusion detection system
+HIDS - Host Based intrusion detection system(analys internal hosts)
+NIDS - Network Based Intrusion detection system(analys anomely in network)
 What's a firewall?
 A firewall is a software or hardware which monitors and controls incoming and outgoing traffic of a network based on the rules
 
