@@ -6,6 +6,9 @@ A threat is a potential danger a vulnerability is weakness and risk is likelihoo
 
 What is the CIA triad?
 Confidentiality, integrity, availability - confidentiality is how secret the user data stored and integrity is that the data is not tempered and availableilty is if user can have his data back when wants
+confidentiality - prevent u
+integrity -
+availability - 
 
 What's a firewall?
 A firewall is a software or hardware which monitors and controls incoming and outgoing traffic of a network based on the rules
