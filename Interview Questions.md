@@ -1,12 +1,49 @@
 What is Cybersecurity?
 Cybersecurity is the practice of protecting systems, network and data from digital attacks, unauthorised access or damage
 
+---
 Diff b/w threat, vulnerability and risk?
 A threat is a potential danger a vulnerability is weakness and risk is likelihood a threat will exploit vulnerability 
+Vulnerability - Flaw in system
+Threat- DDos malware etc
+Risk - likelyhood vulnerability will get exploit
 
-What is the CIA triad?
+---
+**What is the CIA triad?**
 Confidentiality, integrity, availability - confidentiality is how secret the user data stored and integrity is that the data is not tempered and availableilty is if user can have his data back when wants
 
+**confidentiality** - prevent unauthrized access and discolure of confidential data(encryption, access control)
+**integrity** - avoiding any unauthrized change in the file or data sent by user
+**availability** - making sure data is availble when user need it(prevent ddos)
+
+---
+**Whats AAA?**
+Authentication - who they are?
+Autharization - What are your privilages? (are you admin or part of internal team?)
+Accounting - logging what happens
+
+---
+Whats OSI Model?
+"A Priest saw two nuns doing pushup"
+A - Application layer (HTTP , FTP , SSH)
+P - Prentation layer (SSL ,FTP , JPEG, SSH)
+S - Session layer (APIs, Socket, WinSock)
+T - Transport layer (TCP, UDP)
+N - Network layer (Packets, IP, ICMP)
+D - Data link layer (Frames, Ethernet, PPP , Switch, Bridge)
+P - Physical layer (Coax, Fiber, Hubs, Wireless, Repeaters, Physical Structure)
+
+---
+What are HIDS and NIDS?
+HIDS - Host Based intrusion detection system(analys internal hosts)
+NIDS - Network Based Intrusion detection system(analys anomely in network)
+
+---
+Indicator of compramise?
+unusual file updation
+blocked ip in network
+
+---
 What's a firewall?
 A firewall is a software or hardware which monitors and controls incoming and outgoing traffic of a network based on the rules
 
@@ -29,8 +66,6 @@ Confused about questions?
 What ssl certificate 
 What cyber kill chain what CIA triad
 Dif b/w symmetric and asymmetric encryption 
-Osi model explain 
-Dif b/w threat, risk and vulnerabiliy 
 What's csrf
 What's cors
 What's owasp top 10
@@ -44,7 +79,6 @@ What's miter attack framework
 0 trust framework 
 What's DHCP
 What's Arp
-What's aaa
 Firewall and it's diff kind 
 Diff b/w statefull and stateless firewall
 Hids and nids
