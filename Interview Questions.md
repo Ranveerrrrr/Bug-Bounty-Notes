@@ -30,7 +30,8 @@ D - Data link layer (Frames, Ethernet, PPP , Switch, Bridge)
 P - Physical layer (Coax, Fiber, Hubs, Wireless, Repeaters, Physical Structure)
 
 ---
-Whats TCP 3 WAy
+Whats TCP 3 Way Handshake?
+
 What's a firewall?
 A firewall is a software or hardware which monitors and controls incoming and outgoing traffic of a network based on the rules
 
