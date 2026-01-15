@@ -23,10 +23,10 @@ Whats OSI Model?
 "A Priest saw two nuns doing pushup"
 A - Application layer (HTTP , FTP , SSH)
 P - Prentation layer (SSL ,FTP , JPEG, SSH)
-S - Session layer (AP)
-T - Transport layer
-N - Network layer
-D - Data link layer
+S - Session layer (APIs, Socket, WinSock)
+T - Transport layer (TCP, UDP)
+N - Network layer (Packets, IP, ICMP)
+D - Data link layer (Frames, Ethernet)
 P - Physical layer
 
 What's a firewall?
