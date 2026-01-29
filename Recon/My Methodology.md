@@ -65,11 +65,11 @@ https://youtu.be/yVqm1tvCZF4?si=vvpZIPzHVbLzSpIf
 
 --------------------------------
 --------------------------------
-github-subdomains -d hilton.com -t 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 -o github_subdomains.txt
+github-subdomains -d hilton.com -t #Keys/Github  -o github_subdomains.txt
 
 curl -s "http://web.archive.org/cdx/search/cdx?url=*.hilton.com/*&output=text&f1=original&collapse=urlkey" | sort | sed -e 's_https*://__' -e "s/\/.*//" -e "s/:*//" -e 's/^www\.//' | sort -u | tee WBsubdomains.txt
 
-curl -s "https://www.virustotal.com/vtapi/v2/domain/report?apikey=76d7e13aa9b40e62cd4b096a09a1de19ba6bb70f0e158dd558dfe44c86ab08d0&domain=www.hilton.com" | jq -r '.domain_siblings[]' | sort -u | tee VTsubdomains.txt
+curl -s "https://www.virustotal.com/vtapi/v2/domain/report?apikey=76d7e13aa9b40&domain=www.hilton.com" | jq -r '.domain_siblings[]' | sort -u | tee VTsubdomains.txt
 
 shosubgo -d hilton.com -s xCBB0nM1gEwVVGfNuGwEeClAdTTLa4nj | httpx -s -td -title
 
