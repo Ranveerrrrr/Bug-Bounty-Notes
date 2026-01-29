@@ -71,7 +71,7 @@ curl -s "http://web.archive.org/cdx/search/cdx?url=*.hilton.com/*&output=text&f1
 
 curl -s "https://www.virustotal.com/vtapi/v2/domain/report?apikey= #Keys/Virustotal &domain=www.hilton.com" | jq -r '.domain_siblings[]' | sort -u | tee VTsubdomains.txt
 
-shosubgo -d hilton.com -s xCBB0nM1gEwVVGfNuGwEeClAdTTLa4nj | httpx -s -td -title
+shosubgo -d hilton.com -s #Keys/Shodan  | httpx -s -td -title
 
 https://www.shodan.io/domain/hilton.com 
 - copy subdomains from here in a text file
@@ -79,7 +79,7 @@ https://www.shodan.io/domain/hilton.com
 - upper command to add the target domain before the subdomains
 --------------------------------
 --------------------------------
-curl -s "https://www.virustotal.com/vtapi/v2/domain/report?domain=www.porsche.com&apikey=82e62a710af4abcd481965e951ccd9c585a49ad3b79e420f9e00f5fea97eb43e" | jq -r '.. | .ip_address? // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | sort -u | tee VTip.txt
+curl -s "https://www.virustotal.com/vtapi/v2/domain/report?domain=www.porsche.com&apikey= #Keys/Virustotal " | jq -r '.. | .ip_address? // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | sort -u | tee VTip.txt
 
 curl -s "https://otx.alienvault.com/api/v1/indicators/hostname/hilton.com/url_list?limit=500&page=1" | jq -r '.url_list[]?.result?.urlworker?.ip // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | sort -u | tee AVip.txt
 
