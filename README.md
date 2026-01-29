@@ -1,18 +1,56 @@
-# Bug-Bounty-Notes
-Note:- This Repo is Just a Backup Of my Bug Bounty Notes From My Obsidian Vault
+# 🐞 Bug-Bounty-Notes
 
-This Repo contains multiple methodologys to find hiddan assets contains multiple recon method and my recon methodologys
-attack vectors, my notes on articles, videos, multiple cber topics
-
-These Notes are what i really make while watching something or reading Article and Everything else.
-i learn i write it down here this is a minimal repo that is exposed to ensure my data security i have made certain folders in this Repo private
+> **Note:** This repository is a backup of my personal **Bug Bounty notes** from my **Obsidian vault**.
 
 ---
 
-<b>If You Find Anything Sensative that should be private Like API Keys or SMTH 
-<br>
-Please Inform me On:<b>
+## 📌 About This Repository
 
-<b>Insta: @bugatsec</b>
-<br>
-<b>Email: bugatsec@gmail.com</b>
+This repository contains my personal notes and methodologies related to **Bug Bounty and Web Security**, including:
+
+- Recon methodologies (general + personal workflows)
+- Techniques to find **hidden assets**
+- Various **attack vectors**
+- Notes from **articles, blogs, and videos**
+- Concepts from multiple **cybersecurity domains**
+
+These notes are written while I’m actively learning—whether I’m watching a video, reading an article, or researching a topic. Everything I learn, I document here for reference.
+
+---
+
+## 🔒 Privacy & Data Security
+
+This is a **minimal public repository**.  
+To ensure data security, **certain folders are kept private** and are **not exposed publicly**.
+
+---
+
+## ⚠️ Responsible Disclosure
+
+If you find anything **sensitive** that should not be public, such as:
+
+- API keys
+- Tokens
+- Credentials
+- Any confidential information
+
+Please inform me immediately via one of the following channels:
+
+- **Instagram:** [@bugatsec](https://www.instagram.com/bugatsec)  
+- **Email:** [bugatsec@gmail.com](mailto:bugatsec@gmail.com)  
+
+Your help is appreciated 🙏
+
+---
+
+## 📚 Disclaimer
+
+These notes are:
+
+- Personal learning notes
+- Not guaranteed to be complete or correct
+- Intended for **educational purposes only**
+
+Use responsibly.
+
+---
