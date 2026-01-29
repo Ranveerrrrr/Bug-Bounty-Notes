@@ -8,4 +8,5 @@ If You Find Anything Sensative that should be private Like API Keys or SMTH
 Please Inform me On:
 
 Insta: @bugatsec
+
 Email: bugatsec@gmail.com
