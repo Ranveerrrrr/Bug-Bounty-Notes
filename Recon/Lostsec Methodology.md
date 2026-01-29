@@ -100,3 +100,4 @@ cat testt.com | aquatone -chrome-path "/mnt/c/Program Files/Google/Chrome/Applic
 -  aquatone Renders Domains with Chrome and Tells If Alive and takes Screenshots.
 -  "explorer.exe aquatone_report.html" - This Command To Open Html File.
    
+- check 
