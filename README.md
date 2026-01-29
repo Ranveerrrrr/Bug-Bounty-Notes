@@ -6,5 +6,6 @@ i learn i write it down here this is a minimal repo that is exposed to ensure my
 
 If You Find Anything Sensative that should be private Like API Keys or SMTH 
 Please Inform me On:
+
 Insta: @bugatsec
 Email: bugatsec@gmail.com
