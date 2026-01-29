@@ -77,9 +77,9 @@ https://zoomeye.ai  - filter by favicon hash
 **Virustotal**
 https://www.virustotal.com/vtapi/v2/domain/report?domain=nasa.gov&apikey= #Keys/Virustotal 
 
-curl -s "https://www.virustotal.com/vtapi/v2/domain/report?domain=nasa.gov&apikey= " | jq -r '.. | .ip_address? // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | httpx -sc -td -title -server
+curl -s "https://www.virustotal.com/vtapi/v2/domain/report?domain=nasa.gov&apikey= #Keys/Virustotal " | jq -r '.. | .ip_address? // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | httpx -sc -td -title -server
 
-curl -s "https://www.virustotal.com/vtapi/v2/domain/report?apikey=76d7e13aa9b40e62cd4b096a09a1de19ba6bb70f0e158dd558dfe44c86ab08d0&domain=www.inzpire.com" | jq -r '.domain_siblings[]' | httpx -sc -td -title -server
+curl -s "https://www.virustotal.com/vtapi/v2/domain/report?apikey= #Keys/Virustotal &domain=www.inzpire.com" | jq -r '.domain_siblings[]' | httpx -sc -td -title -server
 
 - try visiting the links given in one liner for more info.
 
