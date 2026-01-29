@@ -45,10 +45,10 @@ curl -s "http://web.archive.org/cdx/search/cdx?url=*.porsche.com/*&output=text&f
 curl -s "https://www.virustotal.com/vtapi/v2/domain/report?apikey= #Keys/Virustotal &domain=www.porsche.com" | jq -r '.domain_siblings[]'
 -  To Find Subdomain From Virustotal.
 
-curl -s "https://www.virustotal.com/vtapi/v2/domain/report?domain=www.porsche.com&apikey=82e62a710af4ab" | jq -r '.. | .ip_address? // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}'
+curl -s "https://www.virustotal.com/vtapi/v2/domain/report?domain=www.porsche.com&apikey= #Keys/Virustotal " | jq -r '.. | .ip_address? // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}'
 -  To Find IP's From Virustotal.
 
-curl -s "https://www.virustotal.com/vtapi/v2/domain/report?domain=www.porsche.com&apikey=82e62a710af4abcd481965e951ccd9c585a49ad3b79e420f9e00f5fea97eb43e" | jq -r '.. | .ip_address? // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | sort -u | httpx -sc
+curl -s "https://www.virustotal.com/vtapi/v2/domain/report?domain=www.porsche.com&apikey= #Keys/Virustotal " | jq -r '.. | .ip_address? // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | sort -u | httpx -sc
 -  To Find IP's You Found are live or not.
 
 curl -s "https://otx.alienvault.com/api/v1/indicators/hostname/porsche.com/url_list?limit=500&page=1" | jq -r '.url_list[]?.result?.urlworker?.ip // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}'
