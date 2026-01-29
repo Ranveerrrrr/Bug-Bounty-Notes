@@ -63,7 +63,7 @@ curl -s "https://urlscan.io/api/v1/search/?q=porsche.com&size=10000" | jq -r '.r
 curl -s "https://urlscan.io/api/v1/search/?q=porsche.com&size=10000" | jq -r '.results[]?.page?.ip // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | httpx -sc -td
 -  To Check If Live Or Not.
 
-shosubgo -d porsche.com -s xCBB0nM1gEwVVGfNuGwEeClAdTTLa4nj | httpx -s -td -title
+shosubgo -d porsche.com -s #Keys/Shodan  | httpx -s -td -title
 -  after -s flag put yr shodan api key.
 - To Find Hidden Subdomains With Shodan.
 
