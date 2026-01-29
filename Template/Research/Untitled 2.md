@@ -1,4 +1,0 @@
----
-Difficulty: Advanced
-Type: Article
----
