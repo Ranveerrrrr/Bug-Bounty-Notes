@@ -1,16 +1,16 @@
 ---
 title: "CORS Misconfigurations: How Hackers Steal Your Cookies?"
-Type: "Video"
+Type: Video
 published: 2025-10-03
-Source: "https://www.youtube.com/watch?v=2seitfjPrUY"
-Creator: "[[Medusa]]"
+Source: https://www.youtube.com/watch?v=2seitfjPrUY
+Creator: "[[../../../Unplanned Recon/Medusa]]"
 date: 2025-12-18
 tags:
-  - "Clippings"
-  - "Video"
+  - Clippings
+  - Video
 Finished: false
-Cover: "https://i.ytimg.com/vi/2seitfjPrUY/maxresdefault.jpg"
-Site: "YouTube"
+Cover: https://i.ytimg.com/vi/2seitfjPrUY/maxresdefault.jpg
+Site: YouTube
 ---
 ## Highlights
 

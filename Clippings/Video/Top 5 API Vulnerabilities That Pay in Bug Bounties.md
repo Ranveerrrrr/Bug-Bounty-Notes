@@ -1,16 +1,16 @@
 ---
-title: "Top 5 API Vulnerabilities That Pay in Bug Bounties"
-Type: "Video"
+title: Top 5 API Vulnerabilities That Pay in Bug Bounties
+Type: Video
 published: 2025-10-24
-Source: "https://www.youtube.com/watch?v=1CedcR-4dCU&t=618s"
-Creator: "[[Medusa]]"
+Source: https://www.youtube.com/watch?v=1CedcR-4dCU&t=618s
+Creator: "[[../../../Unplanned Recon/Medusa]]"
 date: 2025-12-18
 tags:
-  - "Clippings"
-  - "Video"
+  - Clippings
+  - Video
 Finished: false
-Cover: "https://i.ytimg.com/vi/1CedcR-4dCU/maxresdefault.jpg"
-Site: "YouTube"
+Cover: https://i.ytimg.com/vi/1CedcR-4dCU/maxresdefault.jpg
+Site: YouTube
 ---
 ## Highlights
 

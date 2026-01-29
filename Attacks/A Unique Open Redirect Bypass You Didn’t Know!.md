@@ -3,7 +3,7 @@ title: A Unique Open Redirect Bypass You Didn’t Know!
 Type: Video
 published: 2025-12-05
 Source: https://www.youtube.com/watch?v=7FBSomXC3-Q
-Creator: "[[Medusa]]"
+Creator: "[[../../Unplanned Recon/Medusa]]"
 date: 2025-12-17
 tags:
   - Clippings
