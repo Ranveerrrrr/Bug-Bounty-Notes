@@ -40,11 +40,12 @@ open.app.com/index.html?redirect=/
 ```
 and put that in the oauth flow request
 ```
-/state=abc=
+/state=abc&redirect_uri=open.app.com/index.html?redirect=burp.collabrater.com
 ```
 
 
 ## **Steps To Reproduce:**
+explained above
 
 # What was the impact?
 
