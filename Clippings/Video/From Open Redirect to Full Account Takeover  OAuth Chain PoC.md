@@ -48,5 +48,8 @@ and put that in the oauth flow request
 explained above
 
 # What was the impact?
+#Bugs/ato #Bugs/open-redirect 
 
-# Reflection
+# Refrences
+[Common OAuth Vulnerabilities · Doyensec's Blog](../Article/Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
+[Authorization Flows - Attack](../Article/Authorization%20Flows%20-%20Attack.md)
