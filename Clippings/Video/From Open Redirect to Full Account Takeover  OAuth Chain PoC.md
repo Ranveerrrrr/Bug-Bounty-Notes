@@ -35,7 +35,13 @@ Oauth flow missuse
 looked through request and edited the redirect_uri param -> failed
 application was checaking if redirect uri is a subdomain of the orignal application
 he found an open redirect:
+```
 open.app.com/index.html?redirect=/
+```
+and put that in the oauth flow request
+```
+/state=abc=
+```
 
 
 ## **Steps To Reproduce:**
