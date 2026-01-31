@@ -1,14 +1,15 @@
 ---
 title: "Automattic disclosed on HackerOne: IDOR when editing users leads to..."
-Type: "Report"
-Source: "https://hackerone.com/reports/915114"
+Type: Report
+Source: https://hackerone.com/reports/915114
 date: 2026-01-31
 tags:
-  - "Clippings"
-  - "Report"
-Finished: false
-Cover: "https://profile-photos.hackerone-user-content.com/variants/000/000/111/7f89e1ea233f92916202521a069fdbfe9eced339_original.png/d6d8259739a2a4d509639b7804214d057bca547cc3fafe509ec3e3a86321b1d1"
-Site: "HackerOne"
+  - Clippings
+  - Report
+  - Bugs/idor
+Finished: true
+Cover: https://profile-photos.hackerone-user-content.com/variants/000/000/111/7f89e1ea233f92916202521a069fdbfe9eced339_original.png/d6d8259739a2a4d509639b7804214d057bca547cc3fafe509ec3e3a86321b1d1
+Site: HackerOne
 ---
 ## Highlights
 
