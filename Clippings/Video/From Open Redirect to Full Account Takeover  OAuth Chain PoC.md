@@ -29,9 +29,11 @@ cssclasses:
 ![](https://www.youtube.com/watch?v=Kn9CdQKFW0s)
 
 # What is the Bug?
-O
+Oauth flow missuse
 
-# How did you find it?
+# How did he find it?
+looked through request and edited the redirect_uri param -> failed
+application was checaking if reque
 
 ## **Steps To Reproduce:**
 
