@@ -13,9 +13,6 @@ tags:
 Finished: true
 Cover: https://i.ytimg.com/vi/Kn9CdQKFW0s/maxresdefault.jpg
 Site: YouTube
-URL:
-Bug Class:
-State:
 ---
 ## Highlights
 "From Open Redirect to Full Account Takeover | OAuth Chain PoC"
