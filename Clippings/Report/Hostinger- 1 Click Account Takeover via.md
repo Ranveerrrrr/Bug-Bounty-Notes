@@ -2,16 +2,18 @@
 title: "hostinger  disclosed on HackerOne: 1 Click Account Takeover via..."
 Type: Report
 Source: https://hackerone.com/reports/3081691
-date: 2026-01-31
+date: 2026-01-31T14:57:00
 tags:
   - Clippings
   - Report
+  - Bugs/ato
+  - Bugs/oauth
 Finished: true
 Cover: https://profile-photos.hackerone-user-content.com/variants/yZgcfbeG1939tu3eos5r46v4/d6d8259739a2a4d509639b7804214d057bca547cc3fafe509ec3e3a86321b1d1
 Site: HackerOne
 ---
 ## Highlights
-
+[From Open Redirect to Full Account Takeover  OAuth Chain PoC](../Video/From%20Open%20Redirect%20to%20Full%20Account%20Takeover%20%20OAuth%20Chain%20PoC.md) - Same as this
 
 ---
 ## Full Page Content
