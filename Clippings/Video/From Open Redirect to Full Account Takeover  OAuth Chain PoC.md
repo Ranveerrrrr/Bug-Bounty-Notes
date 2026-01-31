@@ -33,7 +33,10 @@ Oauth flow missuse
 
 # How did he find it?
 looked through request and edited the redirect_uri param -> failed
-application was checaking if reque
+application was checaking if redirect uri is a subdomain of the orignal application
+he found an open redirect:
+open.app.com/index.html?redirect=/
+
 
 ## **Steps To Reproduce:**
 
