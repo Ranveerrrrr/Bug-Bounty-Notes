@@ -8,6 +8,7 @@ tags:
   - Research
   - Bugs/oauth
   - Bugs/ato
+  - oauth/redirect-scheme-hijacking
 Finished: false
 Cover: https://framerusercontent.com/images/mbsab6nfz0wJiDYz6XYZhOFyY.webp?width=1800&height=1200
 Site: Carlos Bello
