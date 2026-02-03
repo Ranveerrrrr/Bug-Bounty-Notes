@@ -1,14 +1,16 @@
 ---
-title: "Account takeover in KAYAK | Fluid Attacks"
-Type: "Research"
-Source: "https://fluidattacks.com/blog/account-takeover-kayak"
+title: Account takeover in KAYAK | Fluid Attacks
+Type: Research
+Source: https://fluidattacks.com/blog/account-takeover-kayak
 date: 2026-02-03
 tags:
-  - "Clippings"
-  - "Research"
+  - Clippings
+  - Research
+  - Bugs/oauth
+  - Bugs/ato
 Finished: false
-Cover: "https://framerusercontent.com/images/mbsab6nfz0wJiDYz6XYZhOFyY.webp?width=1800&height=1200"
-Site: "Carlos Bello"
+Cover: https://framerusercontent.com/images/mbsab6nfz0wJiDYz6XYZhOFyY.webp?width=1800&height=1200
+Site: Carlos Bello
 ---
 ## Highlights
 
