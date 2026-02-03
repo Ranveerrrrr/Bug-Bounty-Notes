@@ -1,5 +1,5 @@
 ---
-title: Account takeover in KAYAK | Fluid Attacks
+title: Account takeover in KAYAK | Redirect Scheme Hijacking
 Type: Research
 Source: https://fluidattacks.com/blog/account-takeover-kayak
 date: 2026-02-03
@@ -13,8 +13,9 @@ Cover: https://framerusercontent.com/images/mbsab6nfz0wJiDYz6XYZhOFyY.webp?width
 Site: Carlos Bello
 ---
 ## Highlights
+Redirect Scheme Hijacking
 [Common OAuth Vulnerabilities · Doyensec's Blog](../Article/Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
-[[]]
+[Authorization Flows - Attack](../Article/Authorization%20Flows%20-%20Attack.md)
 
 ---
 ## Full Page Content
