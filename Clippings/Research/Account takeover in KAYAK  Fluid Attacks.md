@@ -13,7 +13,8 @@ Cover: https://framerusercontent.com/images/mbsab6nfz0wJiDYz6XYZhOFyY.webp?width
 Site: Carlos Bello
 ---
 ## Highlights
-
+[Common OAuth Vulnerabilities · Doyensec's Blog](../Article/Common%20OAuth%20Vulnerabilities%20·%20Doyensec's%20Blog.md)
+[[]]
 
 ---
 ## Full Page Content
