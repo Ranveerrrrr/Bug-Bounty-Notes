@@ -1,6 +1,6 @@
 ---
 title: Account takeover in KAYAK | Redirect Scheme Hijacking
-Type: Research
+Type: Report
 Source: https://fluidattacks.com/blog/account-takeover-kayak
 date: 2026-02-03
 tags:
@@ -9,7 +9,9 @@ tags:
   - Bugs/oauth
   - Bugs/ato
   - oauth/redirect-scheme-hijacking
-Finished: false
+  - bugs/oauth/redirect-scheme-hijacking
+  - Attack
+Finished: true
 Cover: https://framerusercontent.com/images/mbsab6nfz0wJiDYz6XYZhOFyY.webp?width=1800&height=1200
 Site: Carlos Bello
 ---
