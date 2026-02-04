@@ -13,7 +13,8 @@ Cover: "https://www.youtube.com/img/desktop/yt_1200.png"
 Site:
 ---
 ## Highlights
-[[o]]
+[Authorization Flows - Attack](../Article/Authorization%20Flows%20-%20Attack.md)
+[[oauth]]
 
 ---
 ## Full Page Content
