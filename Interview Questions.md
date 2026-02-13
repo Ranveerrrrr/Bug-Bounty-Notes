@@ -25,26 +25,47 @@ Malware is a software which can have work trajon viruses designed to disrupt dam
 *What penetration testing?*
 A simulation of an cyber attack on company system performed to test system defence to find vulnerabilitys before attackers do
 
-**More questions...**
+### **More questions...**
 What ssl certificate 
+
 What cyber kill chain what CIA triad
+
 Dif b/w symmetric and asymmetric encryption 
+
 Osi model explain 
+
 Dif b/w threat, risk and vulnerabiliy 
+
 What's csrf
+
 What's cors
+
 What's owasp top 10
+
 Yr fav vuln 
+
 How does trace route work
+
 What the incident response process
+
 What's pki
+
 What's 0 day
+
 What's splunk 
+
 What's miter attack framework
+
 0 trust framework 
+
 What's DHCP
+
 What's Arp
+
 What's aaa
+
 Firewall and it's diff kind 
+
 Diff b/w statefull and stateless firewall
+
 Hids and nids
