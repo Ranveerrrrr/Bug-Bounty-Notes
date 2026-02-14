@@ -1,0 +1,55 @@
+---
+date: 2025-12-17T15:19:00
+Source: https://youtu.be/xz_jeBxTJ58?si=JEp4l4UNw2pO7ttO
+Type: Video
+tags:
+  - Recon
+  - Recon/Dorks
+  - Recon/git
+Creator: Medusa
+Key_Takeaway: Dorks for Github | Github Dorking to find secrets
+Difficulty: Beginner
+Bug Found: "0"
+cssclasses:
+  - daily
+  - wednesday
+---
+---
+```
+org:{organization name}
+```
+	-Shows all files/repos Containing org name.
+---
+```
+org:{organization name}/all AND "org.com"
+```
+	 -Same as above but now only shows files/repos containing org and the name site.
+---
+```
+org:att "org.com" path:*.json
+```
+---
+```
+org:att "sk_live_"/"pk_live_"/AWS_ACCESS_SECRET_KEY
+```
+	-To find a specific keyword like here searching for stripe/AWS api key.
+---
+```
+org:att "sk-" "openai"
+```
+	-Same as above but to find openai api key.
+---
+```
+org:att path:**/.env ,**/.local.env ,**/config, **/Dockerfile, **/settings.py
+```
+	-To find specific files/folders.(Use one file name at a time)
+---
+```
+org:att path:**/Dockerfile
+```
+	-Sometime Dockerfile contain Hardcoded api-keys and creds.
+---
+```
+org:att {"jwt_secret" OR "JWT_SECRET"}
+```
+	-To find jwt-secret-keys.
