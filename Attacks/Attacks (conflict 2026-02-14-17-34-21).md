@@ -1,0 +1,12 @@
+[[Attacks]]
+[[Cloudflare]]
+[[Sources]]
+[[2FA Bypass]]
+[[PHP File Upload Payload]]
+[[Subdomain Takeover]]
+[[403 Bypass]]
+[[Puny Code ATO]]
+[[Zone transfer misconfigration]]
+[[P4 Bugs]]
+[[AWS S3 Misconfigration]]
+#Attack 

