@@ -17,4 +17,5 @@ text = '{"showpassword"=>"no", "bgcolor"=>"#ffffff"}'
 def xor_bytes(a: bytes, b: bytes) -> bytes:
     return bytes(x ^ y for x,y in zip(a,b))
 
-xor_bytes(b_d, text)
+raw = xor_bytes(b_d, text)
+print(raw)
