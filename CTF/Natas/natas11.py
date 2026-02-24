@@ -9,10 +9,10 @@ data_cookie = response.cookies['data']
 print(data_cookie)
 
 cookie= 'HmYkBwozJw4WNyAAFyB1VUcqOE1JZjUIBis7ABdmbU1GIjEJAyIxTRg='
-b_d= base64.b64decode(cookie).decode()
+b_d= base64.b64decode(cookie)
 print(b_d)
 
-text = '{"showpassword"=>"no", "bgcolor"=>"#ffffff"}'
+text = b'{"showpassword"=>"no", "bgcolor"=>"#ffffff"}'
 
 def xor_bytes(a: bytes, b: bytes) -> bytes:
     return bytes(x ^ y for x,y in zip(a,b))
