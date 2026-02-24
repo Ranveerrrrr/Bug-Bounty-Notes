@@ -14,10 +14,7 @@ print(b_d)
 
 text = '{"showpassword"=>"no", "bgcolor"=>"#ffffff"}'
 
-def xor_bytes(data: bytes, key: bytes) -> bytes:
-    return bytes(
-        b ^ key[i % len(key )]
-        for i,b in enumeration(data)
-    )
+def xor_bytes(a: bytes, b: bytes) -> bytes:
+    return bytes(x ^ y for x,y in zip(a,b))
 
 xor_bytes(text, b_d)
