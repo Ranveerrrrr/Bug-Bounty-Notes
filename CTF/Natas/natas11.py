@@ -7,3 +7,7 @@ response = requests.get(url, auth=("natas11", "UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk"
 
 data_cookie = response.cookies['data']
 print(data_cookie)
+
+cookie= 'HmYkBwozJw4WNyAAFyB1VUcqOE1JZjUIBis7ABdmbU1GIjEJAyIxTRg='
+b_d= base64.b64decode('cookie')
+print(b_d)
