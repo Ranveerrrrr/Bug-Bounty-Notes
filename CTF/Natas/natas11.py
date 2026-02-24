@@ -22,3 +22,6 @@ print("Key: ",raw)
 
 key = "eDWo"
 
+text_d = b'{"showpassword"=>"yes", "bgcolor"=>"#ffffff"}'
+
+xor_bytes(text_d, key)
