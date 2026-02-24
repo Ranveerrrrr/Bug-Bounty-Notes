@@ -20,7 +20,7 @@ def xor_bytes(a: bytes, b: bytes) -> bytes:
 raw = xor_bytes(b_d, text)
 print("Key: ",raw)
 
-text_d = b'{"showpassword"=>"yes", "bgcolor"=>"#ffffff"}'
+text_d = b'eyJzaG93cGFzc3dvcmQiPT4ieWVzIiwgImJnY29sb3IiPT4iI2ZmZmZmZiJ9'
 key = b'eDWo'
 
 encoded = bytes(b ^ key[i % len(key)] for i, b in enumerate(text_d))
