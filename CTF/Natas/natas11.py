@@ -19,3 +19,6 @@ def xor_bytes(a: bytes, b: bytes) -> bytes:
 
 raw = xor_bytes(b_d, text)
 print("Key: ",raw)
+
+key = "eDWo"
+
