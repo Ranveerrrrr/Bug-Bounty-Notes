@@ -9,5 +9,5 @@ data_cookie = response.cookies['data']
 print(data_cookie)
 
 cookie= 'HmYkBwozJw4WNyAAFyB1VUcqOE1JZjUIBis7ABdmbU1GIjEJAyIxTRg='
-b_d= base64.b64decode('cookie')
+b_d= base64.b64decode(cookie).decode()
 print(b_d)
