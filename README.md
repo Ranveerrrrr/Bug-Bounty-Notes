@@ -1,5 +1,6 @@
 # 🐞 Bug-Bounty-Notes
 ![License](https://img.shields.io/github/license/Ranveerrrrr/Bug-Bounty-Notes)
+![Commits](https://img.shields.io/github/commit-activity/t/Ranveerrrrr/Bug-Bounty-Notes)
 ![Last Commit](https://img.shields.io/github/last-commit/Ranveerrrrr/Bug-Bounty-Notes)
 ![Repo Size](https://img.shields.io/github/repo-size/Ranveerrrrr/Bug-Bounty-Notes)
 ![Stars](https://img.shields.io/github/stars/Ranveerrrrr/Bug-Bounty-Notes?style=social)
