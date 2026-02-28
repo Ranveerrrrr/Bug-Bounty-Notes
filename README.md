@@ -3,6 +3,8 @@
 ![Last Commit](https://img.shields.io/github/last-commit/Ranveerrrrr/Bug-Bounty-Notes)
 ![Repo Size](https://img.shields.io/github/repo-size/Ranveerrrrr/Bug-Bounty-Notes)
 ![Stars](https://img.shields.io/github/stars/Ranveerrrrr/Bug-Bounty-Notes?style=social)
+![Commit Activity (Month)](https://img.shields.io/github/commit-activity/m/Ranveerrrrr/Bug-Bounty-Notes)
+
 
 
 
