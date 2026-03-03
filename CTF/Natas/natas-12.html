@@ -10,10 +10,52 @@
   <section>
     <h2>1. GET via link</h2>
     <p>Clicking this link sends a GET request:</p>
-    <a href="http://natas12.natas.labs.overthewire.org/./etc/natas_webpass/natas13">Send GET request</a>
+    <a href="http://natas12.natas.labs.overthewire.org/././etc/natas_webpass/natas13">Send GET request</a>
     <p><code>GET /?test=link</code></p>
   </section>
 
+  <!-- 2. Form -->
+  <section>
+    <h2>2. GET via form</h2>
+    <form action="http://natas12.natas.labs.overthewire.org/etc/natas_webpass/natas13" method="GET">
+      <label>
+        Parameter value:
+        <input type="text" name="param" value="formtest">
+      </label>
+      <br><br>
+      <input type="submit" value="Submit GET">
+    </form>
+    <p><code>GET //etc/natas_webpass/natas13</code></p>
+  </section>
+
+  <!-- 3. Automatic GET on page load -->
+  <section>
+    <h2>3. Automatic GET (image)</h2>
+    <p>This request is sent automatically when the page loads:</p>
+    <img src="http://natas12.natas.labs.overthewire.org/etc/natas_webpass/natas13" alt="" style="display:none;">
+    <p><code>GET /?auto=1</code></p>
+  </section>
+
+  <!-- 4. JavaScript fetch -->
+  <section>
+    <h2>4. GET via JavaScript (fetch)</h2>
+    <button onclick="sendFetch()">Send GET with fetch()</button>
+    <pre id="output"></pre>
+
+    <script>
+      function sendFetch() {
+        fetch("http://natas12.natas.labs.overthewire.org/etc/natas_webpass/natas13")
+          .then(response => response.text())
+          .then(text => {
+            document.getElementById("output").textContent =
+              "Request sent. Response (if allowed by CORS):\n\n" + text;
+          })
+          .catch(err => {
+            document.getElementById("output").textContent =
+              "Request sent, but response blocked by browser (CORS).";
+          });
+      }
+    </script>
 
 </body>
 </html>
