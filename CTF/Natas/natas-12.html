@@ -1,19 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GET Request Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    section {
+      margin-bottom: 30px;
+      padding: 15px;
+      border: 1px solid #ccc;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 3px 6px;
+    }
+  </style>
+</head>
 <body>
-  <h2>Select a file to display</h2>
-  <input type="file" id="fileInput">
-  <pre id="output"></pre>
 
-  <script>
-    document.getElementById('fileInput').addEventListener('change', e => {
-      const file = e.target.files[0];
-      const reader = new FileReader();
-      reader.onload = () => {
-        document.getElementById('output').textContent = reader.result;
-      };
-      reader.readAsText(file);
-    });
-  </script>
+  <h1>HTML GET Request Examples</h1>
+  <p>This page shows different ways an HTML file can trigger GET requests.</p>
+
+  <!-- 1. Link -->
+  <section>
+    <h2>1. GET via link</h2>
+    <p>Clicking this link sends a GET request:</p>
+    <a href="http://natas12.natas.labs.overthewire.org/etc/natas_webpass/natas13">Send GET request</a>
+    <p><code>GET /?test=link</code></p>
+  </section>
+
+  <!-- 2. Form -->
+  <section>
+    <h2>2. GET via form</h2>
+    <form action="http://natas12.natas.labs.overthewire.org/etc/natas_webpass/natas13" method="GET">
+      <label>
+        Parameter value:
+        <input type="text" name="param" value="formtest">
+      </label>
+      <br><br>
+      <input type="submit" value="Submit GET">
+    </form>
+    <p><code>GET //etc/natas_webpass/natas13</code></p>
+  </section>
+
+  <!-- 3. Automatic GET on page load -->
+  <section>
+    <h2>3. Automatic GET (image)</h2>
+    <p>This request is sent automatically when the page loads:</p>
+    <img src="http://natas12.natas.labs.overthewire.org/etc/natas_webpass/natas13" alt="" style="display:none;">
+    <p><code>GET /?auto=1</code></p>
+  </section>
+
+  <!-- 4. JavaScript fetch -->
+  <section>
+    <h2>4. GET via JavaScript (fetch)</h2>
+    <button onclick="sendFetch()">Send GET with fetch()</button>
+    <pre id="output"></pre>
+
+    <script>
+      function sendFetch() {
+        fetch("http://natas12.natas.labs.overthewire.org/etc/natas_webpass/natas13")
+          .then(response => response.text())
+          .then(text => {
+            document.getElementById("output").textContent =
+              "Request sent. Response (if allowed by CORS):\n\n" + text;
+          })
+          .catch(err => {
+            document.getElementById("output").textContent =
+              "Request sent, but response blocked by browser (CORS).";
+          });
+      }
+    </script>
+
+    <p><code>GET /?js=fetch</code></p>
+  </section>
+
+  <hr>
+
+  <p>
+    💡 Tip for CTFs:  
+    You can usually do all of this just by editing the URL in your browser’s
+    address bar or by modifying parameters and cookies in DevTools.
+  </p>
+
 </body>
 </html>
