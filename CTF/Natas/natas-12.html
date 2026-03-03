@@ -1,8 +1,19 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Testing!</title>
-    </head>
-    <body>
-        <i>/etc/natas_webpass/natas13</i>
-    </body>
+<body>
+  <h2>Select a file to display</h2>
+  <input type="file" id="fileInput">
+  <pre id="output"></pre>
+
+  <script>
+    document.getElementById('fileInput').addEventListener('change', e => {
+      const file = e.target.files[0];
+      const reader = new FileReader();
+      reader.onload = () => {
+        document.getElementById('output').textContent = reader.result;
+      };
+      reader.readAsText(file);
+    });
+  </script>
+</body>
 </html>
