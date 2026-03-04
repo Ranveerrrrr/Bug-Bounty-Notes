@@ -3,11 +3,10 @@ natas12
 ## Password
 trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC
 ## Web vulnerability
-
+Insecure file upload, client side data manipulation
 ## Method of solve
 Upload a malicious php file, but replay the request in Burpsuite, and adjust the file extension, setting it back to PHP, then access the file in the web app, because we are given the file path for the uploaded file.
 This is the PHP one-liner to read the password file
 ```
-GIF89a
 <?php echo file_get_contents('/etc/natas_webpass/natas13'); ?>
 ```
