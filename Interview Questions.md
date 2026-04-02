@@ -70,7 +70,7 @@ Diff b/w statefull and stateless firewall
 
 Hids and nids
 
-PPP
+What is PPP?
 
 xss to ato?
 
