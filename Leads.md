@@ -1,4 +1,4 @@
-[[Vulnerabilitys/Vulnerabilitys]] | [[../Bug Bounty Targets/Bug bounty]] | [[Recon/Recon]] | [[Attacks/Attacks]]
+[[Vulnerabilitys/Vulnerabilitys]] | [[../Bug-Bounty-Private/Bug Bounty Targets/Bug bounty]] | [[Recon/Recon]] | [[Attacks/Attacks]]
 
 htps://example.com/logo.php?reference=* - if see anything like this like *taking values* look for _[[Vulnerabilitys/LFI/LFI]], reflected [[Vulnerabilitys/XSS/XSS]], or [[Vulnerabilitys/SQL Injection/SQL injection]]_
 
@@ -22,7 +22,6 @@ https://youtu.be/2hAZaQCEIx4?si=aF5GjzplKgDdW5s_
 S3 Bucket Dump
 https://youtu.be/ITSZ8743MUk?si=qp2sxQg1pOoIZz20
 
-test commit
 
 
 
