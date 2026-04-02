@@ -1,4 +1,4 @@
-[[Vulnerabilitys/Vulnerabilitys]] | [[../Bug-Bounty-Private/Bug Bounty Targets/Bug bounty]] | [[Recon/Recon]] | [[Attacks/Attacks]]
+[[Vulnerabilitys/Vulnerabilitys]] | [[../Bug-Bounty-Private1/Bug Bounty Targets/Bug bounty]] | [[Recon/Recon]] | [[Attacks/Attacks]]
 
 htps://example.com/logo.php?reference=* - if see anything like this like *taking values* look for _[[Vulnerabilitys/LFI/LFI]], reflected [[Vulnerabilitys/XSS/XSS]], or [[Vulnerabilitys/SQL Injection/SQL injection]]_
 
