@@ -72,6 +72,6 @@ Hids and nids
 
 What is PPP?
 
-xss to ato?
+How would you chain xss to ato?
 
 httponly cookie usecase?
