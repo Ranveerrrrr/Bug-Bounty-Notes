@@ -16,7 +16,7 @@ dnsrecon -d inzpire.com
 `[*]      A inzpire.com 104.26.15.88`
 `[*]      A inzpire.com 172.67.71.197`
 
-- look for these kind of A records and try going to all those ip amnd see if they resolve
+- look for these kind of A records and try visiting them individually to all those ip and see if they resolve
 
 Shodan Search 
 Ssl.cert.subject.CN:"inzpire.com" 200 
