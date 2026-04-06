@@ -9,7 +9,7 @@ https://youtu.be/R3hmZpkvCmc?si=khB07RUtHHwZ8Hsm
 [[My Methodology]]
 **Method 1:**
 --
-First look at shodan extension in chrome and see if the ip shown in the extension. try visiting the i
+First look at shodan extension in chrome and see if the ip shown in the extension. try visiting the ip directly
 
 dnsrecon -d inzpire.com
 `[*]      A inzpire.com 104.26.14.88`
