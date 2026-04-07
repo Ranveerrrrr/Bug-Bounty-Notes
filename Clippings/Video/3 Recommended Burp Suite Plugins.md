@@ -1,0 +1,93 @@
+---
+title: 3 Recommended Burp Suite Plugins
+Type: Video
+published: 2024-08-23
+Source: https://www.youtube.com/watch?v=s9P2k4cepeA
+Creator: "[[The Cyber Mentor]]"
+date: 2026-04-07
+tags:
+  - Clippings
+  - Video
+  - Bugs/403-bypass
+  - Attack
+Finished: false
+Cover: https://www.youtube.com/img/desktop/yt_1200.png
+Site: YouTube
+---
+## Highlights
+403 Bypass
+
+---
+## Full Page Content
+
+![](https://www.youtube.com/watch?v=s9P2k4cepeA)
+
+Thank you to Keeper for sponsoring this video https://www.tcm.rocks/KeeperDemo Keeper Security's next-gen privileged access management solution delivers enterprise-grade password, secrets and privileged connection management in one unified platform. Request a demo on how you can protect your organization against cyber threats with zero-trust Enterprise Password Management (EPM). https://www.tcm.rocks/KeeperDemo  
+  
+There are many Burp Suite plugins out there, but in this video, Alex is reviewing several of his favorites. He goes into the uses of each and shares why they are so effective, and how they can help improve your testing efforts! Want to see more content like this? Hit that subscribe buttons so you can keep informed!  
+  
+Share your favorites in the comments (we read them!)  
+  
+#pentesting #burpsuite #infosec #cybersecurity #plugins  
+  
+00:00 Intro  
+00:24 Sponsor message  
+01:06 WAF Bypasses with NoWafPlz  
+04:30 JSON Web Tokens  
+06:22 Param Miner & JS Miner  
+09:03 Outro  
+  
+📱Social Media📱  
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+X: https://x.com/TCMSecurity  
+Twitch: https://www.twitch.tv/thecybermentor  
+Instagram: https://www.instagram.com/tcmsecurity/  
+LinkedIn: https://www.linkedin.com/company/tcm-security-inc/  
+TikTok: https://www.tiktok.com/@tcmsecurity  
+Discord: https://discord.gg/tcm  
+Facebook: https://www.facebook.com/tcmsecure  
+  
+💸Donate💸  
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+Like the channel? Please consider supporting me on Patreon:  
+https://www.patreon.com/thecybermentor  
+Support the stream (one-time): https://streamlabs.com/thecybermentor  
+  
+Hacker Books:  
+Penetration Testing: A Hands-On Introduction to Hacking: https://amzn.to/31GN7iX  
+The Hacker Playbook 3: https://amzn.to/34XkIY2  
+Hacking: The Art of Exploitation: https://amzn.to/2VchDyL  
+The Web Application Hacker's Handbook: https://amzn.to/30Fj21S  
+Real-World Bug Hunting: A Field Guide to Web Hacking: https://amzn.to/2V9srOe  
+Social Engineering: The Science of Human Hacking: https://amzn.to/31HAmVx  
+Linux Basics for Hackers: https://amzn.to/34WvcXP  
+Python Crash Course, 2nd Edition: https://amzn.to/30gINu0  
+Violent Python: https://amzn.to/2QoGoJn  
+Black Hat Python: https://amzn.to/2V9GpQk  
+  
+My Build:  
+lg 32gk850g-b 32" Gaming Monitor:https://amzn.to/30C0qzV  
+darkFlash Phantom Black ATX Mid-Tower Case: https://amzn.to/30d1UW1  
+EVGA 2080TI: https://amzn.to/30d2lj7  
+MSI Z390 MotherBoard: https://amzn.to/30eu5TL  
+Intel 9700K: https://amzn.to/2M7hM2p  
+G.SKILL 32GB DDR4 RAM: https://amzn.to/2M638Zb  
+Razer Nommo Chroma Speakers: https://amzn.to/30bWjiK  
+Razer BlackWidow Chroma Keyboard: https://amzn.to/2V7A0or  
+CORSAIR Pro RBG Gaming Mouse: https://amzn.to/30hvg4P  
+Sennheiser RS 175 RF Wireless Headphones: https://amzn.to/31MOgpu  
+  
+My Recording Equipment:  
+Panasonic G85 4K Camera: https://amzn.to/2Mk9vsf  
+Logitech C922x Pro Webcam: https://amzn.to/2LIRxAp  
+Aston Origin Microphone: https://amzn.to/2LFtNNE  
+Rode VideoMicro: https://amzn.to/309yLKH  
+Mackie PROFX8V2 Mixer: https://amzn.to/31HKOMB  
+Elgato Cam Link 4K: https://amzn.to/2QlicYx  
+Elgate Stream Deck: https://amzn.to/2OlchA5  
+  
+\*We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn fees by linking to Amazon.com and affiliated sites.
+
+## Transcript
+
+**0:00** · there are many plugins to extend burp su's functionality and today we'll look at the three that I use most often now of course we could just list them off and end the video there but I'd like to show you how to get started with them and hopefully you'll pick up some tricks to get the most out of them as probably 95% of tools that I try end up falling by the wayside keep a security is a vendor that we've used for password and secrets management at TCM for quite some time what's awesome is that they also do privileged access management and it's way more affordable than some of the big name vendors which if you know us you know that we're all about affordability it was an easy yes for us when the partnership conversation happened and unlike Legacy Pam Solutions keeper is fast and easy to deploy agentless and clientless and has no implementation fees plus keeper is fed ramp authorized so if you're looking for a new solution to protect your organization check out keeper .io slcm and schedule a quick demo with their awesome team of course if you have a favorite Plug-In or maybe one that you've built and you want to share it with us then let us know down in the comments below and of course if you enjoy the video then don't forget to like And subscribe and let's dive in first up I wanted to share a relatively new one that I've been using and probably many of you haven't used it yet because it's not actually in the B App Store and that plug-in is no wff please now if you didn't see it already then I recommend you check out shabam Sha's talk at nahcon on Modern we bypasses and then also the plugin that he builds the tldr for this one is that most wafs have a size limit on requests so if you want to bypass a lot of wafs we simply need to increase the size of our requests that we're sending so that it's not inspected let's take a look at the plugin all right so here we are in be suite and the first one I think you might need to do a little bit of a extra steps to install so first up before you can install no wife please you need to make sure if you come to your settings and just make sure that you have the jython Standalone installed and then all you need to do is go out to the internet and find the file so if I just come to Google quickly and search for no W please asset note here you can see the plugin is available and you just come to to Here download the no apple.py and then come back to B suite and here where you have the install tab click add and then choose the file and install it and as you can see I've already got it installed and ready to go so what I'm going to do is I'm just going to pull up a CTF that I have already and just show you kind of how it works so if we come to here and let's register so I'm just going to go 1 2 3 4 1 2 3 4 cuz I think there are already a bunch of users already registered on here and if we come back to here proxy HTTP history let's just grab this post request and let's say we were trying to do like an injection attack for example and we wanted to be able to bypass the w by uh inserting lots of characters to make our request bigger so I think we can just rightclick extensions no wife please and insert junk data and then we can choose how much we want to insert so let's just go with 8 kilobytes and you can see we've got a equals and then 8 kiloby worth of zeros and then we've still got our payload at the end so this will bypass a lot of web application firewalls because a lot of them are configured for performance or the default configurations aren't changed and depending on the W um you'll need different sizes but you're free to continue your testing so no wife pleas really simple and easy to use out of the box and that's why I like it so much it's actually a really really handy plugin and a relatively new one that I've started using so this one is uh I'm happy to share as my number one on the list so next we have Json web tokens and maybe maybe if you follow my content you'll know that I work with jwt's or jots a lot and so being able to quickly decode manipulate and attack them is really important and this plugin allows us to do just that there's not really much more to explain without showing you for this one so again let's just take a look so the next one we have is the Json web tokens and like I mentioned I use Json web tokens a lot so what I'm going to do is I'm just going to log in here here and click login and then we log into the application and then if I come back to here you can actually see that I already have this ready to go but if you come to extensions and then come to B App Store and search for Json web tokens you can see it's this one that I usually use there are of course a few others as well and don't ask me what the difference is I can't really remember I'm pretty sure I've used them all at some point but you know I've have better things to do than remember what the same uh titled plugins do but as you can see we automatically get some highlighting here so all of these requests highlighted in blue have Json web tokens in them and as you can see here we have the header and the body and the signature and we have a nice Json web token panel so we can come in here very quickly and see what's going on and then obviously we can control are send to repeater come into Json web tokens and then we can start to use the different attacks and start to see whether we can find a weakness so this is definitely number two on my list being able to quickly analyze tokens and quickly attack them is really useful and so yeah Json web tokens is a great plugin finally I need to admit something and that is that I'm pretty lazy when it comes to Recon I'm not that good at it and it's not really what I enjoy when it comes to attacking web applications so param Miner is actually a handy plugin that helps me quickly uncover endpoints so that I can move into the at least for me more exciting parts of testing web applications so let's quickly analyze a react application that I've been working on and see if we can find some end points all right so for the last one if we come over to extensions and if I scroll down we should be able to see that I have Js Miner installed and once again this one's available on the B App Store so you can just go ahead and install it and what we want to do is come over to our application and I'm just going to quickly sign up an account and this is like a parody on \[Music\] a airline but instead of taking a plane you get to travel through time and so it has profiles and orders and uh some tickets that you can buy etc etc but if I really want to quickly analyze this application and start to find endpoints uh maybe I want to start doing some manual testing without having to step through the entire application or I have some idea of where I want to begin in my testing or maybe I want to sanity check to see whether there's something in the front end that's not being used by the front end code but um the end point exists so if we come to Target and we come to here I'm just going to right click extensions and then run JS Auto mine so here I've made it just a little bit easier to see but you can see these issues on the right hand side so it's found some API endpoints with post and then also we've got a JavaScript source mapper so if we just click on the API endpoints for example you can see that we have/ register and that takes in the first name last name email and password and then we have a login endpoint a discount endpoint tickets endpoint checkout endpoint update user endpoints and very quickly we can start to understand what the application does without really having to dig through every single piece of functionality and once again like I say we can do a quick sanity check so JS Miner is really powerful and it's really useful tool so I use it quite often alongside my manual testing there are many more plugins to check out that can help us improve our workflow so if you have one that you like in particular then let us know down in the comments below so that we can all benefit from each other's experiences and I will catch you next time
