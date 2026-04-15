@@ -13,7 +13,13 @@ Cover: "https://www.youtube.com/img/desktop/yt_1200.png"
 Site: "YouTube"
 ---
 ## Highlights
-
+```
+"netflix.com" /Alza[0-9A-Za-z_-]{35}/
+"AIzaSy"
+"AIzaSy" ext:js  
+"AIzaSy" ext:env
+```
+	-To find gemini/google api key
 
 ---
 ## Full Page Content
