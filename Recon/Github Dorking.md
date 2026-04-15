@@ -67,3 +67,9 @@ org:att {"jwt_secret" OR "JWT_SECRET"}
 "AIzaSy" ext:env
 ```
 	-To find gemini/google api key
+
+---
+```
+https://generativelanguage.googleapis.com/v1beta/models?key={Your-api-key}
+```
+	-check if api key is limited/restricted
