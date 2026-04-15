@@ -63,4 +63,4 @@ org:att {"jwt_secret" OR "JWT_SECRET"}
 ```
 "netflix.com" /Alza[0-9A-Za-z_-]{35}/
 ```
-	
+	-To find gemini/google api key
