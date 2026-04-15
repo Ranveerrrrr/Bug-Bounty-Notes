@@ -60,3 +60,7 @@ org:att {"jwt_secret" OR "JWT_SECRET"}
 	-To find jwt-secret-keys.
 
 ---
+```
+"netflix.com" /Alza[0-9A-Za-z_-]{35}/
+```
+	
