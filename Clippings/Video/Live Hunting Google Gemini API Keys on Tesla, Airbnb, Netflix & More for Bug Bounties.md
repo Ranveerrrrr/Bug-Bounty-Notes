@@ -26,9 +26,6 @@ https://generativelanguage.googleapis.com/v1beta/models?key={Your-api-key}
 ```
 	-check if api key is limited/restricted
 
-```
-
-```
 ---
 ## Full Page Content
 
