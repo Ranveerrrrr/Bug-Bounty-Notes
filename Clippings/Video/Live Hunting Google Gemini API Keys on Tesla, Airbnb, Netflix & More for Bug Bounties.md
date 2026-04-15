@@ -28,12 +28,7 @@ IF you Enjoyed the video, don't forget to Like 👍, Subscribe, and turn on the 
 Bug Bounty Bootcamp: The Guide to Finding and Reporting Web Vulnerabilities -https://amzn.to/4k5RZXB  
 Hacking APIs: Breaking Web Application Programming Interfaces - https://amzn.to/431CqtW  
 Black Hat GraphQL: Attacking Next Generation APIs - https://amzn.to/416zObv  
-  
-👉 Get Hostinger Discount ➜ https://hostinger.com?REFERRALCODE=BLPMEHEDIRI7  
-💥 HOSTINGER COUPON CODE: BLPMEHEDIRI7  
-💥 𝐂𝐥𝐢𝐜𝐤 𝐭𝐡𝐞 𝐃𝐢𝐬𝐜𝐨𝐮𝐧𝐭𝐞𝐝 𝐋𝐢𝐧𝐤 𝐆𝐢𝐯𝐞𝐧 𝐀𝐛𝐨𝐯𝐞 ☝☝ 𝐓𝐨 𝐆𝐞𝐭 𝐓𝐡𝐞 𝐂𝐮𝐫𝐫𝐞𝐧𝐭 𝗦𝗽𝗲𝗰𝗶𝗮𝗹 𝗢𝗳𝗳𝗲𝗿 𝐨𝐟 𝐋𝐨𝐰𝐞𝐫 𝐏𝐫𝐢𝐜𝐞 & 𝐅𝐫𝐞𝐞 𝐌𝐨𝐧𝐭𝐡𝐬.  
-💥 30 Day Money Back Guarantee💥  
-  
+
 🧑‍💻 MY OTHER SOCIALS:  
 Twitter/X → @Haxshadow7  
 Website → securitytoolkits.com  
