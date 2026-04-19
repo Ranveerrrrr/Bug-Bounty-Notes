@@ -23,7 +23,7 @@ Indicator:
 
 ### #2 - Easy - Arbitrary ATO via... Docs?
 Indicator:
-- 
+- Docs
 
 ---
 ## Full Page Content
