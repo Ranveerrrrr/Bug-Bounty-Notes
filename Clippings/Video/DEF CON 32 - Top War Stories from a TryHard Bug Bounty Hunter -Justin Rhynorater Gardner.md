@@ -49,7 +49,8 @@ Indicator:
 - **Question**: How IS meeting JOimng triggered?
 - **Lead**: Researcher found a github issue were when XYZ audio Device is used.
 - **Issue**: When Joining a Meeting the 
-- 
+- What Happens?
+     1) User connects over WEb
 
 
 ---
