@@ -34,7 +34,7 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260419203434.png)
 
 ### #4 - Medium - Blind XSS via SMS -> Arb ATO 
-- there was a Feature Flag called `messeges: false` the researcher turned the 
+- there was a Feature Flag called `messeges: false` the researcher turned that `false` to `true` and he was able to get new feature called messeges where he could msg other user an img xss payload ``
 ---
 ## Full Page Content
 
