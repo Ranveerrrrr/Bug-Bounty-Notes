@@ -38,6 +38,8 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260419204743.png)
 - `"<img src=x onerror=alert(1)>`
 - and was able to turn that blind XSS into ATO by stealing Session cookie to his owned server
+- ![](attachments/Pasted%20image%2020260419205009.png)
+- The Developers had some problem with the handsome guy called security
 ---
 ## Full Page Content
 
