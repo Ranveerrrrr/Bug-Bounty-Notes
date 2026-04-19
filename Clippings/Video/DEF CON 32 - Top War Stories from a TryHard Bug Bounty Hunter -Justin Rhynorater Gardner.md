@@ -1,21 +1,22 @@
 ---
-title: "DEF CON 32 - Top War Stories from a TryHard Bug Bounty Hunter -Justin Rhynorater Gardner"
-Type: "Video"
+title: DEF CON 32 - Top War Stories from a TryHard Bug Bounty Hunter -Justin Rhynorater Gardner
+Type: Video
 published: 2024-10-17
-Source: "https://www.youtube.com/watch?v=TqKb7h8VFcA"
+Source: https://www.youtube.com/watch?v=TqKb7h8VFcA
 Creator: "[[DEFCONConference]]"
 date: 2026-04-19
 tags:
-  - "Clippings"
-  - "Video"
+  - Clippings
+  - Video
+  - "#Bugs"
 Finished: false
-Cover: "https://www.youtube.com/img/desktop/yt_1200.png"
-Site: "YouTube"
+Cover: https://www.youtube.com/img/desktop/yt_1200.png
+Site: YouTube
 ---
 ## Highlights
 ### Bug #1 - Easy - Nginx [403 Bypass](../../Attacks/403%20Bypass.md) -> PII Leak
 - API Endpoint -> Implicit Trust -> Leak User Database
-- Certain API Endpoint -> nginx 403 and not app 403
+- Certain API Endpoint -> Nginx 403 and not app 403
 
 ---
 ## Full Page Content
