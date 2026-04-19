@@ -22,7 +22,7 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260419200856.png)
 
 ### #2 - Easy - Arbitrary ATO via... Docs?
-- `/auth/token` -> when gave data with `grant_type`, `username` and `password` the application returned the token but the application was a OTP Auth site with no Password input field. so B
+- `/auth/token` -> when gave data with `grant_type`, `username` and `password` the application returned the token but the application was a OTP Auth site with no Password input field. so Basically attacker could have got any users token by entring random password for diff usernames.
 ---
 ## Full Page Content
 
