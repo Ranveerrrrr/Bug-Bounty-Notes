@@ -13,15 +13,14 @@ Finished: false
 Cover: https://www.youtube.com/img/desktop/yt_1200.png
 Site: YouTube
 ---
-## Highlights
-
-### Bug #1 - Easy - Nginx [403 Bypass](../../Attacks/403%20Bypass.md) -> PII Leak
+## Highlight Bugs
+### #1 - Easy - Nginx [403 Bypass](../../Attacks/403%20Bypass.md) -> PII Leak
 - API Endpoint -> Implicit Trust -> Leak User Database
 - Certain API Endpoint -> Nginx 403 and not app 403
 - ![](attachments/Pasted%20image%2020260419200732.png)
 - ![](attachments/Pasted%20image%2020260419200856.png)
 
-### Bug #2 - Easy - 
+### #2 - Easy - Arbitrary ATO
 
 ---
 ## Full Page Content
