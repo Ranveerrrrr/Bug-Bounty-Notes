@@ -42,6 +42,11 @@ Indicator:
 - The Developers had some problem with the Rich & handsome guy called security
 - ![](attachments/Pasted%20image%2020260419205133.png)
 - ![](attachments/Pasted%20image%2020260419205141.png)
+
+### #4 - Medium - Blind XSS via SMS -> Arb ATO 
+- 
+
+
 ---
 ## Full Page Content
 
