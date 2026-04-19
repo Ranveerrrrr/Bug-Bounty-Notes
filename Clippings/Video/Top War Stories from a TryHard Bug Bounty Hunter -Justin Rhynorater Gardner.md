@@ -72,7 +72,8 @@ Indicator:
      2) Victim connects to his server
          - through a malicious project file 
          - The file contains:
-    
+             - hidden config: “connect to this version control server”
+         - So when victim opens the project file the victim projects auto 
 
 ---
 ## Full Page Content
