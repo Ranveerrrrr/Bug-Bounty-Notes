@@ -70,6 +70,9 @@ Indicator:
          - Uses `struct.pack` to send packets
      
      2) Victim connects to his server
+         - through a malicious project file 
+         - The file contains:
+    
 
 ---
 ## Full Page Content
