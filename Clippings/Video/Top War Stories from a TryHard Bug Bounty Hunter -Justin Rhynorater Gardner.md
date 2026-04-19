@@ -73,7 +73,9 @@ Indicator:
          - through a malicious project file 
          - The file contains:
              - hidden config: “connect to this version control server”
-         - So when victim opens the project file the victim projects auto 
+         - So when victim opens the project file the victim projects automatically connects to the Preforce Server
+
+     3) Fake server sends malicious commands
 
 ---
 ## Full Page Content
