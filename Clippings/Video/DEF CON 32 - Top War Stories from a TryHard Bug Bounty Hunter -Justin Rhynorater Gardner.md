@@ -17,8 +17,8 @@ Site: YouTube
 ### Bug #1 - Easy - Nginx [403 Bypass](../../Attacks/403%20Bypass.md) -> PII Leak
 - API Endpoint -> Implicit Trust -> Leak User Database
 - Certain API Endpoint -> Nginx 403 and not app 403
+- ![](attachments/Pasted%20image%2020260419200732.png)
 
-### Bug 
 
 ---
 ## Full Page Content
