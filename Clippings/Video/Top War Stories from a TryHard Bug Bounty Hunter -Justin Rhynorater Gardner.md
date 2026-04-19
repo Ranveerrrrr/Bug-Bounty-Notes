@@ -63,7 +63,7 @@ Indicator:
 - **Target**: Desktop Applicatlon Used for Game Development
 - That Game Development tool had a feature to connect to a Perforce Server Which is like Git but for like Projects with Bigger assets it sync and update the project.
 - The Researcher created a Malicious Preforce Server and pretented to be the server
-- 
+- from the `Preforce protocol spec` he got to know that server sends the command like 
 
 ---
 ## Full Page Content
