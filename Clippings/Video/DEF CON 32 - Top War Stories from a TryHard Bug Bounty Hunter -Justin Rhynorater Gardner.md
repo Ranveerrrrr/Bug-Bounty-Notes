@@ -54,7 +54,7 @@ Indicator:
      2) User gets access to call comms channels etc
      3) JS code identifies audio device or create fake one 
      4) Client-side JS sends **"AudioConnectSignal"**(*beep*) to signal join
-- **Issue**: The Client-side JS that sends the **"AudioConnectSignal"**(*beep*) was Dropped and other members of Meeting would't know if some
+- **Issue**: The Client-side JS that sends the **"AudioConnectSignal"**(*beep*) was Dropped and other members of Meeting would't know if someone joined
 
 
 ---
