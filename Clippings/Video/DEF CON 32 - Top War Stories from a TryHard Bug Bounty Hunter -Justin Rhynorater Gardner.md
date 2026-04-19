@@ -59,6 +59,8 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260419214047.png)
 - ![](attachments/Pasted%20image%2020260419214055.png)
 
+### #6 - Hard - Perforce Server -> Client 
+- 
 
 ---
 ## Full Page Content
