@@ -22,8 +22,7 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260419200856.png)
 
 ### #2 - Easy - Arbitrary ATO via... Docs?
-- `/auth/token` -> 
-
+- `/auth/token` -> when gave data with `grant_type`, `username` and `password` the application retu
 ---
 ## Full Page Content
 
