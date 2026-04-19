@@ -18,6 +18,7 @@ Site: YouTube
 - API Endpoint -> Implicit Trust -> Leak User Database
 - Certain API Endpoint -> Nginx 403 and not app 403
 - ![](attachments/Pasted%20image%2020260419200732.png)
+- ![](attachments/Pasted%20image%2020260419200856.png)
 
 
 ---
