@@ -68,6 +68,8 @@ Indicator:
      1) Researcher built a fake Preforce Server
          - Implements protocol (Binary RPC)
          - Uses `struct.pack` to send packets
+     
+     2) Victim connects to his server
 
 ---
 ## Full Page Content
