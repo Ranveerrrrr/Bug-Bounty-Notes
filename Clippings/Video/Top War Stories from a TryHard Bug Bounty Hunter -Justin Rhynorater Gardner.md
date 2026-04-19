@@ -79,7 +79,7 @@ Indicator:
          - Server says: `write file → ../../../some/critical/path.exe`
          - Path Traversal right here and now instead of writing to the project file folder only the server can create a file anywhere in the victim pc 
 
-     4) Researcher noticed that a file is being executed every 2 seconds and overwrites it with malicious code and then as soon as app/tool 
+     4) Researcher noticed that a file is being executed every 2 seconds and overwrites it with malicious code and then as soon as app/tool runs **RCE** -> Remote code execution
 
 ---
 ## Full Page Content
