@@ -43,8 +43,10 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260419205133.png)
 - ![](attachments/Pasted%20image%2020260419205141.png)
 
-### #4 - Medium - Blind XSS via SMS -> Arb ATO 
-- 
+### #5 - Medium - Snoop on Others' Meetings
+-  Environment Video chat & Team Collaboration Apply
+- Goal: Snoop on Other People's Meetings
+Question How IS meeting JOimng triggered?
 
 
 ---
