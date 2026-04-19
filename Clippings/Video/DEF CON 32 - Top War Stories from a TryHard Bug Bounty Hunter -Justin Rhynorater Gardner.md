@@ -23,7 +23,11 @@ Indicator:
 
 ### #2 - Easy - Arbitrary ATO via... Docs?
 -  On`/auth/token` with `grant_type`, `username` and `password` the application returned 401 Unauthorized but the application was a OTP Auth site with no Password input field. the researcher looked in the Docs js-files and found base64 encoded `Basic` Token. now when the request to `auth/token`was sent with the data above and token. in Response the Applicationn gave the Session token for the perticular user.so Basically attacker could have got any users token by entring random password for diff usernames.
+- ![](attachments/Pasted%20image%2020260419202849.png)
 - ![](attachments/Pasted%20image%2020260419202017.png)
+
+#
+
 ---
 ## Full Page Content
 
