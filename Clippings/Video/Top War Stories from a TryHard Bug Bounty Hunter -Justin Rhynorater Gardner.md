@@ -87,6 +87,7 @@ Indicator:
          - Allowed: `../../../ traversal`
      3) Dangerous design 
          - Server could Directly command file writes
+ - ![](attachments/Pasted%20image%2020260419225928.png)
 
 ---
 ## Full Page Content
