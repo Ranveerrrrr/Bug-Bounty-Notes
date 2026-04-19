@@ -47,6 +47,7 @@ Indicator:
 - **Environment**: Video chat & Team Collaboration App
 - **Goal**: Snoop on Other People's Meetings
 - **Question**: How IS meeting JOimng triggered?
+- **Lead**: Researcher found a github issue were when X
 
 
 ---
