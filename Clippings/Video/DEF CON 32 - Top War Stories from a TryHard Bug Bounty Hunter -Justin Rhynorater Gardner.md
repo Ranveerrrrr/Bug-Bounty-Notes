@@ -18,6 +18,8 @@ Site: YouTube
 - API Endpoint -> Implicit Trust -> Leak User Database
 - Certain API Endpoint -> Nginx 403 and not app 403
 
+### Bug 
+
 ---
 ## Full Page Content
 
