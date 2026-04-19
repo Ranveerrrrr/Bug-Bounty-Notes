@@ -13,7 +13,7 @@ Cover: "https://www.youtube.com/img/desktop/yt_1200.png"
 Site: "YouTube"
 ---
 ## Highlights
-
+### Bug #1 - Easy - Nginx [403 Bypass](../../Attacks/403%20Bypass.md) -> PII l
 
 ---
 ## Full Page Content
