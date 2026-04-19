@@ -67,7 +67,7 @@ Indicator:
 - **How it Happens?**
      1) Researcher built a fake Preforce Server
          - Implements protocol (Binary RPC)
-         - Uses `struct.pack` to send 
+         - Uses `struct.pack` to send packets
 
 ---
 ## Full Page Content
