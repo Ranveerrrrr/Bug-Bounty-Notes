@@ -48,7 +48,8 @@ Indicator:
 - **Goal**: Snoop on Other People's Meetings
 - **Question**: How IS meeting JOimng triggered?
 - **Lead**: Researcher found a github issue were when XYZ audio Device is used.
-- **Issue**: When Joining a Meeting 
+- **Issue**: When Joining a Meeting the 
+- 
 
 
 ---
