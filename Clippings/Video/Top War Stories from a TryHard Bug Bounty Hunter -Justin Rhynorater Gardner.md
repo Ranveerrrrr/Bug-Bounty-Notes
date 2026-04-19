@@ -64,7 +64,8 @@ Indicator:
 - That Game Development tool had a feature to connect to a Perforce Server Which is like Git but for like Projects with Bigger assets it sync and update the project.
 - The Researcher created a Malicious Preforce Server and pretented to be the server
 - from the `Preforce protocol spec` he got to know that server sends the command like `client: open file` & `client: write file` which is kinda sus that server can write files cause if its a malicious server that protocol can be abused and malicious files could be created like a shell which will exactly what will happen next but after adding some more steps.
-- 
+- **How it Happens?**
+     1) Researcher built a fake 
 
 ---
 ## Full Page Content
