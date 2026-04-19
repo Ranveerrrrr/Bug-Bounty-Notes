@@ -44,9 +44,9 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260419205141.png)
 
 ### #5 - Medium - Snoop on Others' Meetings
--  Environment Video chat & Team Collaboration Apply
-- Goal: Snoop on Other People's Meetings
-Question How IS meeting JOimng triggered?
+- **Environment**: Video chat & Team Collaboration App
+- **Goal**: Snoop on Other People's Meetings
+- **Question**: How IS meeting JOimng triggered?
 
 
 ---
