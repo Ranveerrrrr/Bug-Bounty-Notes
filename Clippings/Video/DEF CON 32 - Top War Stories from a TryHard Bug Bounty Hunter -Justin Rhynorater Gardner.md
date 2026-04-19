@@ -29,6 +29,9 @@ Indicator:
 
 ### #3 - Easy - IDOR in same App from Docs
 - their was an IDOR on an API when given same bearar token the user id could be iterated to get the hash of the password and other PII data.
+- ![](attachments/Pasted%20image%2020260419203359.png)
+- ![](attachments/Pasted%20image%2020260419203411.png)
+- ![](attachments/Pasted%20image%2020260419203434.png)
 
 ---
 ## Full Page Content
