@@ -61,7 +61,8 @@ Indicator:
 
 ### #6 - Hard - Perforce Server -> Client RCE
 - **Target**: Desktop Applicatlon Used for Game Development
-- That Game Development tool had a feature to connect to a Perforce Server Which is like Git but for like Projects with Bigger assets 
+- That Game Development tool had a feature to connect to a Perforce Server Which is like Git but for like Projects with Bigger assets it sync and update the project.
+- The Resear
 
 ---
 ## Full Page Content
