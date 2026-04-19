@@ -13,6 +13,7 @@ Finished: false
 Cover: https://www.youtube.com/img/desktop/yt_1200.png
 Site: YouTube
 ---
+![](attachments/Pasted%20image%2020260419214127.png)
 ## Bugs
 ### #1 - Easy - Nginx [403 Bypass](../../Attacks/403%20Bypass.md) -> PII Leak
 Indicator:
@@ -56,7 +57,7 @@ Indicator:
      4) Client-side JS sends **"AudioConnectSignal"**(*beep*) to signal join
 - **Issue**: The Client-side JS that sends the **"AudioConnectSignal"**(*beep*) was Dropped and other members of Meeting would't know if someone joined cause that *beep* was updating the participent list.
 - ![](attachments/Pasted%20image%2020260419214047.png)
-- 
+- ![](attachments/Pasted%20image%2020260419214055.png)
 
 
 ---
