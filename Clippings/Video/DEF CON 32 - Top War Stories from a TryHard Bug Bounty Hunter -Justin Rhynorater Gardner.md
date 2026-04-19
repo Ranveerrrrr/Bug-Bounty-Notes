@@ -28,7 +28,7 @@ Indicator:
 
 
 ### #3 - Easy - IDOR in same App from Docs
-- 
+- their was an IDOR on an API when given
 
 ---
 ## Full Page Content
