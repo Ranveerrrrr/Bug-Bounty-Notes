@@ -50,7 +50,9 @@ Indicator:
 - **Lead**: Researcher found a github issue were when XYZ audio Device is used.
 - **Issue**: When Joining a Meeting the 
 - What Happens?
-     1) User connects over WEb
+     1) User connects over WebRTC
+     2) User gets access to call comms channels etc
+     3) JS code identifies aud
 
 
 ---
