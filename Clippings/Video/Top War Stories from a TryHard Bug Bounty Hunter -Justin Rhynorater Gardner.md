@@ -77,7 +77,9 @@ Indicator:
 
      3) Fake server sends malicious commands
          - Server says: `write file → ../../../some/critical/path.exe`
-         - Path Traversal right here and now instead of writing to the project file folder only the server can create a file anywhere in the victo
+         - Path Traversal right here and now instead of writing to the project file folder only the server can create a file anywhere in the victim pc 
+
+     4) Researcher noticed that a file is being exc
 
 ---
 ## Full Page Content
