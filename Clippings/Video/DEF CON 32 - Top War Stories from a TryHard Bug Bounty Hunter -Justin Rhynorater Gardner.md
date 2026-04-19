@@ -36,7 +36,7 @@ Indicator:
 ### #4 - Medium - Blind XSS via SMS -> Arb ATO 
 - there was a Feature Flag called `messeges: false` the researcher turned that `false` to `true` and he was able to get new feature called messeges where he could msg other user an img xss payload 
 - `"<img src=x onerror=alert(1)>`
-- and was able to turn that blind XSS into ATO by stea
+- and was able to turn that blind XSS into ATO by stealing Session cookie to his owned server
 ---
 ## Full Page Content
 
