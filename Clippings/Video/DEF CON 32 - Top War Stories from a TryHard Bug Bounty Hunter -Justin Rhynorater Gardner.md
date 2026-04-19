@@ -39,7 +39,9 @@ Indicator:
 - `"<img src=x onerror=alert(1)>`
 - and was able to turn that blind XSS into ATO by stealing Session cookie to his owned server
 - ![](attachments/Pasted%20image%2020260419205009.png)
-- The Developers had some problem with the handsome guy called security
+- The Developers had some problem with the Rich & handsome guy called security
+- ![](attachments/Pasted%20image%2020260419205133.png)
+- ![](attachments/Pasted%20image%2020260419205141.png)
 ---
 ## Full Page Content
 
