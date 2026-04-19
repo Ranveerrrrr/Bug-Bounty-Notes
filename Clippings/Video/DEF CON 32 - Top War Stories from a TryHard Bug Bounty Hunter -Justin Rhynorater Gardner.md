@@ -22,8 +22,7 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260419200856.png)
 
 ### #2 - Easy - Arbitrary ATO via... Docs?
-Indicator:
-- Docs
+- `/auth/token` -> 
 
 ---
 ## Full Page Content
