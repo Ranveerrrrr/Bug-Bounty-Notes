@@ -76,6 +76,8 @@ Indicator:
          - So when victim opens the project file the victim projects automatically connects to the Preforce Server
 
      3) Fake server sends malicious commands
+         - Server says: `write file → ../../../some/critical/path.exe`
+         - Path Traversal right here
 
 ---
 ## Full Page Content
