@@ -85,7 +85,7 @@ Indicator:
          - Client assumed: **“Server is legit → follow instructions”**
      2) No Path Validation
          - Allowed: `../../../ traversal`
-        3) Dangerous design 
+     3) Dangerous design 
          - Server could Directly command file writes
 
 ---
