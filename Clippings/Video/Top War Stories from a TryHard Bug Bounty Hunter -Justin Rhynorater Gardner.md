@@ -127,7 +127,7 @@ Indicator:
 ### #10 - Very Hard - IoT Device - No User Interaction Spying
 - **Target**: In-home, Tabletop IOT Device With Camera Microphone
 - **End Goal**: No User Interaction Spying - 'Boom, I'm in your house" sort of situation
-- **Issues**: App had root detection had to bypass it bypass tls pinning and the voice was below sip/sips protocol but the problem was that burpsuite does not support sips protocol interception so the researcher used PolarProxy which captures 
+- **Issues**: App had root detection had to bypass it bypass tls pinning and the voice was below sip/sips protocol but the problem was that burpsuite does not support sips protocol interception so the researcher used PolarProxy which captures tls and ssl and supports sips but again the problem was that PolarProxy does not support request editing and just gives the request andreponse in a pcap 
 
 ---
 
