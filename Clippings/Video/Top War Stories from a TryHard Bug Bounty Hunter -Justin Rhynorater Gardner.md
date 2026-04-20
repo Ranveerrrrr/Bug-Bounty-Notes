@@ -105,7 +105,8 @@ Indicator:
 - this one starts same as before the router is running a gRPC service like before and again from thecloud thecertificate can be taken and given to the router to access router from their the researcher looked onto the dnsmasq config which offers DHCP,tftp and dns
 - here tftp was intresting as tftp (file transfer server) which can expose routers internal files. 
 - the researcher could open the tftp service but its been running as a low privilege user and not as root which he transformed into a root tftp as via config injection.
-- 
+- ![](attachments/Pasted%20image%2020260420114403.png)
+- here he had an problem as he faced the double injection points the same user input was passed to 2 user inpt point
 
 ---
 
