@@ -106,9 +106,10 @@ Indicator:
 - here tftp was intresting as tftp (file transfer server) which can expose routers internal files. 
 - the researcher could open the tftp service but its been running as a low privilege user and not as root which he transformed into a root tftp as via config injection.
 - ![](attachments/Pasted%20image%2020260420114403.png)
-- here he had 2 problem as he faced the double injection points the same user input was passed to 2 user input point/injection points and the line `user=root` could not be written 2 times in the file. 
+- here he had 2 problem as he faced the double injection points the same user input was passed to 2 user input point/injection points and the line `user=root` could not be written 2 times in the file or it would fail. 
 - Solution: he found that in the parsing of the file only first 1025 bytes are considered by the parser as first line is a line exceeds 1025 bytes the parser take the bytes/data after that and parses it as next new line.
-- the researcher took advantage of it and used the perticular payload to bypass it
+- ![](attachments/Pasted%20image%2020260420114947.png)
+- the researcher took advantage of it and used the perticular payload to bypass it.
 
 ---
 
