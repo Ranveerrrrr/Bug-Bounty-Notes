@@ -97,7 +97,11 @@ Indicator:
 - The Researcher sended that certificate to the router and then he was able to get access to somefeatures of router and in code he found out that in dhcp configuraton file the user input was not santized and found a config injection and with the perticular code injection he got rce/shell in the router.
 - ![](attachments/Pasted%20image%2020260420104216.png)
 - the researcher listened on the perticular port and when dhcp fires as router start that perticular ip mentioned in the injection code gets a reverse shell into the router
+- ![](attachments/Pasted%20image%2020260420104451.png)
 
+### #8 - Hard - Shelling a Public Program Router #2
+- Target: Router from a Public Program
+Goal 2: Shell that ish_ AGAIN.
 
 ---
 
