@@ -111,7 +111,7 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260420114947.png)
 - the researcher took advantage of it and used the perticular payload to bypass it.
 - ![](attachments/Pasted%20image%2020260420115039.png)
-- He added a comment so in the shorter injection the `user=root` woud be commen
+- He added a comment so in the shorter injection pont(with less line) the `user=root` woud be commented so no execution or error but on longer injection point 
 
 ---
 
