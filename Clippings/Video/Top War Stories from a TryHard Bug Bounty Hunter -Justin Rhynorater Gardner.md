@@ -127,7 +127,7 @@ Indicator:
 ### #10 - Very Hard - IoT Device - No User Interaction Spying
 - **Target**: In-home, Tabletop IOT Device With Camera Microphone
 - **End Goal**: No User Interaction Spying - 'Boom, I'm in your house" sort of situation
-- **Issues**: App had root detection
+- **Issues**: App had root detection had to bypass it bypass tls pinning
 
 ---
 
