@@ -113,6 +113,7 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260420115039.png)
 - He added a comment so in the shorter injection pont(with less characters in one line) the `user=root` woud be commented so no execution or error but on longer injection point(with more characters in one line) the `user=root` woud be considered as a new line with this the `user=root` directive only appered once and no error and the tftp service started as root which exposed whole file system of the router.
 - ![](attachments/Pasted%20image%2020260420115514.png)
+- ![](attachments/Pasted%20image%2020260420115610.png)
 
 ---
 
