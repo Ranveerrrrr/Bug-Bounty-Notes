@@ -102,7 +102,7 @@ Indicator:
 ### #8 - Hard - Shelling a Public Program Router #2
 - **Target**: Router from a Public Program
 - **Goal**: Shell that ish... AGAIN.
-- 
+- this one starts same as before the router is r
 
 ---
 
