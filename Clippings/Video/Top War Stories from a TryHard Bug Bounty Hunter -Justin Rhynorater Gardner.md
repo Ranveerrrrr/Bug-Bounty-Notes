@@ -118,7 +118,9 @@ Indicator:
 ### #9 - Hard - Version Control Binary SQL Injection
 - **Target**: Public Program's Custom Verstcn Control Binary for Development Software
 - **Goal**: Get our hands on source code-ish stuff.
-- The Researcher decompiled the .net app and found this flowfor verion contol system
+- The Researcher decompiled the .net app and found this flowfor verion contol system.
+- ![](attachments/Pasted%20image%2020260420124323.png)
+- here if a file with malicious name is pushed to the ve
 
 ---
 
