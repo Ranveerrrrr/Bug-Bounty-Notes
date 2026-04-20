@@ -116,7 +116,8 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260420115610.png)
 
 ### #9 - Hard - Version Control Binary SQL Injection
-- 
+- **Target**: Public Program's Custom Verstcn Control Binary for Development Software
+- **Goal**: Get our hands on source code-ish stuff.
 
 ---
 
