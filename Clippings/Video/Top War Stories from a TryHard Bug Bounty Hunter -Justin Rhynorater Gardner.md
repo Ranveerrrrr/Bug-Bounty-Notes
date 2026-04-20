@@ -92,6 +92,7 @@ Indicator:
 ### #7 - Hard - Shelling a Public Program Router
 - **Target**: Router from a Public Program
 - **Goal 1**: Get the firmware so we can start hunting reliably
+- The researcher found out that the router 
 
 ---
 
