@@ -120,7 +120,7 @@ Indicator:
 - **Goal**: Get our hands on source code-ish stuff.
 - The Researcher decompiled the .net app and found this flowfor verion contol system.
 - ![](attachments/Pasted%20image%2020260420124323.png)
-- here if a file with malicious name is pushed to the version control web app and when the victim does git pull or smth like that to sync to the latest updates and when a
+- here if a file with malicious name is pushed to the version control web app and when the victim does git pull or smth like that to sync to the latest updates and when a sql query in victim machine runs a quesry like `INSERT INTO files (name) VALUES ('filename');` the filename here will also represent the malicious 
 
 ---
 
