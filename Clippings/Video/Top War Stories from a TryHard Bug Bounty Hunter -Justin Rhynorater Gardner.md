@@ -89,7 +89,11 @@ Indicator:
          - Server could Directly command file writes
  - ![](attachments/Pasted%20image%2020260419225928.png)
 
+### #7 - Hard - Perforce Server -> Client RCE
+- 
+
 ---
+
 ## Full Page Content
 
 ![](https://www.youtube.com/watch?v=TqKb7h8VFcA)
