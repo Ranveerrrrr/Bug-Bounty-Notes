@@ -89,7 +89,7 @@ Indicator:
          - Server could Directly command file writes
  - ![](attachments/Pasted%20image%2020260419225928.png)
 
-### #7 - Hard - Perforce Server -> Client RCE
+### #7 - Hard - Shelling a Public Program Router
 - 
 
 ---
