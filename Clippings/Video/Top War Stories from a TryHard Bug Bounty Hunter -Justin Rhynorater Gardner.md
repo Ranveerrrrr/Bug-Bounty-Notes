@@ -103,7 +103,8 @@ Indicator:
 - **Target**: Router from a Public Program
 - **Goal**: Shell that ish... AGAIN.
 - this one starts same as before the router is running a gRPC service like before and again from thecloud thecertificate can be taken and given to the router to access router from their the researcher looked onto the dnsmasq config which offers DHCP,tftp and dns
-- here tftp was intresting as tftp (file transfer server)
+- here tftp was intresting as tftp (file transfer server) which can expose routers internal files. 
+- the researcher could open the tftp 
 
 ---
 
