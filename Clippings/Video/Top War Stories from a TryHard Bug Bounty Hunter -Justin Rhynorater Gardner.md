@@ -110,6 +110,8 @@ Indicator:
 - Solution: he found that in the parsing of the file only first 1025 bytes are considered by the parser as first line is a line exceeds 1025 bytes the parser take the bytes/data after that and parses it as next new line.
 - ![](attachments/Pasted%20image%2020260420114947.png)
 - the researcher took advantage of it and used the perticular payload to bypass it.
+- ![](attachments/Pasted%20image%2020260420115039.png)
+- He added a comment so in the shorter injection the `user=root` woud be commen
 
 ---
 
