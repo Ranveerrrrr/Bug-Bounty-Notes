@@ -124,6 +124,9 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260420124810.png)
 - ![](attachments/Pasted%20image%2020260420124833.png)
 
+### #10 - Very Hard - 
+- 
+
 ---
 
 ## Full Page Content
