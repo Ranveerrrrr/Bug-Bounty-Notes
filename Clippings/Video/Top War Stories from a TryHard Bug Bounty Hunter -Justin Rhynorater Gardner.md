@@ -124,8 +124,9 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260420124810.png)
 - ![](attachments/Pasted%20image%2020260420124833.png)
 
-### #10 - Very Hard - IoT Device - 
-- 
+### #10 - Very Hard - IoT Device - No User Interaction Spying
+- **Target**: In-home, Tabletop IOT Device With Camera Microphone
+- **End Goal**: No User Interaction Spy•nq • 'Boom, I'm •n your house• sort of situation
 
 ---
 
