@@ -102,7 +102,8 @@ Indicator:
 ### #8 - Hard - Shelling a Public Program Router #2
 - **Target**: Router from a Public Program
 - **Goal**: Shell that ish... AGAIN.
-- this one starts same as before the router is running a gRPC service like before and again from thecloud thecertificate can be taken and given to the router to access router from their the researcher looked onto the dnsmasq config which offers DHCP,tftp
+- this one starts same as before the router is running a gRPC service like before and again from thecloud thecertificate can be taken and given to the router to access router from their the researcher looked onto the dnsmasq config which offers DHCP,tftp and dns
+- here tftp was intresting as tftp (file transfer server)
 
 ---
 
