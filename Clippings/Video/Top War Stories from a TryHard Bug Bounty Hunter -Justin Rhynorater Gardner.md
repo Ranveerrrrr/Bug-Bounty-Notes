@@ -100,8 +100,9 @@ Indicator:
 - ![](attachments/Pasted%20image%2020260420104451.png)
 
 ### #8 - Hard - Shelling a Public Program Router #2
-- Target: Router from a Public Program
-Goal 2: Shell that ish_ AGAIN.
+- **Target**: Router from a Public Program
+- **Goal**: Shell that ish... AGAIN.
+- 
 
 ---
 
