@@ -106,7 +106,8 @@ Indicator:
 - here tftp was intresting as tftp (file transfer server) which can expose routers internal files. 
 - the researcher could open the tftp service but its been running as a low privilege user and not as root which he transformed into a root tftp as via config injection.
 - ![](attachments/Pasted%20image%2020260420114403.png)
-- here he had an problem as he faced the double injection points the same user input was passed to 2 user inpt point
+- here he had an problem as he faced the double injection points the same user input was passed to 2 user input point/injection points. 
+- Solution: he found that in the parsing of the file only first 1025 bytes are co
 
 ---
 
