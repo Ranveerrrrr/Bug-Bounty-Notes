@@ -92,7 +92,7 @@ Indicator:
 ### #7 - Hard - Shelling a Public Program Router
 - **Target**: Router from a Public Program
 - **Goal 1**: Get the firmware so we can start hunting reliably
-- The researcher found out that the router 
+- The researcher found out that the router trusts only trusted cloud which gives a certificate to prove its legitmacy and gives access to some features of the router in grc
 
 ---
 
