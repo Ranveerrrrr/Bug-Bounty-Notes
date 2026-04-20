@@ -93,7 +93,8 @@ Indicator:
 - **Target**: Router from a Public Program
 - **Goal 1**: Get the firmware so we can start hunting reliably
 - The researcher found out that the router trusts only trusted cloud which gives a certificate to prove its legitmacy and gives access to some features of the router 
-- the cloud server was a gRPC server and researcher found out that the server was misconfigured a
+- the cloud server was a gRPC server and researcher found out that the server was misconfigured and gave certificate and he took that
+- sended 
 
 ---
 
