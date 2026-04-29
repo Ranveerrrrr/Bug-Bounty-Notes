@@ -14,6 +14,4 @@ tags:
 
 ## Automated Bug Hunting Toolkit: A Deep Dive into Each Tool
 - **AlienVault OTX**:  Mass URL Discovery
-- ```
-  ./alienvault.sh domain.com
-  ```
+- ```./alienvault.sh domain.com```
