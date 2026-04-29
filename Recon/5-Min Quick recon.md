@@ -26,3 +26,4 @@ cat all_urls.txt | gf ssrf | uro > unique_xss_targets.txt
 cat all_urls.txt | gf redirect | uro > unique_xss_targets.txt
 ```
 - Pattern: [On Github By CoffinXP](https://github.com/coffinxp/GFpattren)
+- gf: https://github.com/tomnomnom/gf
