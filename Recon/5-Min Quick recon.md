@@ -31,4 +31,9 @@ cat all_urls.txt | gf redirect | uro > unique_xss_targets.txt
 ## LostFuzzer: Quick DAST Scanner
 - Tool: https://github.com/coffinxp/lostfuzzer
 
-## URLScan.io
+## URLScan.io: Uncovering Hidden Subdomains and Endpoints
+```
+python urlscan.py -d redbull.com --mode urls
+python urlscan.py -d redbull.com --mode subdomains
+```
+- Tool: https://github.com/coffinxp/scripts/blob/main/urlscan.py
