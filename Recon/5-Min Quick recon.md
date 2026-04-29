@@ -37,3 +37,5 @@ python urlscan.py -d redbull.com --mode urls
 python urlscan.py -d redbull.com --mode subdomains
 ```
 - Tool: https://github.com/coffinxp/scripts/blob/main/urlscan.py
+
+## VirusTotal Script: Mining for Digital Gold
