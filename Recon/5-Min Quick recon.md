@@ -16,6 +16,8 @@ tags:
 - **AlienVault OTX**:  Mass URL Discovery
 - ```./alienvault.sh domain.com```
 - Script:[ On Github By CoffinXP](https://github.com/coffinxp/scripts/blob/main/alienvault.sh)
+
+## GF-Patterns
 ```
 cat all_urls.txt | gf xss | uro > unique_xss_targets.txt
 cat all_urls.txt | gf sqli | uro > unique_xss_targets.txt
@@ -23,3 +25,4 @@ cat all_urls.txt | gf idor | uro > unique_xss_targets.txt
 cat all_urls.txt | gf ssrf | uro > unique_xss_targets.txt
 cat all_urls.txt | gf redirect | uro > unique_xss_targets.txt
 ```
+- Pattern: On Github By CoffinXP
