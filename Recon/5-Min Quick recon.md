@@ -39,3 +39,6 @@ python urlscan.py -d redbull.com --mode subdomains
 - Tool: https://github.com/coffinxp/scripts/blob/main/urlscan.py
 
 ## VirusTotal Script: Mining for Digital Gold
+- secret weapons for finding the kind of sensitive information that other tools often miss
+- `./virustotal.sh domain.com`
+- Script: 
