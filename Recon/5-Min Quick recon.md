@@ -43,3 +43,7 @@ python urlscan.py -d redbull.com --mode subdomains
 - `./virustotal.sh domain.com`
 - Script: https://github.com/coffinxp/scripts/blob/main/virustotal.sh
 
+## Waybackurls: The Engine of Recon Workflow
+- `./wayback.sh example.com -s -sc 200 | gf xss`
+- Can use any pattern other then `xss`
+- Script: https://github.com/coffinxp/scripts/blob/main/wayback.sh
