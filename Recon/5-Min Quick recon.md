@@ -13,3 +13,5 @@ tags:
 - ```
   cat ip.txt | nuclei -tags {{According to you}} -bs 50 -c 50 -es info
   ```
+
+## ### Automated Bug Hunting Toolkit: A Deep Dive into Each Tool
