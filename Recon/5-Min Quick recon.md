@@ -25,4 +25,4 @@ cat all_urls.txt | gf idor | uro > unique_xss_targets.txt
 cat all_urls.txt | gf ssrf | uro > unique_xss_targets.txt
 cat all_urls.txt | gf redirect | uro > unique_xss_targets.txt
 ```
-- Pattern: On Github By CoffinXP
+- Pattern: [On Github By CoffinXP](https://github.com/coffinxp/GFpattren)
