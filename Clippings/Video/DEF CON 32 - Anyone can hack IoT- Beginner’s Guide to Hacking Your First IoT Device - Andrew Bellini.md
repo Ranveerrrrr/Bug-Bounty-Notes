@@ -16,7 +16,7 @@ Site: "YouTube"
 ![](attachments/Pasted%20image%2020260504134240.png)
 ![](attachments/Pasted%20image%2020260504134406.png)
 ![](attachments/Pasted%20image%2020260504134451.png)
-
+- on Cheaper devices you wontface problemlike where frimwere is encrypted, debug ports ar
 
 ---
 ## Full Page Content
