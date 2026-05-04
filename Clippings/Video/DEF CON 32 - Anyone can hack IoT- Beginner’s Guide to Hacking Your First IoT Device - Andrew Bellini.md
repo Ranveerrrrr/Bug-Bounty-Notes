@@ -16,7 +16,7 @@ Site: "YouTube"
 ![](attachments/Pasted%20image%2020260504134240.png)
 ![](attachments/Pasted%20image%2020260504134406.png)
 ![](attachments/Pasted%20image%2020260504134451.png)
-- on Cheaper devices you wont face problemlike where frimwere is encrypted, debug ports are blocked
+- on Cheaper devices you wont face problemlike where frimware is encrypted, debug ports are blocked
 
 ---
 ## Full Page Content
