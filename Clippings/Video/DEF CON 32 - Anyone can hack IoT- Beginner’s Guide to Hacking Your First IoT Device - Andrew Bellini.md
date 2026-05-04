@@ -33,6 +33,9 @@ Site: "YouTube"
 ![](attachments/Pasted%20image%2020260504140923.png)
 ![](attachments/Pasted%20image%2020260504141011.png)
 ![](attachments/Pasted%20image%2020260504141040.png)
+![](attachments/Pasted%20image%2020260504141151.png)
+![](attachments/Pasted%20image%2020260504141226.png)
+
 
 ---
 ## Full Page Content
