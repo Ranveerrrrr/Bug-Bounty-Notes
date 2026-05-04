@@ -14,9 +14,7 @@ Site: "YouTube"
 ---
 ## Highlights
 ![](attachments/Pasted%20image%2020260504134240.png)
-![](attachments/Pasted%20image%2020260504134306.png)
-
-
+![](attachments/Pasted%20image%2020260504134406.png)
 
 ---
 ## Full Page Content
