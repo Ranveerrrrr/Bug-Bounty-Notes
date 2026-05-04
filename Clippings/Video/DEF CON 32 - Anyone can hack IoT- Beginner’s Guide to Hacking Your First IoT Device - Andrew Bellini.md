@@ -51,7 +51,8 @@ Site: "YouTube"
 - also can relay on looging to find the custom ones
 ![](attachments/Pasted%20image%2020260504143530.png)
 ![](attachments/Pasted%20image%2020260504143738.png)
-
+![](attachments/Pasted%20image%2020260504151737.png)
+- use ghidra to decompile
 
 
 
