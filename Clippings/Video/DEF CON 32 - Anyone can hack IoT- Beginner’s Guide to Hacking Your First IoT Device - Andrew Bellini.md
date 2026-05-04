@@ -55,7 +55,6 @@ Site: "YouTube"
 - use ghidra to decompile
 ![](attachments/Pasted%20image%2020260504152346.png)
 ![](attachments/Pasted%20image%2020260504152614.png)
-![](atta
 
 ---
 ## Full Page Content
