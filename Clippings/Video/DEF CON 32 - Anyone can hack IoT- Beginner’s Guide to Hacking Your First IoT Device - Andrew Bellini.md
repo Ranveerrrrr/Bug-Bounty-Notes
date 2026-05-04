@@ -28,7 +28,8 @@ Site: "YouTube"
 ![](attachments/Pasted%20image%2020260504135821.png)
 ![](attachments/Pasted%20image%2020260504140104.png)
 ![](attachments/Pasted%20image%2020260504135946.png)
-
+![](attachments/Pasted%20image%2020260504140331.png)
+![](attachments/Pasted%20image%2020260504140342.png)
 
 
 
