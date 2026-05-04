@@ -13,6 +13,9 @@ Cover: "https://www.youtube.com/img/desktop/yt_1200.png"
 Site: "YouTube"
 ---
 ## Highlights
+![](attachments/Pasted%20image%2020260504134240.png)
+![](attachments/Pasted%20image%2020260504134306.png)
+
 
 
 ---
