@@ -12,7 +12,7 @@ Finished: false
 Cover: "https://www.youtube.com/img/desktop/yt_1200.png"
 Site: "YouTube"
 ---
-## Highlights
+## Highlights (no-BS)
 ![](attachments/Pasted%20image%2020260504134240.png)
 ![](attachments/Pasted%20image%2020260504134406.png)
 ![](attachments/Pasted%20image%2020260504134451.png)
@@ -23,6 +23,13 @@ Site: "YouTube"
 ![](attachments/Pasted%20image%2020260504135313.png)
 ![](attachments/Pasted%20image%2020260504135425.png)
 ![](attachments/Pasted%20image%2020260504135643.png)
+![](attachments/Pasted%20image%2020260504135809.png)
+![](attachments/Pasted%20image%2020260504135821.png)
+
+
+
+
+
 
 ---
 ## Full Page Content
