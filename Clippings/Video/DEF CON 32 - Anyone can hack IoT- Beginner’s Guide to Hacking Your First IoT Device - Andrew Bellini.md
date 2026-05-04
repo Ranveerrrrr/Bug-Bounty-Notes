@@ -19,6 +19,7 @@ Site: "YouTube"
 - on Cheaper devices you wont face problemlike where frimware is encrypted, debug ports are blocked
 
 ![](attachments/Pasted%20image%2020260504135041.png)
+![](attachments/Pasted%20image%2020260504135143.png)
 
 
 ---
