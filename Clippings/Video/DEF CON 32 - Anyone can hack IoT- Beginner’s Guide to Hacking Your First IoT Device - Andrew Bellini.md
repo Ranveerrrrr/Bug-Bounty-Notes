@@ -24,7 +24,9 @@ Site: "YouTube"
 ![](attachments/Pasted%20image%2020260504135425.png)
 ![](attachments/Pasted%20image%2020260504135643.png)
 ![](attachments/Pasted%20image%2020260504135809.png)
+![](attachments/Pasted%20image%2020260504140040.png)
 ![](attachments/Pasted%20image%2020260504135821.png)
+![](attachments/Pasted%20image%2020260504140104.png)
 ![](attachments/Pasted%20image%2020260504135946.png)
 
 
