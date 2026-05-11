@@ -16,7 +16,7 @@ Site: YouTube
 ## Highlights
 ### Sender:
 #### Non-vuln
-```Js
+```js
 window.postMessage(
 type: "userAction" ,
 data: userInput
@@ -32,11 +32,9 @@ data: userInput
 
 ### Reciever:
 ```js
-window. addEventListener( ' message ' ,
-console. log( 'Received: ' ,
-event.
-function (event) {
-data) ;
+window.addEventListener('message', function(event) {
+  console.log('Received: ', event.data);
+});
 ```
 
 
