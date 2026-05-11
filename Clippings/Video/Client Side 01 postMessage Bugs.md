@@ -91,7 +91,7 @@ if (event.origin.startsWith("https://target.com")) {
 ```
 Can be bypassed by passing:
 - `https://target.com.your-domain.com`
-- `https://target.com@your-domain.com`
+
 
 #### Regex
 ```js
@@ -103,8 +103,7 @@ if(event.origin.match(/https:\/\/target.com/)) {
 Can be bypassed by passing:
 - `https://targetXcom.com`
 - `https://target-com`
-- `https://target.com.your-domain.com`
-- `https://target.com@your-domain.com`
+- `https://target.com.your-domain.com
 
 #### Include
 ```js
@@ -114,7 +113,6 @@ if (event.origin.includes("target.com")) {
 ```
 Can be bypassed by passing:
 - `https://your-domain.com/target.com`
-- `https://your-domain.com?redirect=target.com`
 - `https://target.com.your-domain.com
 
 #### Indexof
