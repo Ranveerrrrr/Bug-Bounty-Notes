@@ -89,8 +89,9 @@ if (event.origin.startsWith("https://target.com")) {
   // Process message
 }
 ```
-Can be bypassed:
-- `https://`
+Can be bypassed by passing:
+- `https://target.com.your-domain.com`
+- `https://target.com@you`
 
 
 
