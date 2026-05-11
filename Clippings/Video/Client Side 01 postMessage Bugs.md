@@ -99,7 +99,7 @@ if (event.origin.endsWith("target.com")) {
 }
 ```
 Can be bypassed by passing:
-- 
+- `https://attacker-target.com`
 
 
 #### Regex
