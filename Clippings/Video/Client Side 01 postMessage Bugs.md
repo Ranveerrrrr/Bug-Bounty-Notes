@@ -82,7 +82,12 @@ window.addEventListener('message', function(event) {
 });
 ```
 
-
+### Vulnerable Origin Validation
+```js
+if (event.origin.startsWith("https://target.com")) {
+  // Process message
+}
+```
 
 ---
 ## Full Page Content
