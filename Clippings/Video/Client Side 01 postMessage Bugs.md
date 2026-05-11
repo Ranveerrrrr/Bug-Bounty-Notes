@@ -112,7 +112,10 @@ if (event.origin.includes("target.com")) {
   // Process message
 }
 ```
-
+Can be bypassed by passing:
+- `https://your-domain.c`
+- `https://target.com.your-domain.com`
+- `https://target.com@your-domain.com`
 
 
 ---
