@@ -99,7 +99,9 @@ if(event.origin.match(/https:\/\/target.com/)) {
   // Process message
 }
 ```
-
+Can be bypassed by passing:
+- `https://target.com.your-domain.com`
+- `https://target.com@your-domain.com`
 
 
 
