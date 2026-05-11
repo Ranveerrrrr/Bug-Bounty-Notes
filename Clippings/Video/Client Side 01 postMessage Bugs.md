@@ -15,7 +15,12 @@ Site: YouTube
 ---
 ## Highlights
 ### Sender:
-
+```Js
+window.postMessage(
+type: "userAction" ,
+data: userInput
+}, 'https://target.com") ;
+```
 
 ---
 ## Full Page Content
