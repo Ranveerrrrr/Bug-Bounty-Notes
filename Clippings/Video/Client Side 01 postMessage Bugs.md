@@ -73,7 +73,14 @@ window.addEventListener('message', function(event) {
   window.location = event.data;
 });
 ```
-
+#### 
+```js
+window.addEventListener('message', function(event) {
+  if (event.data === "getUserData") {
+    event.source.postMessage(userData, event.origin);
+  }
+});
+```
 
 
 
