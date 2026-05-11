@@ -19,7 +19,13 @@ Site: YouTube
 window.postMessage(
 type: "userAction" ,
 data: userInput
-}, 'https://target.com") ;
+}, "https://target.com");
+```
+```Js
+window.postMessage(
+type: "userAction" ,
+data: userInput
+}, "*");
 ```
 
 ---
