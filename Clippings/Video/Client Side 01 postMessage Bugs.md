@@ -15,18 +15,26 @@ Site: YouTube
 ---
 ## Highlights
 ### Sender:
+#### Non-vuln
 ```Js
 window.postMessage(
 type: "userAction" ,
 data: userInput
 }, "https://target.com");
 ```
+#### Vuln
 ```Js
 window.postMessage(
 type: "userAction" ,
 data: userInput
 }, "*");
 ```
+
+#### 
+
+
+
+
 
 ---
 ## Full Page Content
