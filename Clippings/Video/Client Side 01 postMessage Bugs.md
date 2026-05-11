@@ -1,18 +1,20 @@
 ---
 title: "Client Side 01: postMessage Bugs"
-Type: "Video"
+Type: Video
 published: 2026-01-04
-Source: "https://www.youtube.com/watch?v=9OWy-c_ycOI&t=112s"
+Source: https://www.youtube.com/watch?v=9OWy-c_ycOI&t=112s
 Creator: "[[AmrSec]]"
 date: 2026-05-11
 tags:
-  - "Clippings"
-  - "Video"
-Finished: false
-Cover: "https://www.youtube.com/img/desktop/yt_1200.png"
-Site: "YouTube"
+  - Clippings
+  - Video
+  - Bugs/xss
+Finished: true
+Cover: https://www.youtube.com/img/desktop/yt_1200.png
+Site: YouTube
 ---
 ## Highlights
+### Sender:
 
 
 ---
