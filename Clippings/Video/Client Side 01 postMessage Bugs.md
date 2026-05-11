@@ -55,10 +55,16 @@ window.addEventListener('message', function(event) {
 ```
 
 ### Sink:
-
+#### innerHTML
 ```js
 window.addEventListener('message', function(event) {
   document.getEtementById('output').innerHTML = event.data;
+});
+```
+#### Eval
+```js
+window.addEventListener('message', function(event) {
+  eval(event.data);
 });
 ```
 
