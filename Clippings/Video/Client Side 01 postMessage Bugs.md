@@ -115,8 +115,7 @@ if (event.origin.includes("target.com")) {
 Can be bypassed by passing:
 - `https://your-domain.com/target.com`
 - `https://your-domain.com?redirect=target.com`
-- `https://target.com.your-domain.com`
-- `https://target.com@your-domain.com`
+- `https://target.com.your-domain.com
 
 #### Indexof
 ```js
@@ -125,10 +124,7 @@ if (event.origin.indexOf("target.com") > -1) {
 }
 ```
 Can be bypassed by passing:
-- `https://your-domain.com/target.com`
-- `https://your-domain.com?redirect=target.com`
 - `https://target.com.your-domain.com`
-- `https://target.com@your-domain.com`
 
 ---
 ## Full Page Content
