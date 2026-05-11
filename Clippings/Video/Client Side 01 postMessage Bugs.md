@@ -54,6 +54,11 @@ window.addEventListener('message', function(event) {
 });
 ```
 
+### Sink:
+```js
+window.addEventListener( 'message', function(event) {
+  document.getEtementById('output').innerHTML = event.data;
+```
 
 ---
 ## Full Page Content
