@@ -55,9 +55,11 @@ window.addEventListener('message', function(event) {
 ```
 
 ### Sink:
+
 ```js
-window.addEventListener( 'message', function(event) {
+window.addEventListener('message', function(event) {
   document.getEtementById('output').innerHTML = event.data;
+});
 ```
 
 ---
