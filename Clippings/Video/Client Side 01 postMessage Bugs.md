@@ -23,15 +23,21 @@ data: userInput
 }, "https://target.com");
 ```
 #### Vuln
-```Js
+```js
 window.postMessage(
 type: "userAction" ,
 data: userInput
 }, "*");
 ```
 
-#### 
-
+### Reciever:
+```js
+window. addEventListener( ' message ' ,
+console. log( 'Received: ' ,
+event.
+function (event) {
+data) ;
+```
 
 
 
