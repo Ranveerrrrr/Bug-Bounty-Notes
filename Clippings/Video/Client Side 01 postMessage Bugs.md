@@ -37,6 +37,13 @@ window.addEventListener('message', function(event) {
 });
 ```
 
+```js
+window.addEventListener('message', function(event) {
+  // No origin check accepts from ANYONE
+  var data = event.data;
+  document.getElementById('output').innerHTML = data;
+});
+```
 
 
 
