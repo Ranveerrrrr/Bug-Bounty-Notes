@@ -99,7 +99,7 @@ if(event.origin.match(/https:\/\/target.com/)) {
   // Process message
 }
 ```
-`.` 
+`.` <- This in regex means any character and here iti not escaped
 Can be bypassed by passing:
 - `https://targetXcom.com`
 - `https://target-com`
