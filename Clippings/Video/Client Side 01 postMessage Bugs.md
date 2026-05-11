@@ -83,11 +83,18 @@ window.addEventListener('message', function(event) {
 ```
 
 ### Vulnerable Origin Validation
+#### Startswith
 ```js
 if (event.origin.startsWith("https://target.com")) {
   // Process message
 }
 ```
+Can be bypassed:
+- `https://`
+
+
+
+
 
 ---
 ## Full Page Content
