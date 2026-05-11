@@ -67,6 +67,15 @@ window.addEventListener('message', function(event) {
   eval(event.data);
 });
 ```
+#### Location
+```js
+window.addEventListener('message', function(event) {
+  window.location = event.data;
+});
+```
+
+
+
 
 ---
 ## Full Page Content
