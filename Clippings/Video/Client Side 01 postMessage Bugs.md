@@ -45,12 +45,12 @@ window.addEventListener('message', function(event) {
   document.getElementById('output').innerHTML = data;
 });
 ```
-
+#### Origin being validated
 ```js
 window.addEventListener('message', function(event) {
   if (event.origin == "https://trusted.com") {
      // Process message
- }
+  }
 });
 ```
 
