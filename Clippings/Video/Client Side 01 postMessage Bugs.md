@@ -92,6 +92,15 @@ if (event.origin.startsWith("https://target.com")) {
 Can be bypassed by passing:
 - `https://target.com.your-domain.com`
 
+#### Endswith
+```js
+if (event.origin.endsWith("target.com")) {
+  // Process message
+}
+```
+Can be bypassed by passing:
+- 
+
 
 #### Regex
 ```js
