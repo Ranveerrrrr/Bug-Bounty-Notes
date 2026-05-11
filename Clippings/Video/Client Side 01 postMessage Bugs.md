@@ -31,7 +31,7 @@ data: userInput
 ```
 
 ### Reciever:
-#### Message being received
+#### Message being received(no-origin-validation)
 ```js
 window.addEventListener('message', function(event) {
   console.log('Received:', event.data);
