@@ -91,7 +91,14 @@ if (event.origin.startsWith("https://target.com")) {
 ```
 Can be bypassed by passing:
 - `https://target.com.your-domain.com`
-- `https://target.com@you`
+- `https://target.com@your-domain.com`
+
+#### Regex
+```js
+if(event.origin.match(/https:\/\/target.com/)) {
+  // Process message
+}
+```
 
 
 
