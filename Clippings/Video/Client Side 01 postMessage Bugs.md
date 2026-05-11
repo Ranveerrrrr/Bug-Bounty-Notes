@@ -100,6 +100,8 @@ if(event.origin.match(/https:\/\/target.com/)) {
 }
 ```
 Can be bypassed by passing:
+- `https://targetXcom.com`
+- `https://target-com`
 - `https://target.com.your-domain.com`
 - `https://target.com@your-domain.com`
 
