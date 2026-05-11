@@ -125,7 +125,7 @@ Can be bypassed by passing:
 
 ### Finding postMessage
 - Chrome devTools
-- 
+- [Browser Extension](https://github.com/Zeetaz/FancyTracker-FF/releases)
 
 ---
 ## Full Page Content
