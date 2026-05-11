@@ -106,6 +106,12 @@ Can be bypassed by passing:
 - `https://target.com.your-domain.com`
 - `https://target.com@your-domain.com`
 
+#### Include
+```js
+if (event.origin.includes("target.com")) {
+  // Process message
+}
+```
 
 
 
