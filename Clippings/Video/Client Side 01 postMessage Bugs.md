@@ -112,7 +112,6 @@ if (event.origin.includes("target.com")) {
 }
 ```
 Can be bypassed by passing:
-- `https://your-domain.com/target.com`
 - `https://target.com.your-domain.com
 
 #### Indexof
