@@ -37,7 +37,7 @@ window.addEventListener('message', function(event) {
   console.log('Received:', event.data);
 });
 ```
-#### Message Being Added in HTML
+#### Message being added in HTML
 ```js
 window.addEventListener('message', function(event) {
   // No origin check accepts from ANYONE
@@ -46,6 +46,13 @@ window.addEventListener('message', function(event) {
 });
 ```
 
+```js
+window.addEventListener('message', function(event) {
+  if (event.origin == "https://trusted.com") {
+     // Process message
+ }
+});
+```
 
 
 ---
