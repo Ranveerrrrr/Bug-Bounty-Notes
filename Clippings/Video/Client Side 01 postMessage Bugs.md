@@ -123,6 +123,10 @@ if (event.origin.indexOf("target.com") > -1) {
 Can be bypassed by passing:
 - `https://target.com.your-domain.com`
 
+### Finding postMessage
+- Chrome devTools
+- 
+
 ---
 ## Full Page Content
 
