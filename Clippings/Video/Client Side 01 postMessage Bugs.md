@@ -113,11 +113,16 @@ if (event.origin.includes("target.com")) {
 }
 ```
 Can be bypassed by passing:
-- `https://your-domain.c`
+- `https://your-domain.com/target.com`
 - `https://target.com.your-domain.com`
 - `https://target.com@your-domain.com`
 
-
+#### Indexof
+```
+if (event.origin.indexOf("target.com") > -1) {
+// Process message
+}
+```
 ---
 ## Full Page Content
 
