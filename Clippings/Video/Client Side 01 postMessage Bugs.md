@@ -31,12 +31,13 @@ data: userInput
 ```
 
 ### Reciever:
+#### Message being received
 ```js
 window.addEventListener('message', function(event) {
   console.log('Received:', event.data);
 });
 ```
-
+#### Message Being Added in HTML
 ```js
 window.addEventListener('message', function(event) {
   // No origin check accepts from ANYONE
