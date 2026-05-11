@@ -33,7 +33,7 @@ data: userInput
 ### Reciever:
 ```js
 window.addEventListener('message', function(event) {
-  console.log('Received: ', event.data);
+  console.log('Received:', event.data);
 });
 ```
 
