@@ -73,7 +73,7 @@ window.addEventListener('message', function(event) {
   window.location = event.data;
 });
 ```
-#### 
+#### Data Handlers
 ```js
 window.addEventListener('message', function(event) {
   if (event.data === "getUserData") {
