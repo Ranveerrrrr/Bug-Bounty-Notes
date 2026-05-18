@@ -11,4 +11,4 @@ Finished: false
 Cover: https://www.youtube.com/img/desktop/yt_1200.png
 Site: YouTube
 ---
-``
+`%c0` -> put infront of anysite to know if its on s3 or use wapplyzer
