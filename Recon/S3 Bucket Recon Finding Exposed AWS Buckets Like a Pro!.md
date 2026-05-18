@@ -22,6 +22,5 @@ use dork
 site:s3.amazonaws.com "stanford.edu"
 ```
 ```
-OR OR OR
-"nasa"
+
 ```
