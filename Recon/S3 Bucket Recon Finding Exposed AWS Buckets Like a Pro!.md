@@ -16,3 +16,8 @@ Site: YouTube
 Check website source code 
 search s3 to get the orignal s3 url
 look for open bucket
+
+use dork
+```
+site:s3.amazonaws.com "stanford.edu"
+```
