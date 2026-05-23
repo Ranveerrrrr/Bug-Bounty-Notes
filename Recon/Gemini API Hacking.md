@@ -44,3 +44,16 @@ curl https://generativelanguage.googleapis.com/v1beta/models?key=YOUR_API_KEY
 https://generativelanguage.googleapis.com/v1beta/models?key=YOUR_API_KEY
 ```
     -Key Verification
+
+```
+curl https://generativelanguage.googleapis.com/v1beta/files?key=YOUR_KEY 
+
+https://generativelanguage.googleapis.com/v1beta/files?key=YOUR_API_KEY
+```
+     -List Files
+
+```
+echo "Hello, this is a test file" > test.txt
+ 
+ curl -i \ -H "X-Goog-Upload-Protocol: multipart" \ -F 'metadata={"file":{"display_name":"coffin","mimeType":"text/plain"}};type=application/json' \ -F "file=@test.txt;type=text/plain" \ "https://generativelanguage.googleapis.com/upload/v1beta/files?key=YOUR_KEY"
+```
