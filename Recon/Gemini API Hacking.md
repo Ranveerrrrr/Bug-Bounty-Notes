@@ -8,4 +8,4 @@ Key_Takeaway: Finding API Keys
 Difficulty: Beginner
 ---
 Due to Copyright purposes made private:
-[[]]
+[Gemini API Hacking](../../Bug-Bounty-Private/Recon/Gemini%20API%20Hacking.md)
