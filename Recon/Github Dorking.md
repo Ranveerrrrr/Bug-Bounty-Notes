@@ -49,7 +49,7 @@ org:att "sk-" "openai"
 /AIza[0-9A-Za-z_-]{35}/ 
 /AIza[0-9A-Za-z_-]{35}/ "GEMINI_API_KEY"
 ```
-     - 
+     -Regex to find Gemini API key
 	
 ---
 ```
