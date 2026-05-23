@@ -1,9 +1,9 @@
 ---
 date: 2026-05-23T15:10:00
-Source:
-Type:
+Type: Recon
 tags:
-Creator:
+  - Bugs/api
+  - Recon/api
 Key_Takeaway:
 Difficulty:
 Bug Found:
