@@ -37,3 +37,10 @@ Go through this:
 org:microsoft /AIza[0-9A-Za-z_-]{35}/
 ```
      -Targeting Specific Organization and Domain Scoping
+
+```
+curl https://generativelanguage.googleapis.com/v1beta/models?key=YOUR_API_KEY 
+
+https://generativelanguage.googleapis.com/v1beta/models?key=YOUR_API_KEY
+```
+    -Key Verification
