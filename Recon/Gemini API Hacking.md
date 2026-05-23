@@ -36,4 +36,4 @@ Go through this:
 "netflix.com" /AIza[0-9A-Za-z_-]{35}/ 
 org:microsoft /AIza[0-9A-Za-z_-]{35}/
 ```
-     -#### Targeting Specific **Organization and Domain Scoping:**
+     -Targeting Specific Organization and Domain Scoping
