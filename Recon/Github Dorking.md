@@ -1,6 +1,5 @@
 ---
 date: 2025-12-17T15:19:00
-Source: https://youtu.be/xz_jeBxTJ58?si=JEp4l4UNw2pO7ttO
 tags:
   - Recon
   - Recon/Dorks
@@ -10,7 +9,6 @@ tags:
 Key_Takeaway: Dorks for Github | Github Dorking to find secrets
 Difficulty: Beginner
 Bug Found: "2"
-cssclasses:
 ---
 ---
 ```

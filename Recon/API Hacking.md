@@ -6,9 +6,6 @@ tags:
   - Recon/api
 Key_Takeaway: Finding API Keys
 Difficulty: Beginner
-cssclasses:
-  - daily
-  - saturday
 ---
 Go through this:
 [Github Dorking](Github%20Dorking.md)
