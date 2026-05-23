@@ -63,3 +63,8 @@ curl -i \ -H "X-Goog-Upload-Protocol: multipart" \ -F 'metadata={"file":{"displa
 curl -X DELETE "https://generativelanguage.googleapis.com/v1beta/files/1d1j3cg1br3k?key=YOUR_API_KEY"
 ```
     -Delete File
+
+```
+curl -s -H "Referer: https://www.google.com/" "https://generativelanguage.googleapis.com/v1beta/corpora?key=YOUR_API_KEY"
+```
+     -Referer Spoofing
