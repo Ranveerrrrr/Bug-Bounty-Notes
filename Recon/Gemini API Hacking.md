@@ -80,3 +80,11 @@ curl -X DELETE -H "Referer: https://www.google.com/" "https://generativelanguage
      -Deleting a Corpus
 
 ### Content Generation Abuse
+```
+curl -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent" \ -H "x-goog-api-key: YOUR_API_KEY" \ -H "Content-Type: application/json" \ -d '{"contents":[{"parts":[{"text":"Explain how AI works in a few words"}]}]}'
+```
+     -Text Generation
+
+```
+curl -X POST "https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict" \ -H "x-goog-api-key: YOUR_API_KEY" \ -H "Content-Type: application/json" \ -d '{"instances":[{"prompt":"Robot holding a red skateboard"}]}'
+```
