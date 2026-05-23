@@ -25,3 +25,9 @@ Go through this:
 /AIza[0-9A-Za-z_-]{35}/ "GEMINI_API_KEY" path:/.env
 ```
     -Path Filter for Environment Files
+
+```
+/AIza[0-9A-Za-z_-]{35}/ "GEMINI_API_KEY" path:/*.js 
+/AIza[0-9A-Za-z_-]{35}/ path:/*.js
+```
+     -Path Filter for JavaScript Files
