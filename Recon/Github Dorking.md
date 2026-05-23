@@ -40,21 +40,9 @@ org:att "sk-" "openai"
 	-Same as above but to find openai api key.
 
 ---
-```
-"GEMINI_API_KEY"
-```
-	-Same as above but to find Gemini api key.
+[Gemini API Hacking](Gemini%20API%20Hacking.md)
+- 
 
-```
-/AIza[0-9A-Za-z_-]{35}/ 
-/AIza[0-9A-Za-z_-]{35}/ "GEMINI_API_KEY"
-```
-     -Regex to find Gemini API key
-
-```
-/AIza[0-9A-Za-z_-]{35}/ "GEMINI_API_KEY" path:/.env
-```
-    -Path Filter for Environment Files
 ---
 ```
 org:att path:**/.env ,**/.local.env ,**/config, **/Dockerfile, **/settings.py
