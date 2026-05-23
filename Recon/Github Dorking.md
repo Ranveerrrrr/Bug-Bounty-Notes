@@ -54,7 +54,7 @@ org:att "sk-" "openai"
 ```
 /AIza[0-9A-Za-z_-]{35}/ "GEMINI_API_KEY" path:/.env
 ```
-    -
+    -Path Filter for Environment Files
 ---
 ```
 org:att path:**/.env ,**/.local.env ,**/config, **/Dockerfile, **/settings.py
