@@ -88,3 +88,9 @@ curl -X POST "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5
 ```
 curl -X POST "https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict" \ -H "x-goog-api-key: YOUR_API_KEY" \ -H "Content-Type: application/json" \ -d '{"instances":[{"prompt":"Robot holding a red skateboard"}]}'
 ```
+     -Image Generation
+
+```
+GEMINI_API_KEY=AIza BASE_URL="https://generativelanguage.googleapis.com/v1beta" operation_name=$(curl -s "$BASE_URL/models/veo-3.0-fast-generate-001:predictLongRunning" \ -H "x-goog-api-key: $GEMINI_API_KEY" \ -H "Content-Type: application/json" \ -X POST \ -d '{"instances":[{"prompt":"A cinematic 5-second shot of a lantern swaying gently."}]}' \ | jq -r .name) while true; do status=$(curl -s -H "x-goog-api-key: $GEMINI_API_KEY" "$BASE_URL/$operation_name") doneval=$(echo "$status" | jq -r .done) if [ "$doneval" = "true" ]; then video_uri=$(echo "$status" | jq -r '.response.generateVideoResponse.generatedSamples[0].video.uri') curl -L -H "x-goog-api-key: $GEMINI_API_KEY" -o Generated_Video.mp4 "$video_uri" break fi sleep 5 done
+```
+     -Video Generation
