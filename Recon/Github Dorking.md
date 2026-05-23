@@ -43,9 +43,9 @@ org:att "sk-" "openai"
 
 ---
 ```
-org:att "sk-" "openai"
+"GEMINI_API_KEY"
 ```
-	-Same as above but to find openai api key.
+	-Same as above but to find Gemini api key.
 	
 ---
 ```
