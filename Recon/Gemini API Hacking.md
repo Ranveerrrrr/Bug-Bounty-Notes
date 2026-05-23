@@ -31,3 +31,9 @@ Go through this:
 /AIza[0-9A-Za-z_-]{35}/ path:/*.js
 ```
      -Path Filter for JavaScript Files
+
+```
+"netflix.com" /AIza[0-9A-Za-z_-]{35}/ 
+org:microsoft /AIza[0-9A-Za-z_-]{35}/
+```
+     -#### Targeting Specific **Organization and Domain Scoping:**
