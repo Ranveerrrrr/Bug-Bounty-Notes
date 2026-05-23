@@ -74,3 +74,9 @@ curl -X POST \ -H "Content-Type: application/json" \ -H "Referer: https://www.go
 ```
      -Corpora Endpoint Abuse
 
+```
+curl -X DELETE -H "Referer: https://www.google.com/" "https://generativelanguage.googleapis.com/v1beta/corpora/CORPUS_ID?key=YOUR_API_KEY"
+```
+     -Deleting a Corpus
+
+### Content Generation Abuse
