@@ -55,5 +55,11 @@ https://generativelanguage.googleapis.com/v1beta/files?key=YOUR_API_KEY
 ```
 echo "Hello, this is a test file" > test.txt
  
- curl -i \ -H "X-Goog-Upload-Protocol: multipart" \ -F 'metadata={"file":{"display_name":"coffin","mimeType":"text/plain"}};type=application/json' \ -F "file=@test.txt;type=text/plain" \ "https://generativelanguage.googleapis.com/upload/v1beta/files?key=YOUR_KEY"
+curl -i \ -H "X-Goog-Upload-Protocol: multipart" \ -F 'metadata={"file":{"display_name":"coffin","mimeType":"text/plain"}};type=application/json' \ -F "file=@test.txt;type=text/plain" \ "https://generativelanguage.googleapis.com/upload/v1beta/files?key=YOUR_KEY"
 ```
+     -Upload File
+
+```
+curl -X DELETE "https://generativelanguage.googleapis.com/v1beta/files/1d1j3cg1br3k?key=YOUR_API_KEY"
+```
+    -Delete File
