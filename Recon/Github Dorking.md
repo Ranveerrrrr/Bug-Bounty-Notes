@@ -44,6 +44,12 @@ org:att "sk-" "openai"
 "GEMINI_API_KEY"
 ```
 	-Same as above but to find Gemini api key.
+
+```
+/AIza[0-9A-Za-z_-]{35}/ 
+/AIza[0-9A-Za-z_-]{35}/ "GEMINI_API_KEY"
+```
+     - 
 	
 ---
 ```
