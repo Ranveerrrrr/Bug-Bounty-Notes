@@ -4,8 +4,9 @@ Type: Recon
 tags:
   - Bugs/api
   - Recon/api
-Key_Takeaway:
-Difficulty:
-Bug Found:
+Key_Takeaway: Finding API Keys
+Difficulty: Beginner
 cssclasses:
+  - daily
+  - saturday
 ---
