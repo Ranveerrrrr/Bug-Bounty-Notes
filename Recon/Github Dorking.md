@@ -40,8 +40,8 @@ org:att "sk-" "openai"
 	-Same as above but to find openai api key.
 
 ---
+Go through this:
 [Gemini API Hacking](Gemini%20API%20Hacking.md)
-- 
 
 ---
 ```
