@@ -6,6 +6,7 @@ tags:
   - Recon
   - Recon/Dorks
   - Recon/git
+  - Recon/api
 Creator: Medusa
 Key_Takeaway: Dorks for Github | Github Dorking to find secrets
 Difficulty: Beginner
