@@ -8,6 +8,6 @@ ffuf -u "http://52.191.249.70//FUZZ" -w /usr/share/seclists/Discovery/Web-Conten
 
 If a directory exists, keep pushing — logs are often the jackpot.
 ```
-ffuf -u "https://TARGET_IP/webmail/logs/FUZZ.log" -t 200 -mc 200 -fs 0v
+ffuf -u "https://TARGET_IP/webmail/logs/FUZZ.log" -t 200 -mc 200 -fs 0
 ```
 [Source](https://x.com/TheMsterDoctor1/status/2006943686316167597?s=20)
