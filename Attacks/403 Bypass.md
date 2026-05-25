@@ -52,3 +52,10 @@ Parameter pollution
 if 
 **GET /api/user?id=123**
 -> **GET /api/user?id=123&id=123**
+
+---
+
+```
+%2f%2e%09%2e%5c
+```
+
