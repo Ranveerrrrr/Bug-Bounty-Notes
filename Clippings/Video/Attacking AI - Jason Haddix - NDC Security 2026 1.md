@@ -14,6 +14,8 @@ Site: "YouTube"
 ---
 ## Highlights
 
+### Attack Methodology
+![](attachments/Pasted%20image%2020260617111606.png)
 
 
 
