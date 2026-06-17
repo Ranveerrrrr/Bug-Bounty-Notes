@@ -21,6 +21,12 @@ Site: "YouTube"
 
 ![](attachments/Pasted%20image%2020260617114716.png)
 
+![](attachments/Pasted%20image%2020260617114945.png)
+![](attachments/Pasted%20image%2020260617114956.png)
+![](attachments/Pasted%20image%2020260617115021.png)
+
+
+
 ---
 ## Full Page Content
 
