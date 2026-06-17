@@ -17,6 +17,7 @@ Site: "YouTube"
 ### Attack Methodology
 ![](attachments/Pasted%20image%2020260617111606.png)
 
+![](attachments/Pasted%20image%2020260617114603.png)
 
 
 ---
