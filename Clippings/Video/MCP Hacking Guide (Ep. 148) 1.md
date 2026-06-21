@@ -1,16 +1,16 @@
 ---
-title: "MCP Hacking Guide (Ep. 148)"
-Type: "Video"
+title: MCP Hacking Guide (Ep. 148)
+Type: Video
 published: 2025-11-13
-Source: "https://www.youtube.com/watch?v=1VzT7CuWp3Y"
+Source: https://www.youtube.com/watch?v=1VzT7CuWp3Y
 Creator: "[[Critical Thinking - Bug Bounty Podcast]]"
 date: 2026-06-21
 tags:
-  - "Clippings"
-  - "Video"
-Finished: false
-Cover: "https://www.youtube.com/img/desktop/yt_1200.png"
-Site: "YouTube"
+  - Clippings
+  - Video
+Finished: true
+Cover: https://www.youtube.com/img/desktop/yt_1200.png
+Site: YouTube
 ---
 ## Highlights
 

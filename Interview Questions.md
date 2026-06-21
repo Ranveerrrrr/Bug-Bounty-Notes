@@ -74,4 +74,4 @@ What is PPP?
 
 How would you chain xss to ato?
 
-httponly cookie usecase?
+httponly cookie usecase??
