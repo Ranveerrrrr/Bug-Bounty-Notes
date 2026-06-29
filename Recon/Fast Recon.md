@@ -18,3 +18,4 @@ katana -list live.txt -jc -kf -fx > urls.txt
 ```
 grep -Ei "logout|signout|invalidate|session|revoke" urls.txt
 ```
+
