@@ -58,5 +58,5 @@ OR
 
 use tool java2s3:
 1) first get your live subdomains:
-	`subfinder -d nasa.giv -all -o nasa_subdomain.txt |`
+	`subfinder -d nasa.giv -all | httpx > nasa.`
 
