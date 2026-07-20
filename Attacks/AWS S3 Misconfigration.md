@@ -11,6 +11,7 @@ Difficulty: Intermediate
 Bug Found: "0"
 cssclasses:
 ---
+[S3 Bucket Recon Finding Exposed AWS Buckets Like a Pro!](../Recon/S3%20Bucket%20Recon%20Finding%20Exposed%20AWS%20Buckets%20Like%20a%20Pro!.md) - Have Great things in this too!!
 ![[Attachments/Pasted image 20251204185654.png]]
 # Public List Access
 ```
@@ -35,8 +36,6 @@ aws s3 cp test.txt s3://bucket-name/ --no-sign-request
 ```
 aws s3 rm s3://bucket-name/xss.svg --no-sign-request 
 ```
-
-
 
 # **Readable ACLS**
 ```
