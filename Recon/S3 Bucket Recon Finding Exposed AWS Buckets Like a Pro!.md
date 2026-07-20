@@ -38,3 +38,8 @@ httpx command to find s3:
 ```
 subfinder -d somaiya.edu -all -silent | httpx-toolkit -sc -title -td | grep "Amazon S3"
 ```
+
+download files to check for read access:
+```
+aws s3 cp s3://svu-admissions/Curriculum.pdf ./ --no-sign-request
+```
