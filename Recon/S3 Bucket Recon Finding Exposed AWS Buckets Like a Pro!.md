@@ -48,5 +48,9 @@ download files to check for read access:
 aws s3 cp s3://svu-admissions/Curriculum.pdf ./ --no-sign-request
 ```
 
-katana to extract s3 buckets from js files
+katana to extract s3 buckets from js files:
+```
+katana -u https://nasa.gov/ -d 5 -jc | grep '\.js$' | tee alljs.txt  
+cat alljs.txt | xargs -I {} curl -s {} | grep -oE 'http[s]?://[^"]*\.s3\.amazonaws\.com[^" ]*' | sort -u
+```
 
