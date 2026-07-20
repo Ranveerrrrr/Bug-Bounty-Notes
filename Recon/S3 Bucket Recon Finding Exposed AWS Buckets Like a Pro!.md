@@ -78,4 +78,7 @@ also can use #tools/lazys3 to brute force for s3 buckets:
 ruby lazys3.rb nasa.gov
 ```
 
-[Android Pentesting - Android Architecture + Static Analysis with apktool + gf + jadx - Pt. 01](../Clippings/Video/Android%20Pentesting%20-%20Android%20Architecture%20+%20Static%20Analysis%20with%20apktool%20+%20gf%20+%20jadx%20-%20Pt.%2001.md)
+OR 
+
+you can generate a custom wordlist on the basis of the site using #tools/cewl
+and then pass the s3 urls 
