@@ -94,6 +94,7 @@ AWS S3 Bucket Listing & File Management:
 Read File: aws s3 ls s3://[bucketname] --no-sign-request
 Copy Files: aws s3 cp xss.svg s3://[bucketname] --no-sign-request
 Delete Files: aws s3 rm s3://[bucketname]/xss.svg --no-sign-request
+Owner Check: aws s3api get-bucket-acl --bucket [bucketname]
 Download Files: aws s3 cp s3://[bucketname]/somefile.txt ./ --no-sign-request
 Download all Files & Folders: aws s3 cp s3://[bucketname]/ ./download --recursive --no-sign-request
 
