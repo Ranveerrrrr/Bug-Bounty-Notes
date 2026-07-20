@@ -34,4 +34,7 @@ manual valid bucket check:
 aws s3 ls s3://{bucket name} --no-sign-request
 ```
 
-http
+httpx command to find s3:
+```
+subfinder -d somaiya.edu -all -silent | httpx-toolkit -sc -title -td | grep "Amazon S3"
+```
