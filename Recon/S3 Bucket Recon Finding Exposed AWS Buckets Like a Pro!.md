@@ -71,4 +71,4 @@ cat output.txt | grep -E "S3 Buckets: \['[^]]+"
 cat output.txt | grep -oP 'https?://[a-zA-Z0-9.-]*s3(\.dualstack)?\.ap-[a-z0-9-]+\.amazonaws\.com/[^\s"<>]+' | sort -u  
 cat output.txt | grep -oP '([a-zA-Z0-9.-]+\.s3(\.dualstack)?\.[a-z0-9-]+\.amazonaws\.com)' | sort -u
 ```
-
+ after getting all s3 url from here you 
