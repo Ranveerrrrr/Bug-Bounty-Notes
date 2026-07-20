@@ -18,7 +18,19 @@ search s3 to get the orignal s3 url
 look for open bucket
 
 # Dork 
-
+## Google Dorks:
+```
+site: s3.amazonaws.com "target.com"
+site: *.s3.amazonaws.com "target.com"
+site: s3-external-1.amazonaws.com "target.com"
+site: s3.dualstack.us-east-1.amazonaws.com "target.com"
+site: amazonaws.com inurl: s3.amazonaws.com
+site: s3.amazonaws.com intitle: "index of"
+site: s3.amazonaws.com inurl: ".s3.amazonaws.com/"
+site: s3.amazonaws.com intitle: "index of" "bucket"
+(site: *.s3.amazonaws.com OR site: *.s3-external-1.amazonaws.com OR site: *.s3.dualstack.us-east-1.amazonaws.com OR
+site: *.s3.ap-south-1.amazonaws.com) "nasa"
+```
 Github: org:nasa "amazonaws" OR org:nasa "{bucket name}" OR "nasa.gov"  "amazonaws"
 Google: site:s3.amazonaws.com "stanford.edu"
 
