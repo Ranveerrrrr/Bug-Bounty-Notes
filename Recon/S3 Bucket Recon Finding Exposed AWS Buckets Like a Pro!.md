@@ -87,3 +87,14 @@ cewl https://site.com/ -d 3 -w file.txt
   
 s3scanner -bucket-file file.txt -enumerate -threads 10 | grep -aE 'AllUsers: \[.*(READ|WRITE|FULL).*]'
 ```
+
+---
+
+AWS S3 Bucket Listing & File Management:
+Read File: aws s3 ls s3://[bucketname] --no-sign-request
+Copy Files: aws s3 cp xss.svg s3://[bucketname] --no-sign-request
+Delete Files: aws s3 rm s3://[bucketname]/xss.svg --no-sign-request
+Download Files: aws s3 cp s3://[bucketname]/somefile.txt ./ --no-sign-request
+Download all Files & Folders: aws s3 cp s3://[bucketname]/ ./download --recursive --no-sign-request
+
+---
