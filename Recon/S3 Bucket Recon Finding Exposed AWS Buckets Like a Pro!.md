@@ -73,4 +73,7 @@ cat output.txt | grep -oP '([a-zA-Z0-9.-]+\.s3(\.dualstack)?\.[a-z0-9-]+\.amazon
 ```
  after getting all s3 url from here you can feed all url to #tool/s3bucketmisconfig to validate the findings
 
-also can use #tools/lazys3 to brute force for s3 buckets 
+also can use #tools/lazys3 to brute force for s3 buckets:
+```
+ruby lazys3.rb nasa.gov
+```
