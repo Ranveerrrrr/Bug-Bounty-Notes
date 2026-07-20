@@ -56,7 +56,7 @@ cat alljs.txt | xargs -I {} curl -s {} | grep -oE 'http[s]?://[^"]*\.s3\.amazona
 
 OR
 
-use tool java2s3:
+use #tool/java2s3:
 1) first get your live subdomains:
 2) remove the protocol:
 3) run the tool:
@@ -71,4 +71,4 @@ cat output.txt | grep -E "S3 Buckets: \['[^]]+"
 cat output.txt | grep -oP 'https?://[a-zA-Z0-9.-]*s3(\.dualstack)?\.ap-[a-z0-9-]+\.amazonaws\.com/[^\s"<>]+' | sort -u  
 cat output.txt | grep -oP '([a-zA-Z0-9.-]+\.s3(\.dualstack)?\.[a-z0-9-]+\.amazonaws\.com)' | sort -u
 ```
- after getting all s3 url from here you 
+ after getting all s3 url from here you can feed all url to #tool/s3bucketmisconfig to validate the findings
