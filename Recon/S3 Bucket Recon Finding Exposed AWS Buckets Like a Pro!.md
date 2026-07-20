@@ -72,3 +72,5 @@ cat output.txt | grep -oP 'https?://[a-zA-Z0-9.-]*s3(\.dualstack)?\.ap-[a-z0-9-]
 cat output.txt | grep -oP '([a-zA-Z0-9.-]+\.s3(\.dualstack)?\.[a-z0-9-]+\.amazonaws\.com)' | sort -u
 ```
  after getting all s3 url from here you can feed all url to #tool/s3bucketmisconfig to validate the findings
+
+also can use #tools/lazys3 to brute force for s3 buckets 
