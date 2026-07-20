@@ -58,8 +58,17 @@ OR
 
 use tool java2s3:
 1) first get your live subdomains:
-	`subfinder -d nasa.giv -all | httpx -o file.txt`
 2) remove the protocol:
+3) run the tool:
+	`subfinder -d nasa.giv -all | httpx -o file.txt`
+4) remove the protocol:
 	`cat file.txt | grep -oP '(?<=https?:\/\/).*' >input.txt`
-3) run the tool
+5) run the tool:
+	`python java2s3.py input.txt target.com output.txt`
+6) Find juice:
+```
+cat output3.txt | grep -E "S3 Buckets: \['[^]]+"  
+cat output.txt | grep -oP 'https?://[a-zA-Z0-9.-]*s3(\.dualstack)?\.ap-[a-z0-9-]+\.amazonaws\.com/[^\s"<>]+' | sort -u  
+cat output3.txt | grep -oP '([a-zA-Z0-9.-]+\.s3(\.dualstack)?\.[a-z0-9-]+\.amazonaws\.com)' | sort -u
+```
 
