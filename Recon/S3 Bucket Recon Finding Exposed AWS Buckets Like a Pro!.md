@@ -59,5 +59,7 @@ OR
 use tool java2s3:
 1) first get your live subdomains:
 	`subfinder -d nasa.giv -all | httpx -o file.txt`
-2) remove the http 
+2) remove the protocol:
+	`cat file.txt | grep -oP '(?<=https?:\/\/).*' >input.txt`
+3) run the tool
 
