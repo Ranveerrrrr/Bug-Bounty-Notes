@@ -81,7 +81,7 @@ ruby lazys3.rb nasa.gov
 OR 
 
 you can generate a custom wordlist on the basis of the site using #tools/cewl
-and then pass the s3 urls to a misconfig checker tool 
+and then pass the s3 urls to #tool/s3scanner 
 ```
 cewl https://site.com/ -d 3 -w file.txt  
   
