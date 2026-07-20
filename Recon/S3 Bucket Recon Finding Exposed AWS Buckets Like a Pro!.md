@@ -33,3 +33,5 @@ manual valid bucket check:
 ```
 aws s3 ls s3://{bucket name} --no-sign-request
 ```
+
+http
