@@ -58,5 +58,6 @@ OR
 
 use tool java2s3:
 1) first get your live subdomains:
-	`subfinder -d nasa.giv -all | httpx > nasa.`
+	`subfinder -d nasa.giv -all | httpx -o file.txt`
+2) remove the http 
 
