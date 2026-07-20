@@ -57,6 +57,6 @@ cat alljs.txt | xargs -I {} curl -s {} | grep -oE 'http[s]?://[^"]*\.s3\.amazona
 OR
 
 use tool java2s3:
-1) first get your subdomains:
-	
+1) first get your live subdomains:
+	`subfinder -d nasa.giv -all -o nasa_subdomain.txt |`
 
