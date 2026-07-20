@@ -18,11 +18,8 @@ search s3 to get the orignal s3 url
 look for open bucket
 
 use dork:
-github: org:nasa "amazonaws"
-google:
-```
-site:s3.amazonaws.com "stanford.edu"
-```
+Github: org:nasa "amazonaws"
+Google: site:s3.amazonaws.com "stanford.edu"
 
 ```
 (site:*.s3.amazonaws.com OR site:*.s3-external-1.amazonaws.com OR site:*.s3.dualstack.us-east-1.amazonaws.com OR site:*.s3.ap-south-1.amazonaws.com) "nasa.gov"
