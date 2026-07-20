@@ -31,6 +31,13 @@ aws s3 cp test.txt s3://bucket-name/ --no-sign-request
 ```
 	  - If allows uploding file to the bucket
 
+# Public Delete Access
+```
+aws s3 rm s3://bucket-name/xss.svg --no-sign-request 
+```
+
+
+
 # **Readable ACLS**
 ```
 aws s3api get-bucket-acl --bucket bucket-name  --no-sign-request
