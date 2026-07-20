@@ -18,6 +18,8 @@ search s3 to get the orignal s3 url
 look for open bucket
 
 use dork:
+github: org:nasa "amazonaws"
+google:
 ```
 site:s3.amazonaws.com "stanford.edu"
 ```
