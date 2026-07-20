@@ -61,14 +61,14 @@ use tool java2s3:
 2) remove the protocol:
 3) run the tool:
 ```
-subfinder -d nasa.giv -all | httpx -o file.txt
+subfinder -d nasa.gov -all | httpx -o file.txt
 cat file.txt | grep -oP '(?<=https?:\/\/).*' >input.txt
-python java2s3.py input.txt target.com output.txt
+python java2s3.py input.txt nasa.gov output.txt
 ```
 4) Find juice:
 ```
-cat output3.txt | grep -E "S3 Buckets: \['[^]]+"  
+cat output.txt | grep -E "S3 Buckets: \['[^]]+"  
 cat output.txt | grep -oP 'https?://[a-zA-Z0-9.-]*s3(\.dualstack)?\.ap-[a-z0-9-]+\.amazonaws\.com/[^\s"<>]+' | sort -u  
-cat output3.txt | grep -oP '([a-zA-Z0-9.-]+\.s3(\.dualstack)?\.[a-z0-9-]+\.amazonaws\.com)' | sort -u
+cat output.txt | grep -oP '([a-zA-Z0-9.-]+\.s3(\.dualstack)?\.[a-z0-9-]+\.amazonaws\.com)' | sort -u
 ```
 
