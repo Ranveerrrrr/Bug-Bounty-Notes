@@ -89,7 +89,7 @@ s3scanner -bucket-file file.txt -enumerate -threads 10 | grep -aE 'AllUsers: \[.
 
 ---
 
-AWS S3 Bucket Listing & File Management:
+#AWS S3 Bucket Listing & File Management:
 Read File: aws s3 ls s3://[bucketname] --no-sign-request
 Copy Files: aws s3 cp xss.svg s3://[bucketname] --no-sign-request
 Delete Files: aws s3 rm s3://[bucketname]/xss.svg --no-sign-request
