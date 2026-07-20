@@ -54,3 +54,9 @@ katana -u https://nasa.gov/ -d 5 -jc | grep '\.js$' | tee alljs.txt
 cat alljs.txt | xargs -I {} curl -s {} | grep -oE 'http[s]?://[^"]*\.s3\.amazonaws\.com[^" ]*' | sort -u
 ```
 
+OR
+
+use tool java2s3:
+1) first get your subdomains:
+	
+
