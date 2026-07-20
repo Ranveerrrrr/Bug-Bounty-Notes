@@ -40,11 +40,13 @@ subfinder -d somaiya.edu -all -silent | httpx-toolkit -sc -title -td | grep "Ama
 ```
 nuclei:
 ```
-subfinder -d nasa.gov -all -silent | nuclei -t /home/coffinxp/.local/nuclei-templates/http/technologies/s3-detect.yaml
+subfinder -d nasa.gov -all -silent | nuclei -t nuclei-templates/http/technologies/s3-detect.yaml
 ```
 
 download files to check for read access:
 ```
-subfinder -d nasa.gov -all -silent | nuclei -t nuclei-templates/http/technologies/s3-detect.yaml
+aws s3 cp s3://svu-admissions/Curriculum.pdf ./ --no-sign-request
 ```
+
+katana to extract s3 buckets from js files
 
