@@ -19,3 +19,8 @@ katana -list live.txt -jc -kf -fx > urls.txt
 grep -Ei "logout|signout|invalidate|session|revoke" urls.txt
 ```
 
+## AWS 
+```
+cat urls.txt | xargs -I {} curl -s {} | grep -oE 'http[s]?://[^"]*\.s3\.amazonaws\.com[^" ]*' | sort -u
+```
+
